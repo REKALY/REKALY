@@ -1,0 +1,94 @@
+/** all */
+.all-grid-pc-0 > div{place-content:stretch stretch;}
+.all-grid-pc-1 > div{place-content:start start;}
+.all-grid-pc-2 > div{place-content:start center;}
+.all-grid-pc-3 > div{place-content:start end;}
+.all-grid-pc-4 > div{place-content:center start;}
+.all-grid-pc-5 > div{place-content:center center;}
+.all-grid-pc-6 > div{place-content:center end;}
+.all-grid-pc-7 > div{place-content:end start;}
+.all-grid-pc-8 > div{place-content:end center;}
+.all-grid-pc-9 > div{place-content:end end;}
+.all-grid-pc-10 > div{place-content:space-between;}
+.all-grid-pc-11 > div{place-content:space-around;}
+.all-grid-pc-12 > div{place-content:space-evenly;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-grid-pc-0 > div{place-content:stretch stretch;}
+.xs-grid-pc-1 > div{place-content:start start;}
+.xs-grid-pc-2 > div{place-content:start center;}
+.xs-grid-pc-3 > div{place-content:start end;}
+.xs-grid-pc-4 > div{place-content:center start;}
+.xs-grid-pc-5 > div{place-content:center center;}
+.xs-grid-pc-6 > div{place-content:center end;}
+.xs-grid-pc-7 > div{place-content:end start;}
+.xs-grid-pc-8 > div{place-content:end center;}
+.xs-grid-pc-9 > div{place-content:end end;}
+.xs-grid-pc-10 > div{place-content:space-between;}
+.xs-grid-pc-11 > div{place-content:space-around;}
+.xs-grid-pc-12 > div{place-content:space-evenly;}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-grid-pc-0 > div{place-content:stretch stretch;}
+.s-grid-pc-1 > div{place-content:start start;}
+.s-grid-pc-2 > div{place-content:start center;}
+.s-grid-pc-3 > div{place-content:start end;}
+.s-grid-pc-4 > div{place-content:center start;}
+.s-grid-pc-5 > div{place-content:center center;}
+.s-grid-pc-6 > div{place-content:center end;}
+.s-grid-pc-7 > div{place-content:end start;}
+.s-grid-pc-8 > div{place-content:end center;}
+.s-grid-pc-9 > div{place-content:end end;}
+.s-grid-pc-10 > div{place-content:space-between;}
+.s-grid-pc-11 > div{place-content:space-around;}
+.s-grid-pc-12 > div{place-content:space-evenly;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-grid-pc-0 > div{place-content:stretch stretch;}
+.m-grid-pc-1 > div{place-content:start start;}
+.m-grid-pc-2 > div{place-content:start center;}
+.m-grid-pc-3 > div{place-content:start end;}
+.m-grid-pc-4 > div{place-content:center start;}
+.m-grid-pc-5 > div{place-content:center center;}
+.m-grid-pc-6 > div{place-content:center end;}
+.m-grid-pc-7 > div{place-content:end start;}
+.m-grid-pc-8 > div{place-content:end center;}
+.m-grid-pc-9 > div{place-content:end end;}
+.m-grid-pc-10 > div{place-content:space-between;}
+.m-grid-pc-11 > div{place-content:space-around;}
+.m-grid-pc-12 > div{place-content:space-evenly;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-grid-pc-0 > div{place-content:stretch stretch;}
+.l-grid-pc-1 > div{place-content:start start;}
+.l-grid-pc-2 > div{place-content:start center;}
+.l-grid-pc-3 > div{place-content:start end;}
+.l-grid-pc-4 > div{place-content:center start;}
+.l-grid-pc-5 > div{place-content:center center;}
+.l-grid-pc-6 > div{place-content:center end;}
+.l-grid-pc-7 > div{place-content:end start;}
+.l-grid-pc-8 > div{place-content:end center;}
+.l-grid-pc-9 > div{place-content:end end;}
+.l-grid-pc-10 > div{place-content:space-between;}
+.l-grid-pc-11 > div{place-content:space-around;}
+.l-grid-pc-12 > div{place-content:space-evenly;}
+}
+/** xl */
+@media screen and (min-width:1281px){      
+.xl-grid-pc-0 > div{place-content:stretch stretch;}
+.xl-grid-pc-1 > div{place-content:start start;}
+.xl-grid-pc-2 > div{place-content:start center;}
+.xl-grid-pc-3 > div{place-content:start end;}
+.xl-grid-pc-4 > div{place-content:center start;}
+.xl-grid-pc-5 > div{place-content:center center;}
+.xl-grid-pc-6 > div{place-content:center end;}
+.xl-grid-pc-7 > div{place-content:end start;}
+.xl-grid-pc-8 > div{place-content:end center;}
+.xl-grid-pc-9 > div{place-content:end end;}
+.xl-grid-pc-10 > div{place-content:space-between;}
+.xl-grid-pc-11 > div{place-content:space-around;}
+.xl-grid-pc-12 > div{place-content:space-evenly;}
+}

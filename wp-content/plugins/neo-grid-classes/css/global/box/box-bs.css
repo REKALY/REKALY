@@ -1,0 +1,76 @@
+/** all-row */
+.all-box-bs-0 {box-shadow: none!important;}
+.all-box-bs-1 {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.all-box-bs-2 {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.all-box-bs-3 {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.all-box-bs-4 {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.all-box-bs-5 {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.all-box-bs-6 {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.all-box-bs-7 {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.all-box-bs-8 {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.all-box-bs-9 {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+/** xs-row */
+@media screen and (max-width:640px){  
+.xs-box-bs-0 {box-shadow: none;}
+.xs-box-bs-1 {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.xs-box-bs-2 {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.xs-box-bs-3 {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.xs-box-bs-4 {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.xs-box-bs-5 {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.xs-box-bs-6 {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.xs-box-bs-7 {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.xs-box-bs-8 {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.xs-box-bs-9 {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}
+/** s-row */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-box-bs-0 {box-shadow: none;}
+.s-box-bs-1 {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.s-box-bs-2 {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.s-box-bs-3 {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.s-box-bs-4 {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.s-box-bs-5 {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.s-box-bs-6 {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.s-box-bs-7 {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.s-box-bs-8 {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.s-box-bs-9 {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}
+/** m-row */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-box-bs-0 {box-shadow: none;}
+.m-box-bs-1 {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.m-box-bs-2 {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.m-box-bs-3 {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.m-box-bs-4 {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.m-box-bs-5 {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.m-box-bs-6 {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.m-box-bs-7 {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.m-box-bs-8 {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.m-box-bs-9 {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}
+/** l-row */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-box-bs-0 {box-shadow: none;}
+.l-box-bs-1 {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.l-box-bs-2 {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.l-box-bs-3 {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.l-box-bs-4 {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.l-box-bs-5 {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.l-box-bs-6 {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.l-box-bs-7 {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.l-box-bs-8 {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.l-box-bs-9 {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}
+/** xl-row */
+@media screen and (min-width:1281px){      
+.xl-box-bs-0 {box-shadow: none;}
+.xl-box-bs-1 {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.xl-box-bs-2 {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.xl-box-bs-3 {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.xl-box-bs-4 {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.xl-box-bs-5 {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.xl-box-bs-6 {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.xl-box-bs-7 {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.xl-box-bs-8 {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.xl-box-bs-9 {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}

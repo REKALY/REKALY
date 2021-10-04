@@ -1,0 +1,32 @@
+/** all */
+.all-grid-bg-white > div > div {background-color:#FFFFFF;}
+.all-grid-grey-1 > div > div {background-color:#F9FAFB;}
+.all-grid-grey-2 > div > div {background-color:#F3F4F6;}
+.all-grid-grey-3 > div > div {background-color:#E5E7EB;}
+.all-grid-grey-4 > div > div {background-color:#D1D5DB;}
+.all-grid-grey-5 > div > div {background-color:#9CA3AF;}
+.all-grid-grey-6 > div > div {background-color:#6B7280;}
+.all-grid-grey-7 > div > div {background-color:#4B5563;}
+.all-grid-grey-8 > div > div {background-color:#374151;}
+.all-grid-grey-9 > div > div {background-color:#1F2937;}
+.all-grid-grey-10 > div > div {background-color:#111827;}
+/** xs */
+@media screen and (max-width:640px){  
+
+}
+/** s */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

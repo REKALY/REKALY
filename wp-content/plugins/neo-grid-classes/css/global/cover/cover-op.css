@@ -1,0 +1,30 @@
+/** all */
+.all-cover-op-1>.wp-block-cover__image-background{object-position: top left!important;}
+.all-cover-op-2>.wp-block-cover__image-background{object-position: top center!important;}
+.all-cover-op-3>.wp-block-cover__image-background{object-position: top right!important;}
+.all-cover-op-4>.wp-block-cover__image-background{object-position: center left!important;}
+.all-cover-op-5>.wp-block-cover__image-background{object-position: center center!important;}
+.all-cover-op-6>.wp-block-cover__image-background{object-position: center right!important;}
+.all-cover-op-7>.wp-block-cover__image-background{object-position: bottom left!important;}
+.all-cover-op-8>.wp-block-cover__image-background{object-position: bottom center!important;}
+.all-cover-op-9>.wp-block-cover__image-background{object-position: bottom right!important;}
+/** xs */
+@media screen and (max-width:640px){  
+
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

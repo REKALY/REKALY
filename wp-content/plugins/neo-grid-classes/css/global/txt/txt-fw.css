@@ -1,0 +1,70 @@
+/** all */
+.all-txt-fw-0 h1, .all-txt-fw-0 h2, .all-txt-fw-0 h3 , .all-txt-fw-0 h4 , .all-txt-fw-0 h5 , .all-txt-fw-0 h6 , .all-txt-fw-0 p {font-weight: 100!important;}
+.all-txt-fw-1 h1, .all-txt-fw-1 h2, .all-txt-fw-1 h3 , .all-txt-fw-1 h4 , .all-txt-fw-1 h5 , .all-txt-fw-1 h6 , .all-txt-fw-1 p {font-weight: 200!important;}
+.all-txt-fw-2 h1, .all-txt-fw-2 h2, .all-txt-fw-2 h3 , .all-txt-fw-2 h4 , .all-txt-fw-2 h5 , .all-txt-fw-2 h6 , .all-txt-fw-2 p {font-weight: 300!important;}
+.all-txt-fw-3 h1, .all-txt-fw-3 h2, .all-txt-fw-3 h3 , .all-txt-fw-3 h4 , .all-txt-fw-3 h5 , .all-txt-fw-3 h6 , .all-txt-fw-3 p {font-weight: 400!important;}
+.all-txt-fw-4 h1, .all-txt-fw-4 h2, .all-txt-fw-4 h3 , .all-txt-fw-4 h4 , .all-txt-fw-4 h5 , .all-txt-fw-4 h6 , .all-txt-fw-4 p {font-weight: 500!important;}
+.all-txt-fw-5 h1, .all-txt-fw-5 h2, .all-txt-fw-5 h3 , .all-txt-fw-5 h4 , .all-txt-fw-5 h5 , .all-txt-fw-5 h6 , .all-txt-fw-5 p {font-weight: 600!important;}
+.all-txt-fw-6 h1, .all-txt-fw-6 h2, .all-txt-fw-6 h3 , .all-txt-fw-6 h4 , .all-txt-fw-6 h5 , .all-txt-fw-6 h6 , .all-txt-fw-6 p {font-weight: 700!important;}
+.all-txt-fw-7 h1, .all-txt-fw-7 h2, .all-txt-fw-7 h3 , .all-txt-fw-7 h4 , .all-txt-fw-7 h5 , .all-txt-fw-7 h6 , .all-txt-fw-7 p {font-weight: 800!important;}
+.all-txt-fw-8 h1, .all-txt-fw-8 h2, .all-txt-fw-8 h3 , .all-txt-fw-8 h4 , .all-txt-fw-8 h5 , .all-txt-fw-8 h6 , .all-txt-fw-8 p {font-weight: 900!important;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-txt-fw-0 h1, .xs-txt-fw-0 h2, .xs-txt-fw-0 h3 , .xs-txt-fw-0 h4 , .xs-txt-fw-0 h5 , .xs-txt-fw-0 h6 , .xs-txt-fw-0 p {font-weight: 100!important;}
+.xs-txt-fw-1 h1, .xs-txt-fw-1 h2, .xs-txt-fw-1 h3 , .xs-txt-fw-1 h4 , .xs-txt-fw-1 h5 , .xs-txt-fw-1 h6 , .xs-txt-fw-1 p {font-weight: 200!important;}
+.xs-txt-fw-2 h1, .xs-txt-fw-2 h2, .xs-txt-fw-2 h3 , .xs-txt-fw-2 h4 , .xs-txt-fw-2 h5 , .xs-txt-fw-2 h6 , .xs-txt-fw-2 p {font-weight: 300!important;}
+.xs-txt-fw-3 h1, .xs-txt-fw-3 h2, .xs-txt-fw-3 h3 , .xs-txt-fw-3 h4 , .xs-txt-fw-3 h5 , .xs-txt-fw-3 h6 , .xs-txt-fw-3 p {font-weight: 400!important;}
+.xs-txt-fw-4 h1, .xs-txt-fw-4 h2, .xs-txt-fw-4 h3 , .xs-txt-fw-4 h4 , .xs-txt-fw-4 h5 , .xs-txt-fw-4 h6 , .xs-txt-fw-4 p {font-weight: 500!important;}
+.xs-txt-fw-5 h1, .xs-txt-fw-5 h2, .xs-txt-fw-5 h3 , .xs-txt-fw-5 h4 , .xs-txt-fw-5 h5 , .xs-txt-fw-5 h6 , .xs-txt-fw-5 p {font-weight: 600!important;}
+.xs-txt-fw-6 h1, .xs-txt-fw-6 h2, .xs-txt-fw-6 h3 , .xs-txt-fw-6 h4 , .xs-txt-fw-6 h5 , .xs-txt-fw-6 h6 , .xs-txt-fw-6 p {font-weight: 700!important;}
+.xs-txt-fw-7 h1, .xs-txt-fw-7 h2, .xs-txt-fw-7 h3 , .xs-txt-fw-7 h4 , .xs-txt-fw-7 h5 , .xs-txt-fw-7 h6 , .xs-txt-fw-7 p {font-weight: 800!important;}
+.xs-txt-fw-8 h1, .xs-txt-fw-8 h2, .xs-txt-fw-8 h3 , .xs-txt-fw-8 h4 , .xs-txt-fw-8 h5 , .xs-txt-fw-8 h6 , .xs-txt-fw-8 p {font-weight: 900!important;}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-txt-fw-0 h1, .s-txt-fw-0 h2, .s-txt-fw-0 h3 , .s-txt-fw-0 h4 , .s-txt-fw-0 h5 , .s-txt-fw-0 h6 , .s-txt-fw-0 p {font-weight: 100!important;}
+.s-txt-fw-1 h1, .s-txt-fw-1 h2, .s-txt-fw-1 h3 , .s-txt-fw-1 h4 , .s-txt-fw-1 h5 , .s-txt-fw-1 h6 , .s-txt-fw-1 p {font-weight: 200!important;}
+.s-txt-fw-2 h1, .s-txt-fw-2 h2, .s-txt-fw-2 h3 , .s-txt-fw-2 h4 , .s-txt-fw-2 h5 , .s-txt-fw-2 h6 , .s-txt-fw-2 p {font-weight: 300!important;}
+.s-txt-fw-3 h1, .s-txt-fw-3 h2, .s-txt-fw-3 h3 , .s-txt-fw-3 h4 , .s-txt-fw-3 h5 , .s-txt-fw-3 h6 , .s-txt-fw-3 p {font-weight: 400!important;}
+.s-txt-fw-4 h1, .s-txt-fw-4 h2, .s-txt-fw-4 h3 , .s-txt-fw-4 h4 , .s-txt-fw-4 h5 , .s-txt-fw-4 h6 , .s-txt-fw-4 p {font-weight: 500!important;}
+.s-txt-fw-5 h1, .s-txt-fw-5 h2, .s-txt-fw-5 h3 , .s-txt-fw-5 h4 , .s-txt-fw-5 h5 , .s-txt-fw-5 h6 , .s-txt-fw-5 p {font-weight: 600!important;}
+.s-txt-fw-6 h1, .s-txt-fw-6 h2, .s-txt-fw-6 h3 , .s-txt-fw-6 h4 , .s-txt-fw-6 h5 , .s-txt-fw-6 h6 , .s-txt-fw-6 p {font-weight: 700!important;}
+.s-txt-fw-7 h1, .s-txt-fw-7 h2, .s-txt-fw-7 h3 , .s-txt-fw-7 h4 , .s-txt-fw-7 h5 , .s-txt-fw-7 h6 , .s-txt-fw-7 p {font-weight: 800!important;}
+.s-txt-fw-8 h1, .s-txt-fw-8 h2, .s-txt-fw-8 h3 , .s-txt-fw-8 h4 , .s-txt-fw-8 h5 , .s-txt-fw-8 h6 , .s-txt-fw-8 p {font-weight: 900!important;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-txt-fw-0 h1, .m-txt-fw-0 h2, .m-txt-fw-0 h3 , .m-txt-fw-0 h4 , .m-txt-fw-0 h5 , .m-txt-fw-0 h6 , .m-txt-fw-0 p {font-weight: 100!important;}
+.m-txt-fw-1 h1, .m-txt-fw-1 h2, .m-txt-fw-1 h3 , .m-txt-fw-1 h4 , .m-txt-fw-1 h5 , .m-txt-fw-1 h6 , .m-txt-fw-1 p {font-weight: 200!important;}
+.m-txt-fw-2 h1, .m-txt-fw-2 h2, .m-txt-fw-2 h3 , .m-txt-fw-2 h4 , .m-txt-fw-2 h5 , .m-txt-fw-2 h6 , .m-txt-fw-2 p {font-weight: 300!important;}
+.m-txt-fw-3 h1, .m-txt-fw-3 h2, .m-txt-fw-3 h3 , .m-txt-fw-3 h4 , .m-txt-fw-3 h5 , .m-txt-fw-3 h6 , .m-txt-fw-3 p {font-weight: 400!important;}
+.m-txt-fw-4 h1, .m-txt-fw-4 h2, .m-txt-fw-4 h3 , .m-txt-fw-4 h4 , .m-txt-fw-4 h5 , .m-txt-fw-4 h6 , .m-txt-fw-4 p {font-weight: 500!important;}
+.m-txt-fw-5 h1, .m-txt-fw-5 h2, .m-txt-fw-5 h3 , .m-txt-fw-5 h4 , .m-txt-fw-5 h5 , .m-txt-fw-5 h6 , .m-txt-fw-5 p {font-weight: 600!important;}
+.m-txt-fw-6 h1, .m-txt-fw-6 h2, .m-txt-fw-6 h3 , .m-txt-fw-6 h4 , .m-txt-fw-6 h5 , .m-txt-fw-6 h6 , .m-txt-fw-6 p {font-weight: 700!important;}
+.m-txt-fw-7 h1, .m-txt-fw-7 h2, .m-txt-fw-7 h3 , .m-txt-fw-7 h4 , .m-txt-fw-7 h5 , .m-txt-fw-7 h6 , .m-txt-fw-7 p {font-weight: 800!important;}
+.m-txt-fw-8 h1, .m-txt-fw-8 h2, .m-txt-fw-8 h3 , .m-txt-fw-8 h4 , .m-txt-fw-8 h5 , .m-txt-fw-8 h6 , .m-txt-fw-8 p {font-weight: 900!important;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-txt-fw-0 h1, .l-txt-fw-0 h2, .l-txt-fw-0 h3 , .l-txt-fw-0 h4 , .l-txt-fw-0 h5 , .l-txt-fw-0 h6 , .l-txt-fw-0 p {font-weight: 100!important;}
+.l-txt-fw-1 h1, .l-txt-fw-1 h2, .l-txt-fw-1 h3 , .l-txt-fw-1 h4 , .l-txt-fw-1 h5 , .l-txt-fw-1 h6 , .l-txt-fw-1 p {font-weight: 200!important;}
+.l-txt-fw-2 h1, .l-txt-fw-2 h2, .l-txt-fw-2 h3 , .l-txt-fw-2 h4 , .l-txt-fw-2 h5 , .l-txt-fw-2 h6 , .l-txt-fw-2 p {font-weight: 300!important;}
+.l-txt-fw-3 h1, .l-txt-fw-3 h2, .l-txt-fw-3 h3 , .l-txt-fw-3 h4 , .l-txt-fw-3 h5 , .l-txt-fw-3 h6 , .l-txt-fw-3 p {font-weight: 400!important;}
+.l-txt-fw-4 h1, .l-txt-fw-4 h2, .l-txt-fw-4 h3 , .l-txt-fw-4 h4 , .l-txt-fw-4 h5 , .l-txt-fw-4 h6 , .l-txt-fw-4 p {font-weight: 500!important;}
+.l-txt-fw-5 h1, .l-txt-fw-5 h2, .l-txt-fw-5 h3 , .l-txt-fw-5 h4 , .l-txt-fw-5 h5 , .l-txt-fw-5 h6 , .l-txt-fw-5 p {font-weight: 600!important;}
+.l-txt-fw-6 h1, .l-txt-fw-6 h2, .l-txt-fw-6 h3 , .l-txt-fw-6 h4 , .l-txt-fw-6 h5 , .l-txt-fw-6 h6 , .l-txt-fw-6 p {font-weight: 700!important;}
+.l-txt-fw-7 h1, .l-txt-fw-7 h2, .l-txt-fw-7 h3 , .l-txt-fw-7 h4 , .l-txt-fw-7 h5 , .l-txt-fw-7 h6 , .l-txt-fw-7 p {font-weight: 800!important;}
+.l-txt-fw-8 h1, .l-txt-fw-8 h2, .l-txt-fw-8 h3 , .l-txt-fw-8 h4 , .l-txt-fw-8 h5 , .l-txt-fw-8 h6 , .l-txt-fw-8 p {font-weight: 900!important;}
+}
+/** xl */
+@media screen and (min-width:1281px){      
+.xl-txt-fw-0 h1, .xl-txt-fw-0 h2, .xl-txt-fw-0 h3 , .xl-txt-fw-0 h4 , .xl-txt-fw-0 h5 , .xl-txt-fw-0 h6 , .xl-txt-fw-0 p {font-weight: 100!important;}
+.xl-txt-fw-1 h1, .xl-txt-fw-1 h2, .xl-txt-fw-1 h3 , .xl-txt-fw-1 h4 , .xl-txt-fw-1 h5 , .xl-txt-fw-1 h6 , .xl-txt-fw-1 p {font-weight: 200!important;}
+.xl-txt-fw-2 h1, .xl-txt-fw-2 h2, .xl-txt-fw-2 h3 , .xl-txt-fw-2 h4 , .xl-txt-fw-2 h5 , .xl-txt-fw-2 h6 , .xl-txt-fw-2 p {font-weight: 300!important;}
+.xl-txt-fw-3 h1, .xl-txt-fw-3 h2, .xl-txt-fw-3 h3 , .xl-txt-fw-3 h4 , .xl-txt-fw-3 h5 , .xl-txt-fw-3 h6 , .xl-txt-fw-3 p {font-weight: 400!important;}
+.xl-txt-fw-4 h1, .xl-txt-fw-4 h2, .xl-txt-fw-4 h3 , .xl-txt-fw-4 h4 , .xl-txt-fw-4 h5 , .xl-txt-fw-4 h6 , .xl-txt-fw-4 p {font-weight: 500!important;}
+.xl-txt-fw-5 h1, .xl-txt-fw-5 h2, .xl-txt-fw-5 h3 , .xl-txt-fw-5 h4 , .xl-txt-fw-5 h5 , .xl-txt-fw-5 h6 , .xl-txt-fw-5 p {font-weight: 600!important;}
+.xl-txt-fw-6 h1, .xl-txt-fw-6 h2, .xl-txt-fw-6 h3 , .xl-txt-fw-6 h4 , .xl-txt-fw-6 h5 , .xl-txt-fw-6 h6 , .xl-txt-fw-6 p {font-weight: 700!important;}
+.xl-txt-fw-7 h1, .xl-txt-fw-7 h2, .xl-txt-fw-7 h3 , .xl-txt-fw-7 h4 , .xl-txt-fw-7 h5 , .xl-txt-fw-7 h6 , .xl-txt-fw-7 p {font-weight: 800!important;}
+.xl-txt-fw-8 h1, .xl-txt-fw-8 h2, .xl-txt-fw-8 h3 , .xl-txt-fw-8 h4 , .xl-txt-fw-8 h5 , .xl-txt-fw-8 h6 , .xl-txt-fw-8 p {font-weight: 900!important;}
+}

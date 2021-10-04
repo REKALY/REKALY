@@ -1,0 +1,142 @@
+/** all */
+.all-txt-mb-0 h1, .all-txt-mb-0 h2, .all-txt-mb-0 h3 , .all-txt-mb-0 h4 , .all-txt-mb-0 h5 , .all-txt-mb-0 h6 , .all-txt-mb-0 p {margin-bottom: var(--neo-fs-0)!important;}
+.all-txt-mb-1 h1, .all-txt-mb-1 h2, .all-txt-mb-1 h3 , .all-txt-mb-1 h4 , .all-txt-mb-1 h5 , .all-txt-mb-1 h6 , .all-txt-mb-1 p {margin-bottom: var(--neo-fs-1)!important;}
+.all-txt-mb-2 h1, .all-txt-mb-2 h2, .all-txt-mb-2 h3 , .all-txt-mb-2 h4 , .all-txt-mb-2 h5 , .all-txt-mb-2 h6 , .all-txt-mb-2 p {margin-bottom: var(--neo-fs-2)!important;}
+.all-txt-mb-3 h1, .all-txt-mb-3 h2, .all-txt-mb-3 h3 , .all-txt-mb-3 h4 , .all-txt-mb-3 h5 , .all-txt-mb-3 h6 , .all-txt-mb-3 p {margin-bottom: var(--neo-fs-3)!important;}
+.all-txt-mb-4 h1, .all-txt-mb-4 h2, .all-txt-mb-4 h3 , .all-txt-mb-4 h4 , .all-txt-mb-4 h5 , .all-txt-mb-4 h6 , .all-txt-mb-4 p {margin-bottom: var(--neo-fs-4)!important;}
+.all-txt-mb-5 h1, .all-txt-mb-5 h2, .all-txt-mb-5 h3 , .all-txt-mb-5 h4 , .all-txt-mb-5 h5 , .all-txt-mb-5 h6 , .all-txt-mb-5 p {margin-bottom: var(--neo-fs-5)!important;}
+.all-txt-mb-6 h1, .all-txt-mb-6 h2, .all-txt-mb-6 h3 , .all-txt-mb-6 h4 , .all-txt-mb-6 h5 , .all-txt-mb-6 h6 , .all-txt-mb-6 p {margin-bottom: var(--neo-fs-6)!important;}
+.all-txt-mb-7 h1, .all-txt-mb-7 h2, .all-txt-mb-7 h3 , .all-txt-mb-7 h4 , .all-txt-mb-7 h5 , .all-txt-mb-7 h6 , .all-txt-mb-7 p {margin-bottom: var(--neo-fs-7)!important;}
+.all-txt-mb-8 h1, .all-txt-mb-8 h2, .all-txt-mb-8 h3 , .all-txt-mb-8 h4 , .all-txt-mb-8 h5 , .all-txt-mb-8 h6 , .all-txt-mb-8 p {margin-bottom: var(--neo-fs-8)!important;}
+.all-txt-mb-9 h1, .all-txt-mb-9 h2, .all-txt-mb-9 h3 , .all-txt-mb-9 h4 , .all-txt-mb-9 h5 , .all-txt-mb-9 h6 , .all-txt-mb-9 p {margin-bottom: var(--neo-fs-9)!important;}
+.all-txt-mb-10 h1, .all-txt-mb-10 h2, .all-txt-mb-10 h3 , .all-txt-mb-10 h4 , .all-txt-mb-10 h5 , .all-txt-mb-10 h6 , .all-txt-mb-10 p {margin-bottom: var(--neo-fs-10)!important;}
+.all-txt-mb-11 h1, .all-txt-mb-11 h2, .all-txt-mb-11 h3 , .all-txt-mb-11 h4 , .all-txt-mb-11 h5 , .all-txt-mb-11 h6 , .all-txt-mb-11 p {margin-bottom: var(--neo-fs-11)!important;}
+.all-txt-mb-12 h1, .all-txt-mb-12 h2, .all-txt-mb-12 h3 , .all-txt-mb-12 h4 , .all-txt-mb-12 h5 , .all-txt-mb-12 h6 , .all-txt-mb-12 p {margin-bottom: var(--neo-fs-12)!important;}
+.all-txt-mb-13 h1, .all-txt-mb-13 h2, .all-txt-mb-13 h3 , .all-txt-mb-13 h4 , .all-txt-mb-13 h5 , .all-txt-mb-13 h6 , .all-txt-mb-13 p {margin-bottom: var(--neo-fs-13)!important;}
+.all-txt-mb-14 h1, .all-txt-mb-14 h2, .all-txt-mb-14 h3 , .all-txt-mb-14 h4 , .all-txt-mb-14 h5 , .all-txt-mb-14 h6 , .all-txt-mb-14 p {margin-bottom: var(--neo-fs-14)!important;}
+.all-txt-mb-15 h1, .all-txt-mb-15 h2, .all-txt-mb-15 h3 , .all-txt-mb-15 h4 , .all-txt-mb-15 h5 , .all-txt-mb-15 h6 , .all-txt-mb-15 p {margin-bottom: var(--neo-fs-15)!important;}
+.all-txt-mb-16 h1, .all-txt-mb-16 h2, .all-txt-mb-16 h3 , .all-txt-mb-16 h4 , .all-txt-mb-16 h5 , .all-txt-mb-16 h6 , .all-txt-mb-16 p {margin-bottom: var(--neo-fs-16)!important;}
+.all-txt-mb-17 h1, .all-txt-mb-17 h2, .all-txt-mb-17 h3 , .all-txt-mb-17 h4 , .all-txt-mb-17 h5 , .all-txt-mb-17 h6 , .all-txt-mb-17 p {margin-bottom: var(--neo-fs-17)!important;}
+.all-txt-mb-18 h1, .all-txt-mb-18 h2, .all-txt-mb-18 h3 , .all-txt-mb-18 h4 , .all-txt-mb-18 h5 , .all-txt-mb-18 h6 , .all-txt-mb-18 p {margin-bottom: var(--neo-fs-18)!important;}
+.all-txt-mb-19 h1, .all-txt-mb-19 h2, .all-txt-mb-19 h3 , .all-txt-mb-19 h4 , .all-txt-mb-19 h5 , .all-txt-mb-19 h6 , .all-txt-mb-19 p {margin-bottom: var(--neo-fs-19)!important;}
+.all-txt-mb-20 h1, .all-txt-mb-20 h2, .all-txt-mb-20 h3 , .all-txt-mb-20 h4 , .all-txt-mb-20 h5 , .all-txt-mb-20 h6 , .all-txt-mb-20 p {margin-bottom: var(--neo-fs-20)!important;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-txt-mb-0 h1, .xs-txt-mb-0 h2, .xs-txt-mb-0 h3 , .xs-txt-mb-0 h4 , .xs-txt-mb-0 h5 , .xs-txt-mb-0 h6 , .xs-txt-mb-0 p {margin-bottom: var(--neo-fs-0)!important;}
+.xs-txt-mb-1 h1, .xs-txt-mb-1 h2, .xs-txt-mb-1 h3 , .xs-txt-mb-1 h4 , .xs-txt-mb-1 h5 , .xs-txt-mb-1 h6 , .xs-txt-mb-1 p {margin-bottom: var(--neo-fs-1)!important;}
+.xs-txt-mb-2 h1, .xs-txt-mb-2 h2, .xs-txt-mb-2 h3 , .xs-txt-mb-2 h4 , .xs-txt-mb-2 h5 , .xs-txt-mb-2 h6 , .xs-txt-mb-2 p {margin-bottom: var(--neo-fs-2)!important;}
+.xs-txt-mb-3 h1, .xs-txt-mb-3 h2, .xs-txt-mb-3 h3 , .xs-txt-mb-3 h4 , .xs-txt-mb-3 h5 , .xs-txt-mb-3 h6 , .xs-txt-mb-3 p {margin-bottom: var(--neo-fs-3)!important;}
+.xs-txt-mb-4 h1, .xs-txt-mb-4 h2, .xs-txt-mb-4 h3 , .xs-txt-mb-4 h4 , .xs-txt-mb-4 h5 , .xs-txt-mb-4 h6 , .xs-txt-mb-4 p {margin-bottom: var(--neo-fs-4)!important;}
+.xs-txt-mb-5 h1, .xs-txt-mb-5 h2, .xs-txt-mb-5 h3 , .xs-txt-mb-5 h4 , .xs-txt-mb-5 h5 , .xs-txt-mb-5 h6 , .xs-txt-mb-5 p {margin-bottom: var(--neo-fs-5)!important;}
+.xs-txt-mb-6 h1, .xs-txt-mb-6 h2, .xs-txt-mb-6 h3 , .xs-txt-mb-6 h4 , .xs-txt-mb-6 h5 , .xs-txt-mb-6 h6 , .xs-txt-mb-6 p {margin-bottom: var(--neo-fs-6)!important;}
+.xs-txt-mb-7 h1, .xs-txt-mb-7 h2, .xs-txt-mb-7 h3 , .xs-txt-mb-7 h4 , .xs-txt-mb-7 h5 , .xs-txt-mb-7 h6 , .xs-txt-mb-7 p {margin-bottom: var(--neo-fs-7)!important;}
+.xs-txt-mb-8 h1, .xs-txt-mb-8 h2, .xs-txt-mb-8 h3 , .xs-txt-mb-8 h4 , .xs-txt-mb-8 h5 , .xs-txt-mb-8 h6 , .xs-txt-mb-8 p {margin-bottom: var(--neo-fs-8)!important;}
+.xs-txt-mb-9 h1, .xs-txt-mb-9 h2, .xs-txt-mb-9 h3 , .xs-txt-mb-9 h4 , .xs-txt-mb-9 h5 , .xs-txt-mb-9 h6 , .xs-txt-mb-9 p {margin-bottom: var(--neo-fs-9)!important;}
+.xs-txt-mb-10 h1, .xs-txt-mb-10 h2, .xs-txt-mb-10 h3 , .xs-txt-mb-10 h4 , .xs-txt-mb-10 h5 , .xs-txt-mb-10 h6 , .xs-txt-mb-10 p {margin-bottom: var(--neo-fs-10)!important;}
+.xs-txt-mb-11 h1, .xs-txt-mb-11 h2, .xs-txt-mb-11 h3 , .xs-txt-mb-11 h4 , .xs-txt-mb-11 h5 , .xs-txt-mb-11 h6 , .xs-txt-mb-11 p {margin-bottom: var(--neo-fs-11)!important;}
+.xs-txt-mb-12 h1, .xs-txt-mb-12 h2, .xs-txt-mb-12 h3 , .xs-txt-mb-12 h4 , .xs-txt-mb-12 h5 , .xs-txt-mb-12 h6 , .xs-txt-mb-12 p {margin-bottom: var(--neo-fs-12)!important;}
+.xs-txt-mb-13 h1, .xs-txt-mb-13 h2, .xs-txt-mb-13 h3 , .xs-txt-mb-13 h4 , .xs-txt-mb-13 h5 , .xs-txt-mb-13 h6 , .xs-txt-mb-13 p {margin-bottom: var(--neo-fs-13)!important;}
+.xs-txt-mb-14 h1, .xs-txt-mb-14 h2, .xs-txt-mb-14 h3 , .xs-txt-mb-14 h4 , .xs-txt-mb-14 h5 , .xs-txt-mb-14 h6 , .xs-txt-mb-14 p {margin-bottom: var(--neo-fs-14)!important;}
+.xs-txt-mb-15 h1, .xs-txt-mb-15 h2, .xs-txt-mb-15 h3 , .xs-txt-mb-15 h4 , .xs-txt-mb-15 h5 , .xs-txt-mb-15 h6 , .xs-txt-mb-15 p {margin-bottom: var(--neo-fs-15)!important;}
+.xs-txt-mb-16 h1, .xs-txt-mb-16 h2, .xs-txt-mb-16 h3 , .xs-txt-mb-16 h4 , .xs-txt-mb-16 h5 , .xs-txt-mb-16 h6 , .xs-txt-mb-16 p {margin-bottom: var(--neo-fs-16)!important;}
+.xs-txt-mb-17 h1, .xs-txt-mb-17 h2, .xs-txt-mb-17 h3 , .xs-txt-mb-17 h4 , .xs-txt-mb-17 h5 , .xs-txt-mb-17 h6 , .xs-txt-mb-17 p {margin-bottom: var(--neo-fs-17)!important;}
+.xs-txt-mb-18 h1, .xs-txt-mb-18 h2, .xs-txt-mb-18 h3 , .xs-txt-mb-18 h4 , .xs-txt-mb-18 h5 , .xs-txt-mb-18 h6 , .xs-txt-mb-18 p {margin-bottom: var(--neo-fs-18)!important;}
+.xs-txt-mb-19 h1, .xs-txt-mb-19 h2, .xs-txt-mb-19 h3 , .xs-txt-mb-19 h4 , .xs-txt-mb-19 h5 , .xs-txt-mb-19 h6 , .xs-txt-mb-19 p {margin-bottom: var(--neo-fs-19)!important;}
+.xs-txt-mb-20 h1, .xs-txt-mb-20 h2, .xs-txt-mb-20 h3 , .xs-txt-mb-20 h4 , .xs-txt-mb-20 h5 , .xs-txt-mb-20 h6 , .xs-txt-mb-20 p {margin-bottom: var(--neo-fs-20)!important;}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-txt-mb-0 h1, .s-txt-mb-0 h2, .s-txt-mb-0 h3 , .s-txt-mb-0 h4 , .s-txt-mb-0 h5 , .s-txt-mb-0 h6 , .s-txt-mb-0 p {margin-bottom: var(--neo-fs-0)!important;}
+.s-txt-mb-1 h1, .s-txt-mb-1 h2, .s-txt-mb-1 h3 , .s-txt-mb-1 h4 , .s-txt-mb-1 h5 , .s-txt-mb-1 h6 , .s-txt-mb-1 p {margin-bottom: var(--neo-fs-1)!important;}
+.s-txt-mb-2 h1, .s-txt-mb-2 h2, .s-txt-mb-2 h3 , .s-txt-mb-2 h4 , .s-txt-mb-2 h5 , .s-txt-mb-2 h6 , .s-txt-mb-2 p {margin-bottom: var(--neo-fs-2)!important;}
+.s-txt-mb-3 h1, .s-txt-mb-3 h2, .s-txt-mb-3 h3 , .s-txt-mb-3 h4 , .s-txt-mb-3 h5 , .s-txt-mb-3 h6 , .s-txt-mb-3 p {margin-bottom: var(--neo-fs-3)!important;}
+.s-txt-mb-4 h1, .s-txt-mb-4 h2, .s-txt-mb-4 h3 , .s-txt-mb-4 h4 , .s-txt-mb-4 h5 , .s-txt-mb-4 h6 , .s-txt-mb-4 p {margin-bottom: var(--neo-fs-4)!important;}
+.s-txt-mb-5 h1, .s-txt-mb-5 h2, .s-txt-mb-5 h3 , .s-txt-mb-5 h4 , .s-txt-mb-5 h5 , .s-txt-mb-5 h6 , .s-txt-mb-5 p {margin-bottom: var(--neo-fs-5)!important;}
+.s-txt-mb-6 h1, .s-txt-mb-6 h2, .s-txt-mb-6 h3 , .s-txt-mb-6 h4 , .s-txt-mb-6 h5 , .s-txt-mb-6 h6 , .s-txt-mb-6 p {margin-bottom: var(--neo-fs-6)!important;}
+.s-txt-mb-7 h1, .s-txt-mb-7 h2, .s-txt-mb-7 h3 , .s-txt-mb-7 h4 , .s-txt-mb-7 h5 , .s-txt-mb-7 h6 , .s-txt-mb-7 p {margin-bottom: var(--neo-fs-7)!important;}
+.s-txt-mb-8 h1, .s-txt-mb-8 h2, .s-txt-mb-8 h3 , .s-txt-mb-8 h4 , .s-txt-mb-8 h5 , .s-txt-mb-8 h6 , .s-txt-mb-8 p {margin-bottom: var(--neo-fs-8)!important;}
+.s-txt-mb-9 h1, .s-txt-mb-9 h2, .s-txt-mb-9 h3 , .s-txt-mb-9 h4 , .s-txt-mb-9 h5 , .s-txt-mb-9 h6 , .s-txt-mb-9 p {margin-bottom: var(--neo-fs-9)!important;}
+.s-txt-mb-10 h1, .s-txt-mb-10 h2, .s-txt-mb-10 h3 , .s-txt-mb-10 h4 , .s-txt-mb-10 h5 , .s-txt-mb-10 h6 , .s-txt-mb-10 p {margin-bottom: var(--neo-fs-10)!important;}
+.s-txt-mb-11 h1, .s-txt-mb-11 h2, .s-txt-mb-11 h3 , .s-txt-mb-11 h4 , .s-txt-mb-11 h5 , .s-txt-mb-11 h6 , .s-txt-mb-11 p {margin-bottom: var(--neo-fs-11)!important;}
+.s-txt-mb-12 h1, .s-txt-mb-12 h2, .s-txt-mb-12 h3 , .s-txt-mb-12 h4 , .s-txt-mb-12 h5 , .s-txt-mb-12 h6 , .s-txt-mb-12 p {margin-bottom: var(--neo-fs-12)!important;}
+.s-txt-mb-13 h1, .s-txt-mb-13 h2, .s-txt-mb-13 h3 , .s-txt-mb-13 h4 , .s-txt-mb-13 h5 , .s-txt-mb-13 h6 , .s-txt-mb-13 p {margin-bottom: var(--neo-fs-13)!important;}
+.s-txt-mb-14 h1, .s-txt-mb-14 h2, .s-txt-mb-14 h3 , .s-txt-mb-14 h4 , .s-txt-mb-14 h5 , .s-txt-mb-14 h6 , .s-txt-mb-14 p {margin-bottom: var(--neo-fs-14)!important;}
+.s-txt-mb-15 h1, .s-txt-mb-15 h2, .s-txt-mb-15 h3 , .s-txt-mb-15 h4 , .s-txt-mb-15 h5 , .s-txt-mb-15 h6 , .s-txt-mb-15 p {margin-bottom: var(--neo-fs-15)!important;}
+.s-txt-mb-16 h1, .s-txt-mb-16 h2, .s-txt-mb-16 h3 , .s-txt-mb-16 h4 , .s-txt-mb-16 h5 , .s-txt-mb-16 h6 , .s-txt-mb-16 p {margin-bottom: var(--neo-fs-16)!important;}
+.s-txt-mb-17 h1, .s-txt-mb-17 h2, .s-txt-mb-17 h3 , .s-txt-mb-17 h4 , .s-txt-mb-17 h5 , .s-txt-mb-17 h6 , .s-txt-mb-17 p {margin-bottom: var(--neo-fs-17)!important;}
+.s-txt-mb-18 h1, .s-txt-mb-18 h2, .s-txt-mb-18 h3 , .s-txt-mb-18 h4 , .s-txt-mb-18 h5 , .s-txt-mb-18 h6 , .s-txt-mb-18 p {margin-bottom: var(--neo-fs-18)!important;}
+.s-txt-mb-19 h1, .s-txt-mb-19 h2, .s-txt-mb-19 h3 , .s-txt-mb-19 h4 , .s-txt-mb-19 h5 , .s-txt-mb-19 h6 , .s-txt-mb-19 p {margin-bottom: var(--neo-fs-19)!important;}
+.s-txt-mb-20 h1, .s-txt-mb-20 h2, .s-txt-mb-20 h3 , .s-txt-mb-20 h4 , .s-txt-mb-20 h5 , .s-txt-mb-20 h6 , .s-txt-mb-20 p {margin-bottom: var(--neo-fs-20)!important;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-txt-mb-0 h1, .m-txt-mb-0 h2, .m-txt-mb-0 h3 , .m-txt-mb-0 h4 , .m-txt-mb-0 h5 , .m-txt-mb-0 h6 , .m-txt-mb-0 p {margin-bottom: var(--neo-fs-0)!important;}
+.m-txt-mb-1 h1, .m-txt-mb-1 h2, .m-txt-mb-1 h3 , .m-txt-mb-1 h4 , .m-txt-mb-1 h5 , .m-txt-mb-1 h6 , .m-txt-mb-1 p {margin-bottom: var(--neo-fs-1)!important;}
+.m-txt-mb-2 h1, .m-txt-mb-2 h2, .m-txt-mb-2 h3 , .m-txt-mb-2 h4 , .m-txt-mb-2 h5 , .m-txt-mb-2 h6 , .m-txt-mb-2 p {margin-bottom: var(--neo-fs-2)!important;}
+.m-txt-mb-3 h1, .m-txt-mb-3 h2, .m-txt-mb-3 h3 , .m-txt-mb-3 h4 , .m-txt-mb-3 h5 , .m-txt-mb-3 h6 , .m-txt-mb-3 p {margin-bottom: var(--neo-fs-3)!important;}
+.m-txt-mb-4 h1, .m-txt-mb-4 h2, .m-txt-mb-4 h3 , .m-txt-mb-4 h4 , .m-txt-mb-4 h5 , .m-txt-mb-4 h6 , .m-txt-mb-4 p {margin-bottom: var(--neo-fs-4)!important;}
+.m-txt-mb-5 h1, .m-txt-mb-5 h2, .m-txt-mb-5 h3 , .m-txt-mb-5 h4 , .m-txt-mb-5 h5 , .m-txt-mb-5 h6 , .m-txt-mb-5 p {margin-bottom: var(--neo-fs-5)!important;}
+.m-txt-mb-6 h1, .m-txt-mb-6 h2, .m-txt-mb-6 h3 , .m-txt-mb-6 h4 , .m-txt-mb-6 h5 , .m-txt-mb-6 h6 , .m-txt-mb-6 p {margin-bottom: var(--neo-fs-6)!important;}
+.m-txt-mb-7 h1, .m-txt-mb-7 h2, .m-txt-mb-7 h3 , .m-txt-mb-7 h4 , .m-txt-mb-7 h5 , .m-txt-mb-7 h6 , .m-txt-mb-7 p {margin-bottom: var(--neo-fs-7)!important;}
+.m-txt-mb-8 h1, .m-txt-mb-8 h2, .m-txt-mb-8 h3 , .m-txt-mb-8 h4 , .m-txt-mb-8 h5 , .m-txt-mb-8 h6 , .m-txt-mb-8 p {margin-bottom: var(--neo-fs-8)!important;}
+.m-txt-mb-9 h1, .m-txt-mb-9 h2, .m-txt-mb-9 h3 , .m-txt-mb-9 h4 , .m-txt-mb-9 h5 , .m-txt-mb-9 h6 , .m-txt-mb-9 p {margin-bottom: var(--neo-fs-9)!important;}
+.m-txt-mb-10 h1, .m-txt-mb-10 h2, .m-txt-mb-10 h3 , .m-txt-mb-10 h4 , .m-txt-mb-10 h5 , .m-txt-mb-10 h6 , .m-txt-mb-10 p {margin-bottom: var(--neo-fs-10)!important;}
+.m-txt-mb-11 h1, .m-txt-mb-11 h2, .m-txt-mb-11 h3 , .m-txt-mb-11 h4 , .m-txt-mb-11 h5 , .m-txt-mb-11 h6 , .m-txt-mb-11 p {margin-bottom: var(--neo-fs-11)!important;}
+.m-txt-mb-12 h1, .m-txt-mb-12 h2, .m-txt-mb-12 h3 , .m-txt-mb-12 h4 , .m-txt-mb-12 h5 , .m-txt-mb-12 h6 , .m-txt-mb-12 p {margin-bottom: var(--neo-fs-12)!important;}
+.m-txt-mb-13 h1, .m-txt-mb-13 h2, .m-txt-mb-13 h3 , .m-txt-mb-13 h4 , .m-txt-mb-13 h5 , .m-txt-mb-13 h6 , .m-txt-mb-13 p {margin-bottom: var(--neo-fs-13)!important;}
+.m-txt-mb-14 h1, .m-txt-mb-14 h2, .m-txt-mb-14 h3 , .m-txt-mb-14 h4 , .m-txt-mb-14 h5 , .m-txt-mb-14 h6 , .m-txt-mb-14 p {margin-bottom: var(--neo-fs-14)!important;}
+.m-txt-mb-15 h1, .m-txt-mb-15 h2, .m-txt-mb-15 h3 , .m-txt-mb-15 h4 , .m-txt-mb-15 h5 , .m-txt-mb-15 h6 , .m-txt-mb-15 p {margin-bottom: var(--neo-fs-15)!important;}
+.m-txt-mb-16 h1, .m-txt-mb-16 h2, .m-txt-mb-16 h3 , .m-txt-mb-16 h4 , .m-txt-mb-16 h5 , .m-txt-mb-16 h6 , .m-txt-mb-16 p {margin-bottom: var(--neo-fs-16)!important;}
+.m-txt-mb-17 h1, .m-txt-mb-17 h2, .m-txt-mb-17 h3 , .m-txt-mb-17 h4 , .m-txt-mb-17 h5 , .m-txt-mb-17 h6 , .m-txt-mb-17 p {margin-bottom: var(--neo-fs-17)!important;}
+.m-txt-mb-18 h1, .m-txt-mb-18 h2, .m-txt-mb-18 h3 , .m-txt-mb-18 h4 , .m-txt-mb-18 h5 , .m-txt-mb-18 h6 , .m-txt-mb-18 p {margin-bottom: var(--neo-fs-18)!important;}
+.m-txt-mb-19 h1, .m-txt-mb-19 h2, .m-txt-mb-19 h3 , .m-txt-mb-19 h4 , .m-txt-mb-19 h5 , .m-txt-mb-19 h6 , .m-txt-mb-19 p {margin-bottom: var(--neo-fs-19)!important;}
+.m-txt-mb-20 h1, .m-txt-mb-20 h2, .m-txt-mb-20 h3 , .m-txt-mb-20 h4 , .m-txt-mb-20 h5 , .m-txt-mb-20 h6 , .m-txt-mb-20 p {margin-bottom: var(--neo-fs-20)!important;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-txt-mb-0 h1, .l-txt-mb-0 h2, .l-txt-mb-0 h3 , .l-txt-mb-0 h4 , .l-txt-mb-0 h5 , .l-txt-mb-0 h6 , .l-txt-mb-0 p {margin-bottom: var(--neo-fs-0)!important;}
+.l-txt-mb-1 h1, .l-txt-mb-1 h2, .l-txt-mb-1 h3 , .l-txt-mb-1 h4 , .l-txt-mb-1 h5 , .l-txt-mb-1 h6 , .l-txt-mb-1 p {margin-bottom: var(--neo-fs-1)!important;}
+.l-txt-mb-2 h1, .l-txt-mb-2 h2, .l-txt-mb-2 h3 , .l-txt-mb-2 h4 , .l-txt-mb-2 h5 , .l-txt-mb-2 h6 , .l-txt-mb-2 p {margin-bottom: var(--neo-fs-2)!important;}
+.l-txt-mb-3 h1, .l-txt-mb-3 h2, .l-txt-mb-3 h3 , .l-txt-mb-3 h4 , .l-txt-mb-3 h5 , .l-txt-mb-3 h6 , .l-txt-mb-3 p {margin-bottom: var(--neo-fs-3)!important;}
+.l-txt-mb-4 h1, .l-txt-mb-4 h2, .l-txt-mb-4 h3 , .l-txt-mb-4 h4 , .l-txt-mb-4 h5 , .l-txt-mb-4 h6 , .l-txt-mb-4 p {margin-bottom: var(--neo-fs-4)!important;}
+.l-txt-mb-5 h1, .l-txt-mb-5 h2, .l-txt-mb-5 h3 , .l-txt-mb-5 h4 , .l-txt-mb-5 h5 , .l-txt-mb-5 h6 , .l-txt-mb-5 p {margin-bottom: var(--neo-fs-5)!important;}
+.l-txt-mb-6 h1, .l-txt-mb-6 h2, .l-txt-mb-6 h3 , .l-txt-mb-6 h4 , .l-txt-mb-6 h5 , .l-txt-mb-6 h6 , .l-txt-mb-6 p {margin-bottom: var(--neo-fs-6)!important;}
+.l-txt-mb-7 h1, .l-txt-mb-7 h2, .l-txt-mb-7 h3 , .l-txt-mb-7 h4 , .l-txt-mb-7 h5 , .l-txt-mb-7 h6 , .l-txt-mb-7 p {margin-bottom: var(--neo-fs-7)!important;}
+.l-txt-mb-8 h1, .l-txt-mb-8 h2, .l-txt-mb-8 h3 , .l-txt-mb-8 h4 , .l-txt-mb-8 h5 , .l-txt-mb-8 h6 , .l-txt-mb-8 p {margin-bottom: var(--neo-fs-8)!important;}
+.l-txt-mb-9 h1, .l-txt-mb-9 h2, .l-txt-mb-9 h3 , .l-txt-mb-9 h4 , .l-txt-mb-9 h5 , .l-txt-mb-9 h6 , .l-txt-mb-9 p {margin-bottom: var(--neo-fs-9)!important;}
+.l-txt-mb-10 h1, .l-txt-mb-10 h2, .l-txt-mb-10 h3 , .l-txt-mb-10 h4 , .l-txt-mb-10 h5 , .l-txt-mb-10 h6 , .l-txt-mb-10 p {margin-bottom: var(--neo-fs-10)!important;}
+.l-txt-mb-11 h1, .l-txt-mb-11 h2, .l-txt-mb-11 h3 , .l-txt-mb-11 h4 , .l-txt-mb-11 h5 , .l-txt-mb-11 h6 , .l-txt-mb-11 p {margin-bottom: var(--neo-fs-11)!important;}
+.l-txt-mb-12 h1, .l-txt-mb-12 h2, .l-txt-mb-12 h3 , .l-txt-mb-12 h4 , .l-txt-mb-12 h5 , .l-txt-mb-12 h6 , .l-txt-mb-12 p {margin-bottom: var(--neo-fs-12)!important;}
+.l-txt-mb-13 h1, .l-txt-mb-13 h2, .l-txt-mb-13 h3 , .l-txt-mb-13 h4 , .l-txt-mb-13 h5 , .l-txt-mb-13 h6 , .l-txt-mb-13 p {margin-bottom: var(--neo-fs-13)!important;}
+.l-txt-mb-14 h1, .l-txt-mb-14 h2, .l-txt-mb-14 h3 , .l-txt-mb-14 h4 , .l-txt-mb-14 h5 , .l-txt-mb-14 h6 , .l-txt-mb-14 p {margin-bottom: var(--neo-fs-14)!important;}
+.l-txt-mb-15 h1, .l-txt-mb-15 h2, .l-txt-mb-15 h3 , .l-txt-mb-15 h4 , .l-txt-mb-15 h5 , .l-txt-mb-15 h6 , .l-txt-mb-15 p {margin-bottom: var(--neo-fs-15)!important;}
+.l-txt-mb-16 h1, .l-txt-mb-16 h2, .l-txt-mb-16 h3 , .l-txt-mb-16 h4 , .l-txt-mb-16 h5 , .l-txt-mb-16 h6 , .l-txt-mb-16 p {margin-bottom: var(--neo-fs-16)!important;}
+.l-txt-mb-17 h1, .l-txt-mb-17 h2, .l-txt-mb-17 h3 , .l-txt-mb-17 h4 , .l-txt-mb-17 h5 , .l-txt-mb-17 h6 , .l-txt-mb-17 p {margin-bottom: var(--neo-fs-17)!important;}
+.l-txt-mb-18 h1, .l-txt-mb-18 h2, .l-txt-mb-18 h3 , .l-txt-mb-18 h4 , .l-txt-mb-18 h5 , .l-txt-mb-18 h6 , .l-txt-mb-18 p {margin-bottom: var(--neo-fs-18)!important;}
+.l-txt-mb-19 h1, .l-txt-mb-19 h2, .l-txt-mb-19 h3 , .l-txt-mb-19 h4 , .l-txt-mb-19 h5 , .l-txt-mb-19 h6 , .l-txt-mb-19 p {margin-bottom: var(--neo-fs-19)!important;}
+.l-txt-mb-20 h1, .l-txt-mb-20 h2, .l-txt-mb-20 h3 , .l-txt-mb-20 h4 , .l-txt-mb-20 h5 , .l-txt-mb-20 h6 , .l-txt-mb-20 p {margin-bottom: var(--neo-fs-20)!important;}
+}
+/** xl */
+@media screen and (min-width:1281px){      
+.xl-txt-mb-0 h1, .xl-txt-mb-0 h2, .xl-txt-mb-0 h3 , .xl-txt-mb-0 h4 , .xl-txt-mb-0 h5 , .xl-txt-mb-0 h6 , .xl-txt-mb-0 p {margin-bottom: var(--neo-fs-0)!important;}
+.xl-txt-mb-1 h1, .xl-txt-mb-1 h2, .xl-txt-mb-1 h3 , .xl-txt-mb-1 h4 , .xl-txt-mb-1 h5 , .xl-txt-mb-1 h6 , .xl-txt-mb-1 p {margin-bottom: var(--neo-fs-1)!important;}
+.xl-txt-mb-2 h1, .xl-txt-mb-2 h2, .xl-txt-mb-2 h3 , .xl-txt-mb-2 h4 , .xl-txt-mb-2 h5 , .xl-txt-mb-2 h6 , .xl-txt-mb-2 p {margin-bottom: var(--neo-fs-2)!important;}
+.xl-txt-mb-3 h1, .xl-txt-mb-3 h2, .xl-txt-mb-3 h3 , .xl-txt-mb-3 h4 , .xl-txt-mb-3 h5 , .xl-txt-mb-3 h6 , .xl-txt-mb-3 p {margin-bottom: var(--neo-fs-3)!important;}
+.xl-txt-mb-4 h1, .xl-txt-mb-4 h2, .xl-txt-mb-4 h3 , .xl-txt-mb-4 h4 , .xl-txt-mb-4 h5 , .xl-txt-mb-4 h6 , .xl-txt-mb-4 p {margin-bottom: var(--neo-fs-4)!important;}
+.xl-txt-mb-5 h1, .xl-txt-mb-5 h2, .xl-txt-mb-5 h3 , .xl-txt-mb-5 h4 , .xl-txt-mb-5 h5 , .xl-txt-mb-5 h6 , .xl-txt-mb-5 p {margin-bottom: var(--neo-fs-5)!important;}
+.xl-txt-mb-6 h1, .xl-txt-mb-6 h2, .xl-txt-mb-6 h3 , .xl-txt-mb-6 h4 , .xl-txt-mb-6 h5 , .xl-txt-mb-6 h6 , .xl-txt-mb-6 p {margin-bottom: var(--neo-fs-6)!important;}
+.xl-txt-mb-7 h1, .xl-txt-mb-7 h2, .xl-txt-mb-7 h3 , .xl-txt-mb-7 h4 , .xl-txt-mb-7 h5 , .xl-txt-mb-7 h6 , .xl-txt-mb-7 p {margin-bottom: var(--neo-fs-7)!important;}
+.xl-txt-mb-8 h1, .xl-txt-mb-8 h2, .xl-txt-mb-8 h3 , .xl-txt-mb-8 h4 , .xl-txt-mb-8 h5 , .xl-txt-mb-8 h6 , .xl-txt-mb-8 p {margin-bottom: var(--neo-fs-8)!important;}
+.xl-txt-mb-9 h1, .xl-txt-mb-9 h2, .xl-txt-mb-9 h3 , .xl-txt-mb-9 h4 , .xl-txt-mb-9 h5 , .xl-txt-mb-9 h6 , .xl-txt-mb-9 p {margin-bottom: var(--neo-fs-9)!important;}
+.xl-txt-mb-10 h1, .xl-txt-mb-10 h2, .xl-txt-mb-10 h3 , .xl-txt-mb-10 h4 , .xl-txt-mb-10 h5 , .xl-txt-mb-10 h6 , .xl-txt-mb-10 p {margin-bottom: var(--neo-fs-10)!important;}
+.xl-txt-mb-11 h1, .xl-txt-mb-11 h2, .xl-txt-mb-11 h3 , .xl-txt-mb-11 h4 , .xl-txt-mb-11 h5 , .xl-txt-mb-11 h6 , .xl-txt-mb-11 p {margin-bottom: var(--neo-fs-11)!important;}
+.xl-txt-mb-12 h1, .xl-txt-mb-12 h2, .xl-txt-mb-12 h3 , .xl-txt-mb-12 h4 , .xl-txt-mb-12 h5 , .xl-txt-mb-12 h6 , .xl-txt-mb-12 p {margin-bottom: var(--neo-fs-12)!important;}
+.xl-txt-mb-13 h1, .xl-txt-mb-13 h2, .xl-txt-mb-13 h3 , .xl-txt-mb-13 h4 , .xl-txt-mb-13 h5 , .xl-txt-mb-13 h6 , .xl-txt-mb-13 p {margin-bottom: var(--neo-fs-13)!important;}
+.xl-txt-mb-14 h1, .xl-txt-mb-14 h2, .xl-txt-mb-14 h3 , .xl-txt-mb-14 h4 , .xl-txt-mb-14 h5 , .xl-txt-mb-14 h6 , .xl-txt-mb-14 p {margin-bottom: var(--neo-fs-14)!important;}
+.xl-txt-mb-15 h1, .xl-txt-mb-15 h2, .xl-txt-mb-15 h3 , .xl-txt-mb-15 h4 , .xl-txt-mb-15 h5 , .xl-txt-mb-15 h6 , .xl-txt-mb-15 p {margin-bottom: var(--neo-fs-15)!important;}
+.xl-txt-mb-16 h1, .xl-txt-mb-16 h2, .xl-txt-mb-16 h3 , .xl-txt-mb-16 h4 , .xl-txt-mb-16 h5 , .xl-txt-mb-16 h6 , .xl-txt-mb-16 p {margin-bottom: var(--neo-fs-16)!important;}
+.xl-txt-mb-17 h1, .xl-txt-mb-17 h2, .xl-txt-mb-17 h3 , .xl-txt-mb-17 h4 , .xl-txt-mb-17 h5 , .xl-txt-mb-17 h6 , .xl-txt-mb-17 p {margin-bottom: var(--neo-fs-17)!important;}
+.xl-txt-mb-18 h1, .xl-txt-mb-18 h2, .xl-txt-mb-18 h3 , .xl-txt-mb-18 h4 , .xl-txt-mb-18 h5 , .xl-txt-mb-18 h6 , .xl-txt-mb-18 p {margin-bottom: var(--neo-fs-18)!important;}
+.xl-txt-mb-19 h1, .xl-txt-mb-19 h2, .xl-txt-mb-19 h3 , .xl-txt-mb-19 h4 , .xl-txt-mb-19 h5 , .xl-txt-mb-19 h6 , .xl-txt-mb-19 p {margin-bottom: var(--neo-fs-19)!important;}
+.xl-txt-mb-20 h1, .xl-txt-mb-20 h2, .xl-txt-mb-20 h3 , .xl-txt-mb-20 h4 , .xl-txt-mb-20 h5 , .xl-txt-mb-20 h6 , .xl-txt-mb-20 p {margin-bottom: var(--neo-fs-20)!important;}
+}

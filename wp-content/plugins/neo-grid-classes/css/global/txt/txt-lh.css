@@ -1,0 +1,52 @@
+/** all */
+.all-txt-lh-1 h1, .all-txt-lh-1 h2, .all-txt-lh-1 h3 , .all-txt-lh-1 h4 , .all-txt-lh-1 h5 , .all-txt-lh-1 h6 , .all-txt-lh-1 p {line-height:1!important;}
+.all-txt-lh-2 h1, .all-txt-lh-2 h2, .all-txt-lh-2 h3 , .all-txt-lh-2 h4 , .all-txt-lh-2 h5 , .all-txt-lh-2 h6 , .all-txt-lh-2 p {line-height:1.25!important;}
+.all-txt-lh-3 h1, .all-txt-lh-3 h2, .all-txt-lh-3 h3 , .all-txt-lh-3 h4 , .all-txt-lh-3 h5 , .all-txt-lh-3 h6 , .all-txt-lh-3 p {line-height:1.375!important;}
+.all-txt-lh-4 h1, .all-txt-lh-4 h2, .all-txt-lh-4 h3 , .all-txt-lh-4 h4 , .all-txt-lh-4 h5 , .all-txt-lh-4 h6 , .all-txt-lh-4 p {line-height:1.5!important;}
+.all-txt-lh-5 h1, .all-txt-lh-5 h2, .all-txt-lh-5 h3 , .all-txt-lh-5 h4 , .all-txt-lh-5 h5 , .all-txt-lh-5 h6 , .all-txt-lh-5 p {line-height:1.625!important;}
+.all-txt-lh-6 h1, .all-txt-lh-6 h2, .all-txt-lh-6 h3 , .all-txt-lh-6 h4 , .all-txt-lh-6 h5 , .all-txt-lh-6 h6 , .all-txt-lh-6 p {line-height:2!important;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-txt-lh-1 h1, .xs-txt-lh-1 h2, .xs-txt-lh-1 h3 , .xs-txt-lh-1 h4 , .xs-txt-lh-1 h5 , .xs-txt-lh-1 h6 , .xs-txt-lh-1 p {line-height:1!important;}
+.xs-txt-lh-2 h1, .xs-txt-lh-2 h2, .xs-txt-lh-2 h3 , .xs-txt-lh-2 h4 , .xs-txt-lh-2 h5 , .xs-txt-lh-2 h6 , .xs-txt-lh-2 p {line-height:1.25!important;}
+.xs-txt-lh-3 h1, .xs-txt-lh-3 h2, .xs-txt-lh-3 h3 , .xs-txt-lh-3 h4 , .xs-txt-lh-3 h5 , .xs-txt-lh-3 h6 , .xs-txt-lh-3 p {line-height:1.375!important;}
+.xs-txt-lh-4 h1, .xs-txt-lh-4 h2, .xs-txt-lh-4 h3 , .xs-txt-lh-4 h4 , .xs-txt-lh-4 h5 , .xs-txt-lh-4 h6 , .xs-txt-lh-4 p {line-height:1.5!important;}
+.xs-txt-lh-5 h1, .xs-txt-lh-5 h2, .xs-txt-lh-5 h3 , .xs-txt-lh-5 h4 , .xs-txt-lh-5 h5 , .xs-txt-lh-5 h6 , .xs-txt-lh-5 p {line-height:1.625!important;}
+.xs-txt-lh-6 h1, .xs-txt-lh-6 h2, .xs-txt-lh-6 h3 , .xs-txt-lh-6 h4 , .xs-txt-lh-6 h5 , .xs-txt-lh-6 h6 , .xs-txt-lh-6 p {line-height:2!important;}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-txt-lh-1 h1, .s-txt-lh-1 h2, .s-txt-lh-1 h3 , .s-txt-lh-1 h4 , .s-txt-lh-1 h5 , .s-txt-lh-1 h6 , .s-txt-lh-1 p {line-height:1!important;}
+.s-txt-lh-2 h1, .s-txt-lh-2 h2, .s-txt-lh-2 h3 , .s-txt-lh-2 h4 , .s-txt-lh-2 h5 , .s-txt-lh-2 h6 , .s-txt-lh-2 p {line-height:1.25!important;}
+.s-txt-lh-3 h1, .s-txt-lh-3 h2, .s-txt-lh-3 h3 , .s-txt-lh-3 h4 , .s-txt-lh-3 h5 , .s-txt-lh-3 h6 , .s-txt-lh-3 p {line-height:1.375!important;}
+.s-txt-lh-4 h1, .s-txt-lh-4 h2, .s-txt-lh-4 h3 , .s-txt-lh-4 h4 , .s-txt-lh-4 h5 , .s-txt-lh-4 h6 , .s-txt-lh-4 p {line-height:1.5!important;}
+.s-txt-lh-5 h1, .s-txt-lh-5 h2, .s-txt-lh-5 h3 , .s-txt-lh-5 h4 , .s-txt-lh-5 h5 , .s-txt-lh-5 h6 , .s-txt-lh-5 p {line-height:1.625!important;}
+.s-txt-lh-6 h1, .s-txt-lh-6 h2, .s-txt-lh-6 h3 , .s-txt-lh-6 h4 , .s-txt-lh-6 h5 , .s-txt-lh-6 h6 , .s-txt-lh-6 p {line-height:2!important;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-txt-lh-1 h1, .m-txt-lh-1 h2, .m-txt-lh-1 h3 , .m-txt-lh-1 h4 , .m-txt-lh-1 h5 , .m-txt-lh-1 h6 , .m-txt-lh-1 p {line-height:1!important;}
+.m-txt-lh-2 h1, .m-txt-lh-2 h2, .m-txt-lh-2 h3 , .m-txt-lh-2 h4 , .m-txt-lh-2 h5 , .m-txt-lh-2 h6 , .m-txt-lh-2 p {line-height:1.25!important;}
+.m-txt-lh-3 h1, .m-txt-lh-3 h2, .m-txt-lh-3 h3 , .m-txt-lh-3 h4 , .m-txt-lh-3 h5 , .m-txt-lh-3 h6 , .m-txt-lh-3 p {line-height:1.375!important;}
+.m-txt-lh-4 h1, .m-txt-lh-4 h2, .m-txt-lh-4 h3 , .m-txt-lh-4 h4 , .m-txt-lh-4 h5 , .m-txt-lh-4 h6 , .m-txt-lh-4 p {line-height:1.5!important;}
+.m-txt-lh-5 h1, .m-txt-lh-5 h2, .m-txt-lh-5 h3 , .m-txt-lh-5 h4 , .m-txt-lh-5 h5 , .m-txt-lh-5 h6 , .m-txt-lh-5 p {line-height:1.625!important;}
+.m-txt-lh-6 h1, .m-txt-lh-6 h2, .m-txt-lh-6 h3 , .m-txt-lh-6 h4 , .m-txt-lh-6 h5 , .m-txt-lh-6 h6 , .m-txt-lh-6 p {line-height:2!important;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-txt-lh-1 h1, .l-txt-lh-1 h2, .l-txt-lh-1 h3 , .l-txt-lh-1 h4 , .l-txt-lh-1 h5 , .l-txt-lh-1 h6 , .l-txt-lh-1 p {line-height:1!important;}
+.l-txt-lh-2 h1, .l-txt-lh-2 h2, .l-txt-lh-2 h3 , .l-txt-lh-2 h4 , .l-txt-lh-2 h5 , .l-txt-lh-2 h6 , .l-txt-lh-2 p {line-height:1.25!important;}
+.l-txt-lh-3 h1, .l-txt-lh-3 h2, .l-txt-lh-3 h3 , .l-txt-lh-3 h4 , .l-txt-lh-3 h5 , .l-txt-lh-3 h6 , .l-txt-lh-3 p {line-height:1.375!important;}
+.l-txt-lh-4 h1, .l-txt-lh-4 h2, .l-txt-lh-4 h3 , .l-txt-lh-4 h4 , .l-txt-lh-4 h5 , .l-txt-lh-4 h6 , .l-txt-lh-4 p {line-height:1.5!important;}
+.l-txt-lh-5 h1, .l-txt-lh-5 h2, .l-txt-lh-5 h3 , .l-txt-lh-5 h4 , .l-txt-lh-5 h5 , .l-txt-lh-5 h6 , .l-txt-lh-5 p {line-height:1.625!important;}
+.l-txt-lh-6 h1, .l-txt-lh-6 h2, .l-txt-lh-6 h3 , .l-txt-lh-6 h4 , .l-txt-lh-6 h5 , .l-txt-lh-6 h6 , .l-txt-lh-6 p {line-height:2!important;}
+}
+/** xl */
+@media screen and (min-width:1281px){      
+.xl-txt-lh-1 h1, .xl-txt-lh-1 h2, .xl-txt-lh-1 h3 , .xl-txt-lh-1 h4 , .xl-txt-lh-1 h5 , .xl-txt-lh-1 h6 , .xl-txt-lh-1 p {line-height:1!important;}
+.xl-txt-lh-2 h1, .xl-txt-lh-2 h2, .xl-txt-lh-2 h3 , .xl-txt-lh-2 h4 , .xl-txt-lh-2 h5 , .xl-txt-lh-2 h6 , .xl-txt-lh-2 p {line-height:1.25!important;}
+.xl-txt-lh-3 h1, .xl-txt-lh-3 h2, .xl-txt-lh-3 h3 , .xl-txt-lh-3 h4 , .xl-txt-lh-3 h5 , .xl-txt-lh-3 h6 , .xl-txt-lh-3 p {line-height:1.375!important;}
+.xl-txt-lh-4 h1, .xl-txt-lh-4 h2, .xl-txt-lh-4 h3 , .xl-txt-lh-4 h4 , .xl-txt-lh-4 h5 , .xl-txt-lh-4 h6 , .xl-txt-lh-4 p {line-height:1.5!important;}
+.xl-txt-lh-5 h1, .xl-txt-lh-5 h2, .xl-txt-lh-5 h3 , .xl-txt-lh-5 h4 , .xl-txt-lh-5 h5 , .xl-txt-lh-5 h6 , .xl-txt-lh-5 p {line-height:1.625!important;}
+.xl-txt-lh-6 h1, .xl-txt-lh-6 h2, .xl-txt-lh-6 h3 , .xl-txt-lh-6 h4 , .xl-txt-lh-6 h5 , .xl-txt-lh-6 h6 , .xl-txt-lh-6 p {line-height:2!important;}
+}

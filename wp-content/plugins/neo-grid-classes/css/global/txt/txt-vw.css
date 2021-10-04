@@ -1,0 +1,61 @@
+/** all */
+.all-txt-vw-1 h1, .all-txt-vw-1 h2, .all-txt-vw-1 h3 , .all-txt-vw-1 h4 , .all-txt-vw-1 h5 , .all-txt-vw-1 h6 , .all-txt-vw-1 p {font-size:1vw!important;}
+.all-txt-vw-2 h1, .all-txt-vw-2 h2, .all-txt-vw-2 h3 , .all-txt-vw-2 h4 , .all-txt-vw-2 h5 , .all-txt-vw-2 h6 , .all-txt-vw-2 p {font-size:2vw!important;}
+.all-txt-vw-3 h1, .all-txt-vw-3 h2, .all-txt-vw-3 h3 , .all-txt-vw-3 h4 , .all-txt-vw-3 h5 , .all-txt-vw-3 h6 , .all-txt-vw-3 p {font-size:3vw!important;}
+.all-txt-vw-4 h1, .all-txt-vw-4 h2, .all-txt-vw-4 h3 , .all-txt-vw-4 h4 , .all-txt-vw-4 h5 , .all-txt-vw-4 h6 , .all-txt-vw-4 p {font-size:4vw!important;}
+.all-txt-vw-5 h1, .all-txt-vw-5 h2, .all-txt-vw-5 h3 , .all-txt-vw-5 h4 , .all-txt-vw-5 h5 , .all-txt-vw-5 h6 , .all-txt-vw-5 p {font-size:5vw!important;}
+.all-txt-vw-6 h1, .all-txt-vw-6 h2, .all-txt-vw-6 h3 , .all-txt-vw-6 h4 , .all-txt-vw-6 h5 , .all-txt-vw-6 h6 , .all-txt-vw-6 p {font-size:6vw!important;}
+.all-txt-vw-7 h1, .all-txt-vw-7 h2, .all-txt-vw-7 h3 , .all-txt-vw-7 h4 , .all-txt-vw-7 h5 , .all-txt-vw-7 h6 , .all-txt-vw-7 p {font-size:7vw!important;}
+.all-txt-vw-8 h1, .all-txt-vw-8 h2, .all-txt-vw-8 h3 , .all-txt-vw-8 h4 , .all-txt-vw-8 h5 , .all-txt-vw-8 h6 , .all-txt-vw-8 p {font-size:8vw!important;}
+.all-txt-vw-9 h1, .all-txt-vw-9 h2, .all-txt-vw-9 h3 , .all-txt-vw-9 h4 , .all-txt-vw-9 h5 , .all-txt-vw-9 h6 , .all-txt-vw-9 p {font-size:9vw!important;}
+.all-txt-vw-10 h1, .all-txt-vw-10 h2, .all-txt-vw-10 h3 , .all-txt-vw-10 h4 , .all-txt-vw-10 h5 , .all-txt-vw-10 h6 , .all-txt-vw-10 p {font-size:10vw!important;}
+.all-txt-vw-11 h1, .all-txt-vw-11 h2, .all-txt-vw-11 h3 , .all-txt-vw-11 h4 , .all-txt-vw-11 h5 , .all-txt-vw-11 h6 , .all-txt-vw-11 p {font-size:11vw!important;}
+.all-txt-vw-12 h1, .all-txt-vw-12 h2, .all-txt-vw-12 h3 , .all-txt-vw-12 h4 , .all-txt-vw-12 h5 , .all-txt-vw-12 h6 , .all-txt-vw-12 p {font-size:12vw!important;}
+.all-txt-vw-13 h1, .all-txt-vw-13 h2, .all-txt-vw-13 h3 , .all-txt-vw-13 h4 , .all-txt-vw-13 h5 , .all-txt-vw-13 h6 , .all-txt-vw-13 p {font-size:13vw!important;}
+.all-txt-vw-14 h1, .all-txt-vw-14 h2, .all-txt-vw-14 h3 , .all-txt-vw-14 h4 , .all-txt-vw-14 h5 , .all-txt-vw-14 h6 , .all-txt-vw-14 p {font-size:14vw!important;}
+.all-txt-vw-15 h1, .all-txt-vw-15 h2, .all-txt-vw-15 h3 , .all-txt-vw-15 h4 , .all-txt-vw-15 h5 , .all-txt-vw-15 h6 , .all-txt-vw-15 p {font-size:15vw!important;}
+.all-txt-vw-16 h1, .all-txt-vw-16 h2, .all-txt-vw-16 h3 , .all-txt-vw-16 h4 , .all-txt-vw-16 h5 , .all-txt-vw-16 h6 , .all-txt-vw-16 p {font-size:16vw!important;}
+.all-txt-vw-17 h1, .all-txt-vw-17 h2, .all-txt-vw-17 h3 , .all-txt-vw-17 h4 , .all-txt-vw-17 h5 , .all-txt-vw-17 h6 , .all-txt-vw-17 p {font-size:17vw!important;}
+.all-txt-vw-18 h1, .all-txt-vw-18 h2, .all-txt-vw-18 h3 , .all-txt-vw-18 h4 , .all-txt-vw-18 h5 , .all-txt-vw-18 h6 , .all-txt-vw-18 p {font-size:18vw!important;}
+.all-txt-vw-19 h1, .all-txt-vw-19 h2, .all-txt-vw-19 h3 , .all-txt-vw-19 h4 , .all-txt-vw-19 h5 , .all-txt-vw-19 h6 , .all-txt-vw-19 p {font-size:19vw!important;}
+.all-txt-vw-20 h1, .all-txt-vw-20 h2, .all-txt-vw-20 h3 , .all-txt-vw-20 h4 , .all-txt-vw-20 h5 , .all-txt-vw-20 h6 , .all-txt-vw-20 p {font-size:20vw!important;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-txt-vw-1 h1, .xs-txt-vw-1 h2, .xs-txt-vw-1 h3 , .xs-txt-vw-1 h4 , .xs-txt-vw-1 h5 , .xs-txt-vw-1 h6 , .xs-txt-vw-1 p {font-size:1vw!important;}
+.xs-txt-vw-2 h1, .xs-txt-vw-2 h2, .xs-txt-vw-2 h3 , .xs-txt-vw-2 h4 , .xs-txt-vw-2 h5 , .xs-txt-vw-2 h6 , .xs-txt-vw-2 p {font-size:2vw!important;}
+.xs-txt-vw-3 h1, .xs-txt-vw-3 h2, .xs-txt-vw-3 h3 , .xs-txt-vw-3 h4 , .xs-txt-vw-3 h5 , .xs-txt-vw-3 h6 , .xs-txt-vw-3 p {font-size:3vw!important;}
+.xs-txt-vw-4 h1, .xs-txt-vw-4 h2, .xs-txt-vw-4 h3 , .xs-txt-vw-4 h4 , .xs-txt-vw-4 h5 , .xs-txt-vw-4 h6 , .xs-txt-vw-4 p {font-size:4vw!important;}
+.xs-txt-vw-5 h1, .xs-txt-vw-5 h2, .xs-txt-vw-5 h3 , .xs-txt-vw-5 h4 , .xs-txt-vw-5 h5 , .xs-txt-vw-5 h6 , .xs-txt-vw-5 p {font-size:5vw!important;}
+.xs-txt-vw-6 h1, .xs-txt-vw-6 h2, .xs-txt-vw-6 h3 , .xs-txt-vw-6 h4 , .xs-txt-vw-6 h5 , .xs-txt-vw-6 h6 , .xs-txt-vw-6 p {font-size:6vw!important;}
+.xs-txt-vw-7 h1, .xs-txt-vw-7 h2, .xs-txt-vw-7 h3 , .xs-txt-vw-7 h4 , .xs-txt-vw-7 h5 , .xs-txt-vw-7 h6 , .xs-txt-vw-7 p {font-size:7vw!important;}
+.xs-txt-vw-8 h1, .xs-txt-vw-8 h2, .xs-txt-vw-8 h3 , .xs-txt-vw-8 h4 , .xs-txt-vw-8 h5 , .xs-txt-vw-8 h6 , .xs-txt-vw-8 p {font-size:8vw!important;}
+.xs-txt-vw-9 h1, .xs-txt-vw-9 h2, .xs-txt-vw-9 h3 , .xs-txt-vw-9 h4 , .xs-txt-vw-9 h5 , .xs-txt-vw-9 h6 , .xs-txt-vw-9 p {font-size:9vw!important;}
+.xs-txt-vw-10 h1, .xs-txt-vw-10 h2, .xs-txt-vw-10 h3 , .xs-txt-vw-10 h4 , .xs-txt-vw-10 h5 , .xs-txt-vw-10 h6 , .xs-txt-vw-10 p {font-size:10vw!important;}
+.xs-txt-vw-11 h1, .xs-txt-vw-11 h2, .xs-txt-vw-11 h3 , .xs-txt-vw-11 h4 , .xs-txt-vw-11 h5 , .xs-txt-vw-11 h6 , .xs-txt-vw-11 p {font-size:11vw!important;}
+.xs-txt-vw-12 h1, .xs-txt-vw-12 h2, .xs-txt-vw-12 h3 , .xs-txt-vw-12 h4 , .xs-txt-vw-12 h5 , .xs-txt-vw-12 h6 , .xs-txt-vw-12 p {font-size:12vw!important;}
+.xs-txt-vw-13 h1, .xs-txt-vw-13 h2, .xs-txt-vw-13 h3 , .xs-txt-vw-13 h4 , .xs-txt-vw-13 h5 , .xs-txt-vw-13 h6 , .xs-txt-vw-13 p {font-size:13vw!important;}
+.xs-txt-vw-14 h1, .xs-txt-vw-14 h2, .xs-txt-vw-14 h3 , .xs-txt-vw-14 h4 , .xs-txt-vw-14 h5 , .xs-txt-vw-14 h6 , .xs-txt-vw-14 p {font-size:14vw!important;}
+.xs-txt-vw-15 h1, .xs-txt-vw-15 h2, .xs-txt-vw-15 h3 , .xs-txt-vw-15 h4 , .xs-txt-vw-15 h5 , .xs-txt-vw-15 h6 , .xs-txt-vw-15 p {font-size:15vw!important;}
+.xs-txt-vw-16 h1, .xs-txt-vw-16 h2, .xs-txt-vw-16 h3 , .xs-txt-vw-16 h4 , .xs-txt-vw-16 h5 , .xs-txt-vw-16 h6 , .xs-txt-vw-16 p {font-size:16vw!important;}
+.xs-txt-vw-17 h1, .xs-txt-vw-17 h2, .xs-txt-vw-17 h3 , .xs-txt-vw-17 h4 , .xs-txt-vw-17 h5 , .xs-txt-vw-17 h6 , .xs-txt-vw-17 p {font-size:17vw!important;}
+.xs-txt-vw-18 h1, .xs-txt-vw-18 h2, .xs-txt-vw-18 h3 , .xs-txt-vw-18 h4 , .xs-txt-vw-18 h5 , .xs-txt-vw-18 h6 , .xs-txt-vw-18 p {font-size:18vw!important;}
+.xs-txt-vw-19 h1, .xs-txt-vw-19 h2, .xs-txt-vw-19 h3 , .xs-txt-vw-19 h4 , .xs-txt-vw-19 h5 , .xs-txt-vw-19 h6 , .xs-txt-vw-19 p {font-size:19vw!important;}
+.xs-txt-vw-20 h1, .xs-txt-vw-20 h2, .xs-txt-vw-20 h3 , .xs-txt-vw-20 h4 , .xs-txt-vw-20 h5 , .xs-txt-vw-20 h6 , .xs-txt-vw-20 p {font-size:20vw!important;}
+
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

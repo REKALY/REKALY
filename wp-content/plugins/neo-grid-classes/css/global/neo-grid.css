@@ -1,0 +1,186 @@
+/** ROOT */
+@import "./root/root-gs-50.css";
+@import "./root/root-fs-15.css";
+
+/** COVER */
+@import "./cover/cover-op.css";
+@import "./cover/cover-vh.css";
+@import "./cover/cover-filter.css";
+
+/** NAV */
+@import "./nav/nav-st.css";
+/** BOX */
+@import "./box/box-filter.css";
+@import "./box/box-order.css";
+@import "./box/box-border.css";
+@import "./box/box-outline.css";
+@import "./box/box-color.css";
+@import "./box/box-pc.css";
+
+@import "./box/box-px.css";
+@import "./box/box-py.css";
+@import "./box/box-pz.css";
+@import "./box/box-w.css";
+@import "./box/box-bs.css";
+@import "./box/box-dp.css";
+@import "./box/box-vh.css";
+@import "./box/box-vw.css";
+
+/** COLS */
+@import "./cols/cols-fr.css";
+@import "./cols/cols-min.css";
+@import "./cols/cols-max.css";
+@import "./cols/cols-auto.css";
+@import "./cols/cols-mac.css";
+
+/** ROWS */
+@import "./rows/rows-fr.css";
+@import "./rows/rows-min.css";
+@import "./rows/rows-max.css";
+@import "./rows/rows-vh.css";
+
+/** FLOW */
+@import "./flow/flow-auto.css";
+
+/** FORM */
+@import "./form/form1.css";
+
+/** ANIM */
+@import "./anim/anim.css";
+
+
+/** DEPRECATED 
+@import "./h1/h1-fs.css";
+@import "./h1/h1-lh.css";
+@import "./h1/h1-fw.css";
+@import "./h1/h1-my.css";
+@import "./h2/h2-fs.css";
+@import "./h2/h2-lh.css";
+@import "./h2/h2-fw.css";
+@import "./h2/h2-my.css";
+@import "./h3/h3-fs.css";
+@import "./h3/h3-lh.css";
+@import "./h3/h3-fw.css";
+@import "./h3/h3-my.css";
+@import "./h4/h4-fs.css";
+@import "./h4/h4-lh.css";
+@import "./h4/h4-fw.css";
+@import "./h4/h4-my.css";
+@import "./h5/h5-fs.css";
+@import "./h5/h5-lh.css";
+@import "./h5/h5-fw.css";
+@import "./h5/h5-my.css";
+@import "./h6/h6-fs.css";
+@import "./h6/h6-lh.css";
+@import "./h6/h6-fw.css";
+@import "./h6/h6-my.css";
+@import "./p/p-fs.css";
+@import "./p/p-lh.css";
+@import "./p/p-fw.css";
+@import "./p/p-ai.css";
+@import "./p/p-my.css";
+@import "./p/p-w.css";
+*/
+
+/** TXT */
+@import "./txt/txt-fs.css";
+@import "./txt/txt-fw.css";
+@import "./txt/txt-lh.css";
+@import "./txt/txt-ta.css";
+@import "./txt/txt-h.css";
+@import "./txt/txt-w.css";
+@import "./txt/txt-vw.css";
+@import "./txt/txt-my.css";
+
+/** ITEMS */
+@import "./items/items-span.css";
+@import "./items/items-pi.css";
+@import "./items/items-pc.css";
+@import "./items/items-ac.css";
+
+/** GRID */
+
+@import "./grid/grid-clamp.css";
+@import "./grid/grid-gap.css";
+@import "./grid/grid-border.css";
+@import "./grid/grid-pzc.css";
+@import "./grid/grid-outline.css";
+@import "./grid/grid-color.css";
+@import "./grid/grid-h1.css";
+@import "./grid/grid-h6.css";
+@import "./grid/grid-h2.css";
+@import "./grid/grid-p.css";
+
+@import "./grid/grid-gx.css";
+@import "./grid/grid-gy.css";
+@import "./grid/grid-gz.css";
+@import "./grid/grid-bs.css";
+@import "./grid/grid-ac.css";
+
+@import "./grid/grid-jc.css";
+@import "./grid/grid-ai.css";
+@import "./grid/grid-pc.css";
+
+@import "./grid/grid-pz.css";
+@import "./grid/grid-px.css";
+@import "./grid/grid-py.css";
+
+@import "./grid/grid-br.css";
+
+
+@import "./grid/grid-sx.css";
+
+
+/** IMG */
+
+@import "./img/img-filter.css";
+
+@import "./img/img-vh.css";
+@import "./img/img-h.css";
+@import "./img/img-w.css";
+@import "./img/img-fit.css";
+@import "./img/img-pz.css";
+@import "./img/img-brs.css";
+@import "./img/img-bs.css";
+
+/** SPAN */
+@import "./span/span-x.css";
+@import "./span/span-y.css";
+@import "./span/span-z.css";
+
+/** COLOR */
+@import "./bg/grid-bg.css";
+@import "./bg/box-bg.css";
+
+/** DEV */
+@import "./neo-grid-dev.css";
+/** EN COURS */
+
+
+/**
+
+@import "./neo-grid-box-h.css";
+@import "./neo-grid-box-w.css";
+@import "./neo-grid-box-vw.css";
+@import "./neo-grid-col-x.css";
+@import "./neo-grid-row.css";
+@import "./neo-grid-item-sha.css";
+@import "./neo-grid-box-sha.css";
+@import "./neo-grid-rad.css";
+@import "./neo-grid-hei.css";
+@import "./neo-grid-jus.css";
+@import "./neo-grid-dis-z.css";
+@import "./neo-grid-font.css";
+@import "./neo-grid-ofi.css";
+*/
+
+/**DEV*/
+.wp-block-group,
+.figure, .wp-block-image img,
+.wp-block-group__inner-container
+{    
+    display: grid;    
+}
+.wp-block-image{
+    overflow: hidden!important;
+}

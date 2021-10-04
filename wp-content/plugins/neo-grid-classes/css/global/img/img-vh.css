@@ -1,0 +1,52 @@
+/** all */
+.all-img-vh-0 .wp-block-image img{height:none!important;}
+.all-img-vh-25 .wp-block-image img{height:25vh!important;}
+.all-img-vh-33 .wp-block-image img{height:33.33vh!important;}
+.all-img-vh-50 .wp-block-image img{height:50vh!important;}
+.all-img-vh-75 .wp-block-image img{height:75vh!important;}
+.all-img-vh-100 .wp-block-image img{height:100vh!important;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-img-vh-0 .wp-block-image img{height:none!important;}
+.xs-img-vh-25 .wp-block-image img{height:25vh!important;}
+.xs-img-vh-33 .wp-block-image img{height:33.33vh!important;}
+.xs-img-vh-50 .wp-block-image img{height:50vh!important;}
+.xs-img-vh-75 .wp-block-image img{height:75vh!important;}
+.xs-img-vh-100 .wp-block-image img{height:100vh!important;}
+}
+/** s */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-img-vh-0 .wp-block-image img{height:none!important;}
+.s-img-vh-25 .wp-block-image img{height:25vh!important;}
+.s-img-vh-33 .wp-block-image img{height:33.33vh!important;}
+.s-img-vh-50 .wp-block-image img{height:50vh!important;}
+.s-img-vh-75 .wp-block-image img{height:75vh!important;}
+.s-img-vh-100 .wp-block-image img{height:100vh!important;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-img-vh-0 .wp-block-image img{height:none!important;}
+.m-img-vh-25 .wp-block-image img{height:25vh!important;}
+.m-img-vh-33 .wp-block-image img{height:33.33vh!important;}
+.m-img-vh-50 .wp-block-image img{height:50vh!important;}
+.m-img-vh-75 .wp-block-image img{height:75vh!important;}
+.m-img-vh-100 .wp-block-image img{height:100vh!important;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-img-vh-0 .wp-block-image img{height:none!important;}
+.l-img-vh-25 .wp-block-image img{height:25vh!important;}
+.l-img-vh-33 .wp-block-image img{height:33.33vh!important;}
+.l-img-vh-50 .wp-block-image img{height:50vh!important;}
+.l-img-vh-75 .wp-block-image img{height:75vh!important;}
+.l-img-vh-100 .wp-block-image img{height:100vh!important;}
+}
+/** xl */
+@media screen and (min-width:1281px){      
+.xl-img-vh-0 .wp-block-image img{height:none!important;}
+.xl-img-vh-25 .wp-block-image img{height:25vh!important;}
+.xl-img-vh-33 .wp-block-image img{height:33.33vh!important;}
+.xl-img-vh-50 .wp-block-image img{height:50vh!important;}
+.xl-img-vh-75 .wp-block-image img{height:75vh!important;}
+.xl-img-vh-100 .wp-block-image img{height:100vh!important;}
+}

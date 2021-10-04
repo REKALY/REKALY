@@ -1,0 +1,37 @@
+/** all */
+.all-items-pc-1 > div > div{place-content:start start;}
+.all-items-pc-2 > div > div{place-content:start center;}
+.all-items-pc-3 > div > div{place-content:start end;}
+
+.all-items-pc-4 > div > div{place-content:center start;}
+.all-items-pc-5 > div > div{place-content:center center;}
+.all-items-pc-6 > div > div{place-content:center end;}
+
+.all-items-pc-7 > div > div{place-content:end start;}
+.all-items-pc-8 > div > div{place-content:end center;}
+.all-items-pc-9 > div > div{place-content:end end;}
+
+.all-items-pc-10 > div > div{place-content:space-between;}
+.all-items-pc-11 > div > div{place-content:space-around;}
+.all-items-pc-12 > div > div{place-content:space-evenly;}
+
+/** xs */
+@media screen and (max-width:640px){  
+
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}
