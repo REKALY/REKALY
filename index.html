@@ -1,28 +1,76 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 		
-<link rel="preconnect" href="https://app.snipcart.com/">
-<link rel="preconnect" href="https://cdn.snipcart.com/">	
-<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css">
-<script async src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js">
-</script>
-</head>
-<body>
-<div hidden id="snipcart" data-api-key="OGUzMzA0ZDItNTM1ZC00YjRiLWJiZWItYmVhMDdkY2Q3NjkwNjM3NTM2ODUyMTYzODE0OTgw" data-config-modal-style="side" data-config-add-product-behavior="noneOFF" data-currency="fca">
-	<address-fields section="top">
-        <div>
-            <snipcart-label for="phone">
-                N° Móvil 
-            </snipcart-label>
-            <snipcart-input name="phone" type="text" class="snipcart-input__input snipcart__font--secondary snipcart__font--bold"></snipcart-input>
-        </div>
-    </address-fields>
-</div>
+	<link rel="preconnect" href="https://app.snipcart.com/">
+	<link rel="preconnect" href="https://cdn.snipcart.com/">	
+	<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css">
+	<script async src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"></script>
 
+	</head>
+<body>
+<div hidden id="snipcart" data-api-key="OGUzMzA0ZDItNTM1ZC00YjRiLWJiZWItYmVhMDdkY2Q3NjkwNjM3NTM2ODUyMTYzODE0OTgw" data-config-modal-style="full" data-config-add-product-behavior="noneOFF" data-currency="fca">
+		
+			<address-fields>
+				<div>
+				  <fieldset class="snipcart-form__set">
+					  
+					<div class="snipcart-form__row">
+					  <div class="snipcart-form__cell--large">
+						<snipcart-label class="snipcart__font--tiny" for="name">{{ $localize('address_form.name') }}</snipcart-label>
+						<snipcart-input id="name" name="name" required></snipcart-input>
+						<snipcart-error-message name="name"></snipcart-error-message>
+						</div>
+					</div>	
+					  
+					<div class="snipcart-form__row">
+					  <div class="snipcart-form__cell--large">
+						<snipcart-label class="snipcart__font--tiny" for="phone">Celular/Movil</snipcart-label>
+						<snipcart-input type="tel" id="phone" name="phone" required></snipcart-input>
+						<snipcart-error-message name="phone"></snipcart-error-message>
+						</div>
+					</div>	  
+					  
+					<div class="snipcart-form__row">
+					  <div class="snipcart-form__cell--large">
+						<snipcart-label class="snipcart__font--tiny" for="email">{{ $localize('address_form.email') }}</snipcart-label>
+						<snipcart-input id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+						</snipcart-input>
+						<snipcart-error-message name="email"></snipcart-error-message>
+						</div>
+					</div>	  
+					  
+					<div class="snipcart-form__row">
+					  <div class="snipcart-form__cell--large">
+						<snipcart-label class="snipcart__font--tiny" for="address1">{{ $localize('address_form.address1') }}</snipcart-label>
+						<snipcart-input name="address1" required></snipcart-input>
+						<snipcart-error-message name="address1"></snipcart-error-message>
+						</div>
+					</div>
+					<div class="">
+					  <snipcart-label class="snipcart__font--tiny" for="city">{{ $localize('address_form.city') }}</snipcart-label>
+					  <snipcart-input name="city" required></snipcart-input>
+					  <snipcart-error-message name="city"></snipcart-error-message>
+					</div>
+					<div class="">
+					  <snipcart-label class="snipcart__font--tiny" for="country">{{ $localize('address_form.country') }}</snipcart-label>
+					  <snipcart-typeahead type="dropdown" name="country" autocomplete="country"></snipcart-typeahead>
+					</div>
+					<div class="snipcart-form__row">
+					  <div class="snipcart-form__cell--large">
+						<snipcart-label class="snipcart__font--tiny" for="postalCode">{{ $localize('address_form.postalCode') }}</snipcart-label>
+						<snipcart-input name="postalCode"></snipcart-input>
+						<snipcart-error-message name="postalCode"></snipcart-error-message>
+					  </div>
+					</div>
+				  </fieldset>
+				</div>
+  			</address-fields>
+		
+	</div>	
 	
 <script>
     document.addEventListener('snipcart.ready', function() {
@@ -40,7 +88,7 @@
     document.addEventListener('snipcart.ready', function() {
         Snipcart.api.session.setLanguage('es', {
             "billing": {
-				title: "¿A que dirección le enviamos?",
+				title: "Datos de envio",
 				address: "Nombre de la calle, avenida...",
 			},
         });
@@ -83,8 +131,8 @@
     document.addEventListener('snipcart.ready', function() {
         Snipcart.api.session.setLanguage('es', {
             address_form: {
-				name: "Su Nombre, apodo o pséudonimo",
-				email: "Email para enviarle su recibo",
+				name: "Su Nombre",
+				email: "Su Email",
 			},
         });
     });
@@ -141,6 +189,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	}
 	.snipcart-input__input {
 		min-height: 50px;
+	}
+	@media (min-width: 1024px){
+		.snipcart-item-line__image {
+			width: 120px;
+			height: 120px;
+			object-fit: cover;
+			border-radius: 50%;
+		}
+		.snipcart-form__set {
+			border: none;
+			padding: 0;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 20px;
+		}
+		.snipcart-form__footer {
+			margin-top: 20px;
+		}
+	}
+	.snipcart-form__field {
+		visibility: hidden;
+		display:none!important;
 	}</style>
 	
 
@@ -166,7 +236,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <div class="wp-block-group all-grid-pc-5 all-img-w-20"><div class="wp-block-group__inner-container">
-<figure class="wp-block-image size-full"><img loading="lazy" width="350" height="150" src="./wp-content/uploads/2021/07/kalytero-logo-svg.svg" alt="" class="wp-image-2646"></figure>
+<figure class="wp-block-image size-full"><a href="./index.html"><img loading="lazy" width="350" height="150" src="./wp-content/uploads/2021/07/kalytero-logo-svg.svg" alt="" class="wp-image-2646"></a></figure>
 </div></div>
 
 
@@ -3778,12 +3848,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <footer id="colophon" class="site-footer">
 	<div class="neo-footer">
-		
+		<form role="search" method="get" id="searchform" class="searchform" action="./index.html">
+				<div>
+					<label class="screen-reader-text" for="s">Buscar:</label>
+					<input type="text" value="" name="s" id="s">
+					<input type="submit" id="searchsubmit" value="Buscar">
+				</div>
+			</form>
+
 <div id="All-Grid" class="wp-block-group all-box-pz-5"><div class="wp-block-group__inner-container">
 <div id="Grid-Box" class="wp-block-group all-grid-pc-5"><div class="wp-block-group__inner-container">
 <div id="Grid-Content" class="wp-block-group"><div class="wp-block-group__inner-container">
 <div id="Grid-Title" class="wp-block-group all-grid-gz-3"><div class="wp-block-group__inner-container">
-<p>v15</p>
+<p>v16</p>
 </div></div>
 </div></div>
 </div></div>
