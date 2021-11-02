@@ -268,36 +268,64 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="wp-block-cover has-background-dim all-box-pz-0" style="background-color:white" id="Grid-Cover"><div class="wp-block-cover__inner-container">
 <div id="Grid-Box" class="wp-block-group all-cols-fr-1 xl-cols-fr-2 l-cols-fr-2 all-box-vh-100 all-box-pz-0 has-background" style="background-color:white"><div class="wp-block-group__inner-container">
 <div id="Grid-Content" class="wp-block-group all-grid-pc-5 all-box-pz-15 xs-box-pz-5 all-grid-gz-6 xs-grid-gz-3 all-box-order-1 xs-box-order-1 has-background" style="background-color:white"><div class="wp-block-group__inner-container">
-<div id="Grid-Title" class="wp-block-group all-txt-fs-10 all-txt-lh-1 all-txt-fw-1 xs-txt-fs-8 xs-txt-lh-8"><div class="wp-block-group__inner-container">
+<div id="Grid-Title" class="wp-block-group all-txt-fs-9 all-txt-lh-1 all-txt-fw-2 xs-txt-fs-6 xs-txt-lh-0 xs-txt-fw-6"><div class="wp-block-group__inner-container">
 <h1 class="has-text-color" style="color:black">Solicitud de Reserva Restaurante Kalytero</h1>
 </div></div>
 
 
 
-<div id="Grid-Description" class="wp-block-group all-txt-fs-5 all-txt-lh-5 all-txt-fw-2"><div class="wp-block-group__inner-container">
-<h2 class="has-text-color" style="color:black">Le confirmamos en <strong>menos de 60 segundos</strong> por SMS </h2>
+<div id="Grid-Description" class="wp-block-group all-txt-fs-5 all-txt-lh-5 all-txt-fw-2 xs-txt-fs-1 xs-txt-lh-0"><div class="wp-block-group__inner-container">
+<h2 class="has-text-color" style="color:black">Le confirmamos en <strong>60 segundos</strong>&nbsp;por SMS&nbsp;</h2>
 
 
 
-<style>#neo-form input,#neo-form select,#neo-form button{height:30px!important;width:100%}
-    #neo-form{font-family:arial!important;color:black}</style>    
-<form id="booking" action="https://getform.io/f/d0ab0519-94e1-445d-90f9-72fb93febc04" method="POST">       
+
+
+
+ 
+   <title>International telephone input</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+ 
+
+  
+<style>#neo-form input,#neo-form select{height:30px!important;width:100%}
+    #neo-form button{background: red;}
+    #neo-form{font-family:arial!important;color:black}  
+    body{font-family:Helvetica,sans-serif}
+    .container{max-width:800px;margin-left:auto;margin-right:auto;padding:10px}
+    #phone,.btn{padding-top:6px;padding-bottom:6px;border:1px solid #ccc;border-radius:4px}
+    .btn{color:#fff;background-color:#428bca;border-color:#357ebd;font-size:14px;outline:0;cursor:pointer;padding-left:12px;padding-right:12px}
+    .btn:focus,.btn:hover{background-color:#3276b1;border-color:#285e8e}
+    .btn:active{box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}
+    .alert{padding:15px;margin-top:10px;border:1px solid transparent;border-radius:4px}
+    .alert-info{border-color:#bce8f1;color:#31708f;background-color:#d9edf7}
+    .alert-error{color:#a94442;background-color:#f2dede;border-color:#ebccd1}  
+    #neo-form {padding:35px;background:#428bca;display: grid; gap:10px;color: white;border-radius:10px;margin-top:10px;} 
+    .iti.iti--allow-dropdown{width:100%!important;}  
+    #neo-form button{background: #383838;height:50px;width:100%;color: white;font-size: 15px;border: none;} 
+    .iti__country-name{color:black;}
+    #neo-form{padding:35 px;background:#428bca;display:grid; grid-gap:10 px; color:white; border-radius:10 px; margin-top:10 px;box-shadow:1px 1px 10px grey;}
+    @media screen and (min-width:600px){#neo-form{grid-template-columns:1fr 1fr}}</style>      
+
+<form id="booking" action="https://getform.io/f/d0ab0519-94e1-445d-90f9-72fb93febc04" method="POST" onsubmit="process(event)">       
     <div id="neo-form">    
         <div id="date">
-            <label for="date">¿Para que fecha desea reservar?</label><br>
-            <input id="date" type="date" name="date">
+            <label for="date">¿Para que fecha?</label><br>
+            <input id="date" type="date" name="date" required>
         </div>
         <div>
-            <label for="hour">¿A que hora desea llegar?</label><br>
-            <select id="hour" name="hour">                
+            <label for="hour">¿A que hora?</label><br>
+            <select id="hour" name="hour" required>                
                 <option value="12:00">12:00</option>
                 <option value="12:30">12:30</option>
                 <option value="13:00">13:00</option>
             </select>
         </div> 
         <div>
-            <label for="pax">¿Para cuantas personas es su reserva?</label><br>
-            <select id="pax" name="pax">                
+            <label for="pax">¿Para cuantas personas?</label><br>
+            <select id="pax" name="pax" required>                
                 <option value="1"> 1 </option>
                 <option value="2"> 2 </option>
                 <option value="3"> 3 </option>
@@ -305,26 +333,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
         
         <div>
-            <label for="name">¿A que nombre hacemos la reserva?</label><br>
-            <input id="name" name="name"> 
+            <label for="name">¿A que nombre?</label><br>
+            <input id="name" name="name" required> 
         </div>
 
         <div>
-            <label for="phone">¿A que N° de movil le confirmamos su reserva?</label><br>
-            <input id="phone" name="phone">
+            <label for="phone">Su N° de móvil</label><br>
+            <input id="phone" type="tel" name="phone" required>
         </div>
+        <div class="alert alert-info" style="display: none;"></div>
 
         <div>
             <button type="submit">Enviar mi solicitud de reserva</button>
         </div>
     </div>        
 </form>
+
+
+<script>
+    const info = document.querySelector(".alert-info");
+    function process(event) {
+    event.preventDefault();
+
+    const phoneNumber = phoneInput.getNumber();
+    document.getElementById("phone").value = `${phoneNumber}<\/strong>`;
+    alert (phoneNumber);    
+    info.style.display = "";
+    info.innerHTML = `Phone E.164 format is: <strong>${phoneNumber}<\/strong>`;
+    }
+</script> 
+ 
+<script>
+   const phoneInputField = document.querySelector("#phone");
+   const phoneInput = window.intlTelInput(phoneInputField, {
+     preferredCountries: ["gq", "fr"],  
+     utilsScript:
+       "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+   });
+ </script>
+ 
 </div></div>
 </div></div>
 
 
 
-<div id="Grid-Images" class="wp-block-group all-img-fit-cover all-img-vh-100 xs-img-vh-50 has-background" style="background-color:white"><div class="wp-block-group__inner-container">
+<div id="Grid-Images" class="wp-block-group all-img-fit-cover all-img-vh-100 xs-img-vh-33 has-background" style="background-color:white"><div class="wp-block-group__inner-container">
 <div id="Grid-Image1" class="wp-block-group"><div class="wp-block-group__inner-container">
 <figure class="wp-block-image size-full"><img loading="lazy" width="714" height="708" src="./../wp-content/uploads/2021/09/bocadillos-1-edited.jpeg" alt="" class="wp-image-2976"></figure>
 </div></div>
@@ -345,7 +398,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="Grid-Box" class="wp-block-group all-grid-pc-5"><div class="wp-block-group__inner-container">
 <div id="Grid-Content" class="wp-block-group"><div class="wp-block-group__inner-container">
 <div id="Grid-Title" class="wp-block-group all-grid-gz-3"><div class="wp-block-group__inner-container">
-<p>v24</p>
+<p>v25</p>
 </div></div>
 </div></div>
 </div></div>
