@@ -278,9 +278,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h2 class="has-text-color" style="color:black">Le confirmamos en <strong>60 segundos</strong>&nbsp;por SMS&nbsp;</h2>
 
 
-
-
-
+<div class="wp-block-lazyblock-booking lazyblock-booking-1c1pSV">
 
  
    <title>International telephone input</title>
@@ -288,8 +286,67 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
  
+ 
+<form id="booking" action="https://getform.io/f/d0ab0519-94e1-445d-90f9-72fb93febc04" method="POST">       
+    <div id="neo-form">    
+        <div id="date">
+            <label for="date">¿ En que fecha ?</label><br>
+            <input id="date" type="date" name="date" required>
+        </div>
+        <div>
+            <label for="hour">¿ A que hora?</label><br>
+            <select id="hour" name="hour" required>                
+                <option value="12:00">12:00</option>
+                <option value="12:30">12:30</option>
+                <option value="13:00">13:00</option>
+            </select>
+        </div> 
+        <div>
+            <label for="pax">¿ Cuantas personas?</label><br>
+            <select id="pax" name="pax" required>                
+                <option value="1"> 1 </option>
+                <option value="2"> 2 </option>
+                <option value="3"> 3 </option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="name">¿ Su nombre ?</label><br>
+            <input id="name" name="name" required> 
+        </div>
 
-  
+        <div>
+            <label for="phone">¿ N° de movil ?</label><br>
+            <input id="phone" type="tel" name="phone" required>
+        </div>
+        
+        <div>
+            <button type="submit">Enviar mi reserva</button>
+        </div>
+    </div>        
+</form>
+<script>
+    const info = document.querySelector(".alert-info");
+    function process(event) {
+    event.preventDefault();
+
+    const phoneNumber = phoneInput.getNumber();
+    document.getElementById("phone").value = `${phoneNumber}<\/strong>`;
+    alert (phoneNumber);    
+    info.style.display = "";
+    info.innerHTML = `Phone E.164 format is: <strong>${phoneNumber}<\/strong>`;
+    }
+</script>
+
+<script>
+   const phoneInputField = document.querySelector("#phone");
+   const phoneInput = window.intlTelInput(phoneInputField, {
+     preferredCountries: ["gq", "fr"],  
+     utilsScript:
+       "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+   });
+ </script>
+
 <style>#neo-form input,#neo-form select{height:30px!important;width:100%}
     #neo-form button{background: red;}
     #neo-form{font-family:arial!important;color:black}  
@@ -306,72 +363,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .iti.iti--allow-dropdown{width:100%!important;}  
     #neo-form button{background: #383838;height:50px;width:100%;color: white;font-size: 15px;border: none;} 
     .iti__country-name{color:black;}
-    #neo-form{padding:35 px;background:#428bca;display:grid; grid-gap:10 px; color:white; border-radius:10 px; margin-top:10 px;box-shadow:1px 1px 10px grey;}
-    @media screen and (min-width:600px){#neo-form{grid-template-columns:1fr 1fr}}</style>      
-
-<form id="booking" action="https://getform.io/f/d0ab0519-94e1-445d-90f9-72fb93febc04" method="POST" onsubmit="process(event)">       
-    <div id="neo-form">    
-        <div id="date">
-            <label for="date">¿Para que fecha?</label><br>
-            <input id="date" type="date" name="date" required>
-        </div>
-        <div>
-            <label for="hour">¿A que hora?</label><br>
-            <select id="hour" name="hour" required>                
-                <option value="12:00">12:00</option>
-                <option value="12:30">12:30</option>
-                <option value="13:00">13:00</option>
-            </select>
-        </div> 
-        <div>
-            <label for="pax">¿Para cuantas personas?</label><br>
-            <select id="pax" name="pax" required>                
-                <option value="1"> 1 </option>
-                <option value="2"> 2 </option>
-                <option value="3"> 3 </option>
-            </select>
-        </div>
-        
-        <div>
-            <label for="name">¿A que nombre?</label><br>
-            <input id="name" name="name" required> 
-        </div>
-
-        <div>
-            <label for="phone">Su N° de móvil</label><br>
-            <input id="phone" type="tel" name="phone" required>
-        </div>
-        <div class="alert alert-info" style="display: none;"></div>
-
-        <div>
-            <button type="submit">Enviar mi solicitud de reserva</button>
-        </div>
-    </div>        
-</form>
-
-
-<script>
-    const info = document.querySelector(".alert-info");
-    function process(event) {
-    event.preventDefault();
-
-    const phoneNumber = phoneInput.getNumber();
-    document.getElementById("phone").value = `${phoneNumber}<\/strong>`;
-    alert (phoneNumber);    
-    info.style.display = "";
-    info.innerHTML = `Phone E.164 format is: <strong>${phoneNumber}<\/strong>`;
-    }
-</script> 
- 
-<script>
-   const phoneInputField = document.querySelector("#phone");
-   const phoneInput = window.intlTelInput(phoneInputField, {
-     preferredCountries: ["gq", "fr"],  
-     utilsScript:
-       "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-   });
- </script>
- 
+    #neo-form{padding:35 px;background:#428bca;display:grid; grid-gap:10px; color:white; border-radius:10px; margin-top:10px;box-shadow:1px 1px 10px grey;}
+    @media screen and (min-width:600px){#neo-form{grid-template-columns:1fr 1fr}}</style>  
+</div>
 </div></div>
 </div></div>
 
@@ -398,7 +392,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="Grid-Box" class="wp-block-group all-grid-pc-5"><div class="wp-block-group__inner-container">
 <div id="Grid-Content" class="wp-block-group"><div class="wp-block-group__inner-container">
 <div id="Grid-Title" class="wp-block-group all-grid-gz-3"><div class="wp-block-group__inner-container">
-<p>v25</p>
+<p>v26</p>
 </div></div>
 </div></div>
 </div></div>
