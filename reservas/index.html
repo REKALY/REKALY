@@ -300,7 +300,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
  
  
-<form id="booking" action="https://getform.io/f/d0ab0519-94e1-445d-90f9-72fb93febc04" method="POST">       
+<form id="booking" action="https://getform.io/f/d0ab0519-94e1-445d-90f9-72fb93febc04" method="POST" onsubmit="process(event)">         
     <div id="neo-form">    
         <div id="date">
             <label for="date">¿ En que fecha ?</label><br>
@@ -330,7 +330,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <div>
             <label for="phone">¿ N° de movil ?</label><br>
-            <input id="phone" type="tel" name="phone" required>
+            <input id="phone" type="tel" minlength="9" name="phone" required>
         </div>
         
         <div>
@@ -338,18 +338,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>        
 </form>
-<script>
-    const info = document.querySelector(".alert-info");
-    function process(event) {
-    event.preventDefault();
-
-    const phoneNumber = phoneInput.getNumber();
-    document.getElementById("phone").value = `${phoneNumber}<\/strong>`;
-    alert (phoneNumber);    
-    info.style.display = "";
-    info.innerHTML = `Phone E.164 format is: <strong>${phoneNumber}<\/strong>`;
+<script>    
+    function process() {
+        const phoneNumber = phoneInput.getNumber();
+        document.getElementById("phone").value = `${phoneNumber}`;
+        return true;
     }
-</script>
+</script> 
 
 <script>
    const phoneInputField = document.querySelector("#phone");
