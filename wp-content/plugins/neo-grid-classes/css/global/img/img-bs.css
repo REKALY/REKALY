@@ -1,0 +1,76 @@
+/** all-row */
+.all-img-bs-0 .wp-block-image img .wp-block-image img {box-shadow: none!important;}
+.all-img-bs-1 .wp-block-image img {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.all-img-bs-2 .wp-block-image img {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.all-img-bs-3 .wp-block-image img {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.all-img-bs-4 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.all-img-bs-5 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.all-img-bs-6 .wp-block-image img {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.all-img-bs-7 .wp-block-image img {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.all-img-bs-8 .wp-block-image img {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.all-img-bs-9 .wp-block-image img {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+/** xs-row */
+@media screen and (max-width:640px){  
+.xs-img-bs-0 .wp-block-image img {box-shadow: none;}
+.xs-img-bs-1 .wp-block-image img {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.xs-img-bs-2 .wp-block-image img {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.xs-img-bs-3 .wp-block-image img {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.xs-img-bs-4 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.xs-img-bs-5 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.xs-img-bs-6 .wp-block-image img {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.xs-img-bs-7 .wp-block-image img {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.xs-img-bs-8 .wp-block-image img {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.xs-img-bs-9 .wp-block-image img {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}
+/** s-row */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-img-bs-0 .wp-block-image img {box-shadow: none;}
+.s-img-bs-1 .wp-block-image img {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.s-img-bs-2 .wp-block-image img {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.s-img-bs-3 .wp-block-image img {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.s-img-bs-4 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.s-img-bs-5 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.s-img-bs-6 .wp-block-image img {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.s-img-bs-7 .wp-block-image img {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.s-img-bs-8 .wp-block-image img {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.s-img-bs-9 .wp-block-image img {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}
+/** m-row */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-img-bs-0 .wp-block-image img {box-shadow: none;}
+.m-img-bs-1 .wp-block-image img {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.m-img-bs-2 .wp-block-image img {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.m-img-bs-3 .wp-block-image img {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.m-img-bs-4 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.m-img-bs-5 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.m-img-bs-6 .wp-block-image img {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.m-img-bs-7 .wp-block-image img {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.m-img-bs-8 .wp-block-image img {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.m-img-bs-9 .wp-block-image img {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}
+/** l-row */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-img-bs-0 .wp-block-image img {box-shadow: none;}
+.l-img-bs-1 .wp-block-image img {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.l-img-bs-2 .wp-block-image img {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.l-img-bs-3 .wp-block-image img {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.l-img-bs-4 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.l-img-bs-5 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.l-img-bs-6 .wp-block-image img {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.l-img-bs-7 .wp-block-image img {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.l-img-bs-8 .wp-block-image img {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.l-img-bs-9 .wp-block-image img {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}
+/** xl-row */
+@media screen and (min-width:1281px){      
+.xl-img-bs-0 .wp-block-image img {box-shadow: none;}
+.xl-img-bs-1 .wp-block-image img {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+.xl-img-bs-2 .wp-block-image img {box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);}
+.xl-img-bs-3 .wp-block-image img {box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+.xl-img-bs-4 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);}
+.xl-img-bs-5 .wp-block-image img {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
+.xl-img-bs-6 .wp-block-image img {box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);}
+.xl-img-bs-7 .wp-block-image img {box-shadow: 0 30px 35px -5px rgba(0, 0, 0, 0.1), 0 20px 20px -5px rgba(0, 0, 0, 0.04);}
+.xl-img-bs-8 .wp-block-image img {box-shadow: 0 40px 45px -5px rgba(0, 0, 0, 0.1), 0 30px 30px -5px rgba(0, 0, 0, 0.04);}
+.xl-img-bs-9 .wp-block-image img {box-shadow: 0 50px 50px -5px rgba(0, 0, 0, 0.1), 0 40px 40px -5px rgba(0, 0, 0, 0.04);}
+}

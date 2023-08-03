@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/*
+Theme Name: ZenSite
+Theme URI: https://zenresto.com
+Author: zenresto.com
+Description: Modern and elegant Wordpress Theme for Restaurants build with the fast CSS Zengrid Framework
+Version: 1.0.0
+Text Domain: zensite
+*/
+
+/* =Reset
+-----------------------------------------------------------------------------*/
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/* =VARS CSS
+-----------------------------------------------------------------------------*/
+
+:root {
+	--neo-global-bg-color:#f4f4f4;
+	--neo-global-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	--neo-global-txt-margin: 0.7rem 1.5rem;
+	--neo-global-font-size-h1: 2.50rem;
+	--neo-global-font-size-h2: 2.25rem;
+	--neo-global-font-size-h3: 2rem;
+	--neo-global-font-size-h4: 1.75rem;
+	--neo-global-font-size-h5: 1.50rem;
+	--neo-global-font-size-h6: 1.25rem;
+	--neo-global-font-size-p: 1rem;
+	--neo-global-line-height-p: 1.5rem;
+	--neo-global-line-height-h: normal;
+}
+html,body{
+	background: var(--neo-global-bg-color);
+}
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{
+	font-family: var(--neo-global-font-family);	
+	color: inherit;	
+}
+
+h1,h2,h3,h4,h5,h6, h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.has-background, h6.has-background {
+	margin: inherit;	
+	line-height: inherit!important;	
+	
+}
+.editor-styles-wrapper p {
+    font-size: inherit;
+    line-height: inherit;
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+/**
+h1{	font-size: var(--neo-global-font-size-h1);}
+h2{	font-size: var(--neo-global-font-size-h2);}
+h3{	font-size: var(--neo-global-font-size-h3);}
+h4{	font-size: var(--neo-global-font-size-h4);}
+h5{	font-size: var(--neo-global-font-size-h5);}
+h6{	font-size: var(--neo-global-font-size-h6);}
+*/
+
+a, .wp-block-button__link a {
+    font-size: inherit;
+	text-decoration: inherit;
+	text-underline-position: under;
+    color: inherit;
+	background: none;
+	font-size: inherit;
+}
+.wp-block-button__link a {
+    font-size: inherit;
+}
+a:hover{
+	color: inherit;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+.wp-block-social-links {
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax(35px, auto) );
+	justify-content: center;    
+	grid-gap: 1rem;
+	margin: 0!important;
+	padding: var(--neo-global-txt-margin);	
+}
+.wp-block-social-links .wp-social-link{
+	margin: 0!important;
+}
+.wp-block-buttons{padding: var(--neo-global-txt-margin)!important;}
+.wp-block-buttons .wp-block-button {
+    display: inline-block;
+    margin-right: .5em;
+    margin-bottom: initial;	
+    font-family: var(--neo-global-font-family);	
+}
+.wp-block-cover-image .wp-block-subhead:not(.has-text-color), .wp-block-cover-image h1:not(.has-text-color), .wp-block-cover-image h2:not(.has-text-color), .wp-block-cover-image h3:not(.has-text-color), .wp-block-cover-image h4:not(.has-text-color), .wp-block-cover-image h5:not(.has-text-color), .wp-block-cover-image h6:not(.has-text-color), .wp-block-cover-image p:not(.has-text-color), .wp-block-cover .wp-block-subhead:not(.has-text-color), .wp-block-cover h1:not(.has-text-color), .wp-block-cover h2:not(.has-text-color), .wp-block-cover h3:not(.has-text-color), .wp-block-cover h4:not(.has-text-color), .wp-block-cover h5:not(.has-text-color), .wp-block-cover h6:not(.has-text-color), .wp-block-cover p:not(.has-text-color) {
+    color: inherit;
+}
+/**COVER*/
+.wp-block-cover {
+    margin: inherit;
+    padding: inherit;
+}
+p.has-background {
+	padding: inherit;
+	margin: inherit;
+}
+.wp-block-image {
+  display: grid!important;
+  margin: 0;
+}

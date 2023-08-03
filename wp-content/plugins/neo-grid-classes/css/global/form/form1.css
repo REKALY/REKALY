@@ -1,0 +1,43 @@
+/** all */
+#gridform1 {
+    display: grid;
+    grid-gap:15px;
+    grid-template-columns: 1fr 1fr;
+}
+#gridform1 input,
+#gridform1 textarea,
+#gridform1 select {
+    padding: 10px;
+    border-radius: 7px!important;
+    width: 100%;
+    height: 100%;   
+    border: 1px solid #c3c3c3; 
+}
+#gridform1 input[type="submit"] {
+    display: grid;
+    background: #2196f3;
+    color: white;
+    border: none;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: inherit;
+}
+@media screen and (max-width:640px){  
+
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

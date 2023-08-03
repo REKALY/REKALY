@@ -1,0 +1,57 @@
+/** all */
+.all-rows-vh-0 > div {grid-auto-rows:initial;}
+.all-rows-vh-20 > div {grid-auto-rows:20vh;}
+.all-rows-vh-25 > div {grid-auto-rows:25vh;} 
+.all-rows-vh-33 > div {grid-auto-rows:33.33vh;} 
+.all-rows-vh-50 > div {grid-auto-rows:50vh;}
+.all-rows-vh-75 > div {grid-auto-rows:75vh;}
+.all-rows-vh-100 > div {grid-auto-rows:100vh;}
+ /** xs */
+@media screen and (max-width:640px){  
+.xs-rows-vh-0 > div {grid-auto-rows:initial;}
+.xs-rows-vh-20 > div {grid-auto-rows:20vh;}
+.xs-rows-vh-25 > div {grid-auto-rows:25vh;} 
+.xs-rows-vh-33 > div {grid-auto-rows:33.33vh;} 
+.xs-rows-vh-50 > div {grid-auto-rows:50vh;}
+.xs-rows-vh-75 > div {grid-auto-rows:75vh;}
+.xs-rows-vh-100 > div {grid-auto-rows:100vh;}
+}
+/** s */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-rows-vh-0 > div {grid-auto-rows:initial;}
+.xs-rows-vh-20 > div {grid-auto-rows:20vh;}
+.s-rows-vh-25 > div {grid-auto-rows:25vh;} 
+.s-rows-vh-33 > div {grid-auto-rows:33.33vh;} 
+.s-rows-vh-50 > div {grid-auto-rows:50vh;}
+.s-rows-vh-75 > div {grid-auto-rows:75vh;}
+.s-rows-vh-100 > div {grid-auto-rows:100vh;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-rows-vh-0 > div {grid-auto-rows:initial;}
+.m-rows-vh-20 > div {grid-auto-rows:20vh;}
+.m-rows-vh-25 > div {grid-auto-rows:25vh;} 
+.m-rows-vh-33 > div {grid-auto-rows:33.33vh;} 
+.m-rows-vh-50 > div {grid-auto-rows:50vh;}
+.m-rows-vh-75 > div {grid-auto-rows:75vh;}
+.m-rows-vh-100 > div {grid-auto-rows:100vh;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-rows-vh-0 > div {grid-auto-rows:initial;}
+.l-rows-vh-20 > div {grid-auto-rows:20vh;}
+.l-rows-vh-25 > div {grid-auto-rows:25vh;} 
+.l-rows-vh-33 > div {grid-auto-rows:33.33vh;} 
+.l-rows-vh-50 > div {grid-auto-rows:50vh;}
+.l-rows-vh-75 > div {grid-auto-rows:75vh;}
+.l-rows-vh-100 > div {grid-auto-rows:100vh;}
+/** xl */
+@media screen and (min-width:1281px){  
+.xl-rows-vh-0 > div {grid-auto-rows:initial;}
+.xl-rows-vh-20 > div {grid-auto-rows:20vh;}
+.xl-rows-vh-25 > div {grid-auto-rows:25vh;} 
+.xl-rows-vh-33 > div {grid-auto-rows:33.33vh;} 
+.xl-rows-vh-50 > div {grid-auto-rows:50vh;}
+.xl-rows-vh-75 > div {grid-auto-rows:75vh;}
+.xl-rows-vh-100 > div {grid-auto-rows:100vh;}
+}

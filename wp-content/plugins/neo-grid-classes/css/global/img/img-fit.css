@@ -1,0 +1,22 @@
+/** all */
+.all-img-fit-cover .wp-block-image img{object-fit:cover;width:100%;height:100%;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-img-fit-cover .wp-block-image img{object-fit:cover;width:100%;height:100%;}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-img-fit-cover .wp-block-image img{object-fit:cover;width:100%;height:100%;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-img-fit-cover .wp-block-image img{object-fit:cover;width:100%;height:100%;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-img-fit-cover .wp-block-image img{object-fit:cover;width:100%;height:100%;}
+}
+/** xl */
+@media screen and (min-width:1281px){      
+.xl-img-fit-cover .wp-block-image img{object-fit:cover;width:100%;height:100%;}
+}

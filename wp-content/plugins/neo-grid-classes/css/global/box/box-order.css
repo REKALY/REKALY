@@ -1,0 +1,76 @@
+/** all */
+.all-box-order-1 {order:1;}
+.all-box-order-2 {order:2;}
+.all-box-order-3 {order:3;}
+.all-box-order-4 {order:4;}
+.all-box-order-5 {order:5;}
+.all-box-order-6 {order:6;}
+.all-box-order-7 {order:7;}
+.all-box-order-8 {order:8;}
+.all-box-order-9 {order:9;}
+.all-box-order-10 {order:10;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-box-order-1 {order:1;}
+.xs-box-order-2 {order:2;}
+.xs-box-order-3 {order:3;}
+.xs-box-order-4 {order:4;}
+.xs-box-order-5 {order:5;}
+.xs-box-order-6 {order:6;}
+.xs-box-order-7 {order:7;}
+.xs-box-order-8 {order:8;}
+.xs-box-order-9 {order:9;}
+.xs-box-order-10 {order:10;}
+}
+/** s */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-box-order-1 {order:1;}
+.s-box-order-2 {order:2;}
+.s-box-order-3 {order:3;}
+.s-box-order-4 {order:4;}
+.s-box-order-5 {order:5;}
+.s-box-order-6 {order:6;}
+.s-box-order-7 {order:7;}
+.s-box-order-8 {order:8;}
+.s-box-order-9 {order:9;}
+.s-box-order-10 {order:10;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-box-order-1 {order:1;}
+.m-box-order-2 {order:2;}
+.m-box-order-3 {order:3;}
+.m-box-order-4 {order:4;}
+.m-box-order-5 {order:5;}
+.m-box-order-6 {order:6;}
+.m-box-order-7 {order:7;}
+.m-box-order-8 {order:8;}
+.m-box-order-9 {order:9;}
+.m-box-order-10 {order:10;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-box-order-1 {order:1;}
+.l-box-order-2 {order:2;}
+.l-box-order-3 {order:3;}
+.l-box-order-4 {order:4;}
+.l-box-order-5 {order:5;}
+.l-box-order-6 {order:6;}
+.l-box-order-7 {order:7;}
+.l-box-order-8 {order:8;}
+.l-box-order-9 {order:9;}
+.l-box-order-10 {order:10;}
+}
+/** xl */
+@media screen and (min-width:1281px){      
+.xl-box-order-1 {order:1;}
+.xl-box-order-2 {order:2;}
+.xl-box-order-3 {order:3;}
+.xl-box-order-4 {order:4;}
+.xl-box-order-5 {order:5;}
+.xl-box-order-6 {order:6;}
+.xl-box-order-7 {order:7;}
+.xl-box-order-8 {order:8;}
+.xl-box-order-9 {order:9;}
+.xl-box-order-10 {order:10;}
+}

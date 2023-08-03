@@ -1,0 +1,162 @@
+/*Initalize Variables No Adjustments*/
+:root {
+    --blur:0px;
+    --contrast:100%;
+    --brightness:100%;
+    --grayscale:0%;
+    --huerotate:0deg;
+    --saturate:100%;
+    --sepia:0%;
+}
+/** all */
+.apply-box-filter > div{
+    backdrop-filter: blur(var(--blur)) contrast(var(--contrast)) brightness(var(--brightness)) grayscale(var(--grayscale)) hue-rotate(var(--huerotate)) saturate(var(--saturate)) sepia(var(--sepia));
+    -webkit-backdrop-filter: blur(var(--blur)) contrast(var(--contrast)) brightness(var(--brightness)) grayscale(var(--grayscale)) hue-rotate(var(--huerotate)) saturate(var(--saturate)) sepia(var(--sepia));
+    -moz-backdrop-filter: blur(var(--blur)) contrast(var(--contrast)) brightness(var(--brightness)) grayscale(var(--grayscale)) hue-rotate(var(--huerotate)) saturate(var(--saturate)) sepia(var(--sepia));
+}
+.all-box-blur-0  > div {--blur:0px;}
+.all-box-blur-1  > div {--blur:1px;}
+.all-box-blur-2  > div {--blur:3px;}
+.all-box-blur-3  > div {--blur:5px;}
+.all-box-blur-4  > div {--blur:7px;}
+.all-box-blur-5  > div {--blur:9px;}
+.all-box-blur-6  > div {--blur:11px;}
+.all-box-blur-7  > div {--blur:13px;}
+.all-box-blur-8  > div {--blur:15px;}
+.all-box-blur-9  > div {--blur:17px;}
+.all-box-blur-10  > div {--blur:19px;}
+
+.all-box-contrast-0  > div {--contrast:1;}
+.all-box-contrast-1  > div {--contrast:1.1;}
+.all-box-contrast-2  > div {--contrast:1.2;}
+.all-box-contrast-3  > div {--contrast:1.3;}
+.all-box-contrast-4  > div {--contrast:1.4;}
+.all-box-contrast-5  > div {--contrast:1.5;}
+.all-box-contrast-6  > div {--contrast:1.6;}
+.all-box-contrast-7  > div {--contrast:1.7;}
+.all-box-contrast-8  > div {--contrast:1.8;}
+.all-box-contrast-9  > div {--contrast:1.9;}
+.all-box-contrast-10  > div {--contrast:2;}
+
+.all-box-brightness-1  > div {--brightness:1.1;}
+.all-box-brightness-2  > div {--brightness:1.2;}
+.all-box-brightness-3  > div {--brightness:1.3;}
+.all-box-brightness-4  > div {--brightness:1.4;}
+.all-box-brightness-5  > div {--brightness:1.5;}
+.all-box-brightness-6  > div {--brightness:1.6;}
+.all-box-brightness-7  > div {--brightness:1.7;}
+.all-box-brightness-8  > div {--brightness:1.8;}
+.all-box-brightness-9  > div {--brightness:1.9;}
+.all-box-brightness-10  > div {--brightness:2;}
+
+.all-box-grayscale-0  > div {--grayscale:0;}
+.all-box-grayscale-1  > div {--grayscale:0.1;}
+.all-box-grayscale-2  > div {--grayscale:0.2;}
+.all-box-grayscale-3  > div {--grayscale:0.3;}
+.all-box-grayscale-4  > div {--grayscale:0.4;}
+.all-box-grayscale-5  > div {--grayscale:0.5;}
+.all-box-grayscale-6  > div {--grayscale:0.6;}
+.all-box-grayscale-7  > div {--grayscale:0.7;}
+.all-box-grayscale-8  > div {--grayscale:0.8;}
+.all-box-grayscale-9  > div {--grayscale:0.9;}
+.all-box-grayscale-10  > div {--grayscale:1;}
+
+.all-box-huerotate-0  > div {--huerotate:0;}
+.all-box-huerotate-1  > div {--huerotate:10deg;}
+.all-box-huerotate-2  > div {--huerotate:20deg;}
+.all-box-huerotate-3  > div {--huerotate:30deg;}
+.all-box-huerotate-4  > div {--huerotate:40deg;}
+.all-box-huerotate-5  > div {--huerotate:50deg;}
+.all-box-huerotate-6  > div {--huerotate:60deg;}
+.all-box-huerotate-7  > div {--huerotate:70deg;}
+.all-box-huerotate-8  > div {--huerotate:80deg;}
+.all-box-huerotate-9  > div {--huerotate:90deg;}
+.all-box-huerotate-10  > div {--huerotate:100deg;}
+.all-box-huerotate-11  > div {--huerotate:110deg;}
+.all-box-huerotate-12  > div {--huerotate:120deg;}
+.all-box-huerotate-13  > div {--huerotate:130deg;}
+.all-box-huerotate-14  > div {--huerotate:140deg;}
+.all-box-huerotate-15  > div {--huerotate:150deg;}
+.all-box-huerotate-16  > div {--huerotate:160deg;}
+.all-box-huerotate-17  > div {--huerotate:170deg;}
+.all-box-huerotate-18  > div {--huerotate:180deg;}
+.all-box-huerotate-19  > div {--huerotate:190deg;}
+.all-box-huerotate-20  > div {--huerotate:200deg;}
+.all-box-huerotate-21  > div {--huerotate:210deg;}
+.all-box-huerotate-22  > div {--huerotate:220deg;}
+.all-box-huerotate-23  > div {--huerotate:230deg;}
+.all-box-huerotate-24  > div {--huerotate:240deg;}
+.all-box-huerotate-25  > div {--huerotate:250deg;}
+.all-box-huerotate-26  > div {--huerotate:260deg;}
+.all-box-huerotate-27  > div {--huerotate:270deg;}
+.all-box-huerotate-28  > div {--huerotate:280deg;}
+.all-box-huerotate-29  > div {--huerotate:290deg;}
+.all-box-huerotate-30  > div {--huerotate:300deg;}
+.all-box-huerotate-31  > div {--huerotate:310deg;}
+.all-box-huerotate-32  > div {--huerotate:320deg;}
+.all-box-huerotate-33  > div {--huerotate:330deg;}
+.all-box-huerotate-34  > div {--huerotate:340deg;}
+.all-box-huerotate-35  > div {--huerotate:350deg;}
+.all-box-huerotate-36  > div {--huerotate:360deg;}
+
+.all-box-saturate-0  > div {--saturate:1;}
+.all-box-saturate-1  > div {--saturate:0.1;}
+.all-box-saturate-2  > div {--saturate:0.2;}
+.all-box-saturate-3  > div {--saturate:0.3;}
+.all-box-saturate-4  > div {--saturate:0.4;}
+.all-box-saturate-5  > div {--saturate:0.5;}
+.all-box-saturate-6  > div {--saturate:0.6;}
+.all-box-saturate-7  > div {--saturate:0.7;}
+.all-box-saturate-8  > div {--saturate:0.8;}
+.all-box-saturate-9  > div {--saturate:0.9;}
+.all-box-saturate-10  > div {--saturate:1;}
+.all-box-saturate-11  > div {--saturate:1.1;}
+.all-box-saturate-12  > div {--saturate:1.2;}
+.all-box-saturate-13  > div {--saturate:1.3;}
+.all-box-saturate-14  > div {--saturate:1.4;}
+.all-box-saturate-15  > div {--saturate:1.5;}
+.all-box-saturate-16  > div {--saturate:1.6;}
+.all-box-saturate-17  > div {--saturate:1.7;}
+.all-box-saturate-18  > div {--saturate:1.8;}
+.all-box-saturate-19  > div {--saturate:1.9;}
+.all-box-saturate-20  > div {--saturate:2;}
+
+.all-box-sepia-0  > div {--sepia:0;}
+.all-box-sepia-1  > div {--sepia:0.1;}
+.all-box-sepia-2  > div {--sepia:0.2;}
+.all-box-sepia-3  > div {--sepia:0.3;}
+.all-box-sepia-4  > div {--sepia:0.4;}
+.all-box-sepia-5  > div {--sepia:0.5;}
+.all-box-sepia-6  > div {--sepia:0.6;}
+.all-box-sepia-7  > div {--sepia:0.7;}
+.all-box-sepia-8  > div {--sepia:0.8;}
+.all-box-sepia-9  > div {--sepia:0.9;}
+.all-box-sepia-10  > div {--sepia:1;}
+
+/** xs */
+@media screen and (max-width:640px){  
+
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}
+
+/* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .apply-box-filter > div{
+    background-color: rgba(255, 255, 255, .8);
+  }
+}

@@ -1,0 +1,60 @@
+
+/*Initalize Variables */
+:root {
+    --line-clamp:unset;
+}
+/** all */
+.all-p-lc-1{--line-clamp:1;}
+.all-p-lc-2{--line-clamp:2;}
+.all-p-lc-3{--line-clamp:3;}
+.all-p-lc-4{--line-clamp:4;}
+.all-p-lc-5{--line-clamp:5;}
+.all-p-lc-6{--line-clamp:6;}
+.all-p-lc-7{--line-clamp:7;}
+.all-p-lc-8{--line-clamp:8;}
+.all-p-lc-9{--line-clamp:9;}
+.all-p-lc-10{--line-clamp:10;}
+
+.apply-line-clamp p{
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp);
+    -webkit-box-orient: vertical;  
+    overflow: hidden;  
+}
+
+/** xs */
+@media screen and (max-width:640px){  
+.xs-p-lc-1{--line-clamp:1;}
+.xs-p-lc-2{--line-clamp:2;}
+.xs-p-lc-3{--line-clamp:3;}
+.xs-p-lc-4{--line-clamp:4;}
+.xs-p-lc-5{--line-clamp:5;}
+.xs-p-lc-6{--line-clamp:6;}
+.xs-p-lc-7{--line-clamp:7;}
+.xs-p-lc-8{--line-clamp:8;}
+.xs-p-lc-9{--line-clamp:9;}
+.xs-p-lc-10{--line-clamp:10;}
+
+.apply-line-clamp p{
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp);
+    -webkit-box-orient: vertical;  
+    overflow: hidden;  
+}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

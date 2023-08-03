@@ -1,0 +1,20 @@
+
+/*Initalize Variables */
+:root {
+    --grid-gap:0px;
+}
+/** all */
+.all-items-gz-0 {--grid-gap:0px;}
+.all-items-gz-1 {--grid-gap:1px;}
+.all-items-gz-2 {--grid-gap:0.390625rem;}
+.all-items-gz-3 {--grid-gap:0.78125rem;}
+.all-items-gz-4 {--grid-gap:1.171875rem;}
+.all-items-gz-5 {--grid-gap:1.5625rem;}
+.all-items-gz-6 {--grid-gap:1.953125rem;}
+.all-items-gz-7 {--grid-gap:2.34375rem;}
+.all-items-gz-8 {--grid-gap:2.734375rem;}
+.all-items-gz-9 {--grid-gap:3.515625rem;}
+
+.apply-gap > div {
+    grid-gap: var(--grid-gap);
+}

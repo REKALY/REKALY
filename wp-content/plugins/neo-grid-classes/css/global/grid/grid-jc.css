@@ -1,0 +1,28 @@
+/** all */
+.all-grid-jc-1 > div{justify-content:start;}
+.all-grid-jc-2 > div{justify-content:center;}
+.all-grid-jc-3 > div{justify-content:end;}
+.all-grid-jc-4 > div{justify-content:space-between;}
+.all-grid-jc-5 > div{justify-content:space-around;}
+.all-grid-jc-6 > div{justify-content:space-evenly;}
+.all-grid-jc-7 > div{justify-content:stretch;}
+/** xs */
+@media screen and (max-width:640px){  
+
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}
