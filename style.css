@@ -3,7 +3,7 @@ p#date-es {
     padding: 15px;
     font-family: system-ui;
     font-size: 20px;
-    max-width: 200px;
+    max-width: auto;
 }
 div#yKaVLBO {
     place-items: center!important;
