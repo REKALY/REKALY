@@ -1,1 +1,7 @@
-style
+p#date-es {
+    background: yellow;
+    padding: 15px;
+    font-family: system-ui;
+    font-size: 20px;
+    max-width: 200px;
+}
