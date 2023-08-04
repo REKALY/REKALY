@@ -4,7 +4,7 @@ function setSpanishDate(elementId) {
   let year = today.getFullYear();
   let monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
   let month = monthNames[today.getMonth()]; // Months are 0-indexed in JavaScript.
-  let dateStr = day + " " + month + " " + year;
+  let dateStr = "Hoy " + day + " de " + month + " " + year;
   document.getElementById(elementId).innerText = dateStr;
 }
 setSpanishDate("date-es");
