@@ -1,0 +1,113 @@
+
+/*Initalize Variables */
+:root {
+    --background-color:255 255 255;
+    --background-opacity: 100%;
+}
+/** all */
+
+.all-grid-bgc-white  {--background-color:255 255 255;}
+.all-grid-bgc-black  {--background-color:0 0 0;}
+.all-grid-bgc-transparent {--background-color:transparent;}
+.all-grid-bgc-grey1  {--background-color:249 250 251;}
+.all-grid-bgc-grey2  {--background-color:243 244 246;}
+.all-grid-bgc-grey3  {--background-color:229 231 235;}
+.all-grid-bgc-grey4  {--background-color:209 213 219;}
+.all-grid-bgc-grey5  {--background-color:156 163 175;}
+.all-grid-bgc-grey6  {--background-color:107 114 128;}
+.all-grid-bgc-grey7  {--background-color:75 85 99;}
+.all-grid-bgc-grey8  {--background-color:55 65 81;}
+.all-grid-bgc-grey9  {--background-color:31 41 55;}
+.all-grid-bgc-grey10  {--background-color:17 24 39;}
+
+.all-grid-bgc-red1  {--background-color:254 242 242;}
+.all-grid-bgc-red2  {--background-color:254 226 226;}
+.all-grid-bgc-red3  {--background-color:254 202 202;}
+.all-grid-bgc-red4  {--background-color:252 165 165;}
+.all-grid-bgc-red5  {--background-color:248 113 113;}
+.all-grid-bgc-red6  {--background-color:239 68 68;}
+.all-grid-bgc-red7  {--background-color:220 38 38;}
+.all-grid-bgc-red8  {--background-color:185 28 28;}
+.all-grid-bgc-red9  {--background-color:153 27 27;}
+.all-grid-bgc-red10  {--background-color:127 29 29;}
+
+.all-grid-bgc-yellow1  {--background-color:255 251 235;}
+.all-grid-bgc-yellow2  {--background-color:254 243 199;}
+.all-grid-bgc-yellow3  {--background-color:253 230 138;}
+.all-grid-bgc-yellow4  {--background-color:252 211 77;}
+.all-grid-bgc-yellow5  {--background-color:251 191 36;}
+.all-grid-bgc-yellow6  {--background-color:245 158 11;}
+.all-grid-bgc-yellow7  {--background-color:217 119 6;}
+.all-grid-bgc-yellow8  {--background-color:180 83 9;}
+.all-grid-bgc-yellow9  {--background-color:146 64 14;}
+.all-grid-bgc-yellow10  {--background-color:120 53 15;}
+
+.all-grid-bgc-green1  {--background-color:236 253 245;}
+.all-grid-bgc-green2  {--background-color:209 250 229;}
+.all-grid-bgc-green3  {--background-color:167 243 208;}
+.all-grid-bgc-green4  {--background-color:110 231 183;}
+.all-grid-bgc-green5  {--background-color:52 211 153;}
+.all-grid-bgc-green6  {--background-color:16 185 129;}
+.all-grid-bgc-green7  {--background-color:5 150 105;}
+.all-grid-bgc-green8  {--background-color:4 120 87;}
+.all-grid-bgc-green9  {--background-color:6 95 70;}
+.all-grid-bgc-green10  {--background-color:6 78 59;}
+
+.all-grid-bgc-blue1  {--background-color:239 246 255;}
+.all-grid-bgc-blue2  {--background-color:219 234 254;}
+.all-grid-bgc-blue3  {--background-color:191 219 254;}
+.all-grid-bgc-blue4  {--background-color:147 197 253;}
+.all-grid-bgc-blue5  {--background-color:96 165 250;}
+.all-grid-bgc-blue6  {--background-color:59 130 246;}
+.all-grid-bgc-blue7  {--background-color:37 99 235;}
+.all-grid-bgc-blue8  {--background-color:29 78 216;}
+.all-grid-bgc-blue9  {--background-color:30 64 175;}
+.all-grid-bgc-blue10  {--background-color:30 58 138;}
+
+.all-grid-bgc-indigo1  {--background-color:238 242 255;}
+.all-grid-bgc-indigo2  {--background-color:224 231 255;}
+.all-grid-bgc-indigo3  {--background-color:199 210 254;}
+.all-grid-bgc-indigo4  {--background-color:165 180 252;}
+.all-grid-bgc-indigo5  {--background-color:129 140 248;}
+.all-grid-bgc-indigo6  {--background-color:99 102 241;}
+.all-grid-bgc-indigo7  {--background-color:79 70 229;}
+.all-grid-bgc-indigo8  {--background-color:67 56 202;}
+.all-grid-bgc-indigo9  {--background-color:55 48 163;}
+.all-grid-bgc-indigo10  {--background-color:49 46 129;}
+
+.all-grid-bgc-purple1  {--background-color:245 243 255;}
+.all-grid-bgc-purple2  {--background-color:237 233 254;}
+.all-grid-bgc-purple3  {--background-color:221 214 254;}
+.all-grid-bgc-purple4  {--background-color:196 181 253;}
+.all-grid-bgc-purple5  {--background-color:167 139 250;}
+.all-grid-bgc-purple6  {--background-color:139 92 246;}
+.all-grid-bgc-purple7  {--background-color:124 58 237;}
+.all-grid-bgc-purple8  {--background-color:109 40 217;}
+.all-grid-bgc-purple9  {--background-color:91 33 182;}
+.all-grid-bgc-purple10  {--background-color:76 29 149;}
+
+.all-grid-bgc-pink1  {--background-color:253 242 248;}
+.all-grid-bgc-pink2  {--background-color:252 231 243;}
+.all-grid-bgc-pink3  {--background-color:251 207 232;}
+.all-grid-bgc-pink4  {--background-color:249 168 212;}
+.all-grid-bgc-pink5  {--background-color:244 114 182;}
+.all-grid-bgc-pink6  {--background-color:236 72 153;}
+.all-grid-bgc-pink7  {--background-color:219 39 119;}
+.all-grid-bgc-pink8  {--background-color:190 24 93;}
+.all-grid-bgc-pink9  {--background-color:157 23 77;}
+.all-grid-bgc-pink10  {--background-color:131 24 67;}
+
+.all-grid-bgo-1 {--background-opacity:10%;}
+.all-grid-bgo-2 {--background-opacity:20%;}
+.all-grid-bgo-3 {--background-opacity:30%;}
+.all-grid-bgo-4 {--background-opacity:40%;}
+.all-grid-bgo-5 {--background-opacity:50%;}
+.all-grid-bgo-6 {--background-opacity:60%;}
+.all-grid-bgo-7 {--background-opacity:70%;}
+.all-grid-bgo-8 {--background-opacity:80%;}
+.all-grid-bgo-9 {--background-opacity:90%;}
+.all-grid-bgo-10 {--background-opacity:100%;}
+
+.apply-color {
+   background-color: rgb( var(--background-color) / var(--background-opacity) );
+}

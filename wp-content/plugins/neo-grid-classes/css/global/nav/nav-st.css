@@ -1,0 +1,152 @@
+/**POSITION*/
+.all-nav-pos-abs{
+    position: absolute;
+    z-index: 2;    
+}
+.all-nav-pos-fix{
+    position: fixed;
+    z-index: 10;    
+}
+.all-nav-pos-rel{
+    position: relative;
+    z-index: 1;    
+}
+/**WIDTH & HEIGHT*/
+.all-nav-wh-70px{
+    height: 70px;
+    max-height: 70px;
+    width: 70px;
+    max-width: 70px;
+}
+.all-nav-wh-80px{
+    height: 80px;
+    max-height: 89px;
+    width: 80px;
+    max-width: 80px;
+}
+.all-nav-wh-90px{
+    height: 90px;
+    max-height: 90px;
+    width: 90px;
+    max-width: 90px;
+}
+.all-nav-wh-100px{
+    height: 100px;
+    max-height: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+.all-logo-w-300px{
+    width: 100%;
+    max-width: 300px!important;
+    
+}
+.all-logo-top-center{
+    top: 10px;
+    left: calc(50% - 150px)!important;
+}
+.all-logo-top-left{
+    top: 10px;
+    left:10px;
+}
+/**TOP & RIGHT*/
+.all-nav-tr-0px{
+    top:0px;
+    right:0px;
+}
+.all-nav-tr-10px{
+    top:10px;
+    right:10px;
+}
+.all-nav-tr-20px{
+    top:20px;
+    right:20px;
+}
+.all-nav-tr-30px{
+    top:30px;
+    right:30px;
+}
+/**BOTTOM & RIGHT*/
+.all-nav-brz-0px{
+    bottom:0px;
+    right:0px;
+}
+.all-nav-brz-10px{
+    bottom:10px;
+    right:10px;
+}
+.all-nav-brz-20px{
+    bottom:20px;
+    right:20px;
+}
+.all-nav-brz-30px{
+    bottom:30px;
+    right:30px;
+}
+/**BOTTOM & LEFT*/
+.all-nav-bl-0px{
+    bottom:0px;
+    left:0px;
+}
+.all-nav-bl-10px{
+    bottom:10px;
+    left:10px;
+}
+.all-nav-bl-20px{
+    bottom:20px;
+    left:20px;
+}
+.all-nav-bl-30px{
+    bottom:30px;
+    left:30px;
+}
+/**BOTTOM & CENTER*/
+.all-nav-bottom-center{
+    bottom: 10px;
+    left: calc(50% - 40px)!important;
+}
+.all-nav-bottom-left{
+    bottom: 10px;
+    left:10px;
+}
+.all-nav-top-left{
+    bottom: 10px;
+    left:10px;
+}
+.all-nav-top-right{
+    top: 10px;
+    right:10px;
+}
+
+.all-nav-left-100px{
+    margin-left:100px!important;
+}
+/** NAV GRID*/
+.all-nav-auto-100px > div{
+    grid-template-columns: auto 100px;
+    grid-template-rows: 100px;   
+}
+.all-nav-100px-auto > div{
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px;   
+}
+.all-nav-auto-75px > div{
+    grid-template-columns: auto 75px;
+    grid-template-rows: 75px;   
+}
+/** BORDER*/
+.all-nav-br-50pct{
+    border-radius:50%!important;    
+}
+.all-nav-br-5px{
+    border-radius:5px!important;    
+}
+.all-nav-br-10px{
+    border-radius:10px!important;    
+}
+.all-nav-br-10px{
+    border-radius:10px!important;    
+}
+.all-nav-br-20px{
+    border-radius:20px!important;    
+}

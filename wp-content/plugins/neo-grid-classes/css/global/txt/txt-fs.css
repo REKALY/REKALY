@@ -1,0 +1,142 @@
+/** all */
+.all-txt-fs-0 h1, .all-txt-fs-0 h2, .all-txt-fs-0 h3 , .all-txt-fs-0 h4 , .all-txt-fs-0 h5 , .all-txt-fs-0 h6 , .all-txt-fs-0 p {font-size: var(--neo-fs-0)!important;}
+.all-txt-fs-1 h1, .all-txt-fs-1 h2, .all-txt-fs-1 h3 , .all-txt-fs-1 h4 , .all-txt-fs-1 h5 , .all-txt-fs-1 h6 , .all-txt-fs-1 p {font-size: var(--neo-fs-1)!important;}
+.all-txt-fs-2 h1, .all-txt-fs-2 h2, .all-txt-fs-2 h3 , .all-txt-fs-2 h4 , .all-txt-fs-2 h5 , .all-txt-fs-2 h6 , .all-txt-fs-2 p {font-size: var(--neo-fs-2)!important;}
+.all-txt-fs-3 h1, .all-txt-fs-3 h2, .all-txt-fs-3 h3 , .all-txt-fs-3 h4 , .all-txt-fs-3 h5 , .all-txt-fs-3 h6 , .all-txt-fs-3 p {font-size: var(--neo-fs-3)!important;}
+.all-txt-fs-4 h1, .all-txt-fs-4 h2, .all-txt-fs-4 h3 , .all-txt-fs-4 h4 , .all-txt-fs-4 h5 , .all-txt-fs-4 h6 , .all-txt-fs-4 p {font-size: var(--neo-fs-4)!important;}
+.all-txt-fs-5 h1, .all-txt-fs-5 h2, .all-txt-fs-5 h3 , .all-txt-fs-5 h4 , .all-txt-fs-5 h5 , .all-txt-fs-5 h6 , .all-txt-fs-5 p {font-size: var(--neo-fs-5)!important;}
+.all-txt-fs-6 h1, .all-txt-fs-6 h2, .all-txt-fs-6 h3 , .all-txt-fs-6 h4 , .all-txt-fs-6 h5 , .all-txt-fs-6 h6 , .all-txt-fs-6 p {font-size: var(--neo-fs-6)!important;}
+.all-txt-fs-7 h1, .all-txt-fs-7 h2, .all-txt-fs-7 h3 , .all-txt-fs-7 h4 , .all-txt-fs-7 h5 , .all-txt-fs-7 h6 , .all-txt-fs-7 p {font-size: var(--neo-fs-7)!important;}
+.all-txt-fs-8 h1, .all-txt-fs-8 h2, .all-txt-fs-8 h3 , .all-txt-fs-8 h4 , .all-txt-fs-8 h5 , .all-txt-fs-8 h6 , .all-txt-fs-8 p {font-size: var(--neo-fs-8)!important;}
+.all-txt-fs-9 h1, .all-txt-fs-9 h2, .all-txt-fs-9 h3 , .all-txt-fs-9 h4 , .all-txt-fs-9 h5 , .all-txt-fs-9 h6 , .all-txt-fs-9 p {font-size: var(--neo-fs-9)!important;}
+.all-txt-fs-10 h1, .all-txt-fs-10 h2, .all-txt-fs-10 h3 , .all-txt-fs-10 h4 , .all-txt-fs-10 h5 , .all-txt-fs-10 h6 , .all-txt-fs-10 p {font-size: var(--neo-fs-10)!important;}
+.all-txt-fs-11 h1, .all-txt-fs-11 h2, .all-txt-fs-11 h3 , .all-txt-fs-11 h4 , .all-txt-fs-11 h5 , .all-txt-fs-11 h6 , .all-txt-fs-11 p {font-size: var(--neo-fs-11)!important;}
+.all-txt-fs-12 h1, .all-txt-fs-12 h2, .all-txt-fs-12 h3 , .all-txt-fs-12 h4 , .all-txt-fs-12 h5 , .all-txt-fs-12 h6 , .all-txt-fs-12 p {font-size: var(--neo-fs-12)!important;}
+.all-txt-fs-13 h1, .all-txt-fs-13 h2, .all-txt-fs-13 h3 , .all-txt-fs-13 h4 , .all-txt-fs-13 h5 , .all-txt-fs-13 h6 , .all-txt-fs-13 p {font-size: var(--neo-fs-13)!important;}
+.all-txt-fs-14 h1, .all-txt-fs-14 h2, .all-txt-fs-14 h3 , .all-txt-fs-14 h4 , .all-txt-fs-14 h5 , .all-txt-fs-14 h6 , .all-txt-fs-14 p {font-size: var(--neo-fs-14)!important;}
+.all-txt-fs-15 h1, .all-txt-fs-15 h2, .all-txt-fs-15 h3 , .all-txt-fs-15 h4 , .all-txt-fs-15 h5 , .all-txt-fs-15 h6 , .all-txt-fs-15 p {font-size: var(--neo-fs-15)!important;}
+.all-txt-fs-16 h1, .all-txt-fs-16 h2, .all-txt-fs-16 h3 , .all-txt-fs-16 h4 , .all-txt-fs-16 h5 , .all-txt-fs-16 h6 , .all-txt-fs-16 p {font-size: var(--neo-fs-16)!important;}
+.all-txt-fs-17 h1, .all-txt-fs-17 h2, .all-txt-fs-17 h3 , .all-txt-fs-17 h4 , .all-txt-fs-17 h5 , .all-txt-fs-17 h6 , .all-txt-fs-17 p {font-size: var(--neo-fs-17)!important;}
+.all-txt-fs-18 h1, .all-txt-fs-18 h2, .all-txt-fs-18 h3 , .all-txt-fs-18 h4 , .all-txt-fs-18 h5 , .all-txt-fs-18 h6 , .all-txt-fs-18 p {font-size: var(--neo-fs-18)!important;}
+.all-txt-fs-19 h1, .all-txt-fs-19 h2, .all-txt-fs-19 h3 , .all-txt-fs-19 h4 , .all-txt-fs-19 h5 , .all-txt-fs-19 h6 , .all-txt-fs-19 p {font-size: var(--neo-fs-19)!important;}
+.all-txt-fs-20 h1, .all-txt-fs-20 h2, .all-txt-fs-20 h3 , .all-txt-fs-20 h4 , .all-txt-fs-20 h5 , .all-txt-fs-20 h6 , .all-txt-fs-20 p {font-size: var(--neo-fs-20)!important;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-txt-fs-0 h1, .xs-txt-fs-0 h2, .xs-txt-fs-0 h3 , .xs-txt-fs-0 h4 , .xs-txt-fs-0 h5 , .xs-txt-fs-0 h6 , .xs-txt-fs-0 p {font-size: var(--neo-fs-0)!important;}
+.xs-txt-fs-1 h1, .xs-txt-fs-1 h2, .xs-txt-fs-1 h3 , .xs-txt-fs-1 h4 , .xs-txt-fs-1 h5 , .xs-txt-fs-1 h6 , .xs-txt-fs-1 p {font-size: var(--neo-fs-1)!important;}
+.xs-txt-fs-2 h1, .xs-txt-fs-2 h2, .xs-txt-fs-2 h3 , .xs-txt-fs-2 h4 , .xs-txt-fs-2 h5 , .xs-txt-fs-2 h6 , .xs-txt-fs-2 p {font-size: var(--neo-fs-2)!important;}
+.xs-txt-fs-3 h1, .xs-txt-fs-3 h2, .xs-txt-fs-3 h3 , .xs-txt-fs-3 h4 , .xs-txt-fs-3 h5 , .xs-txt-fs-3 h6 , .xs-txt-fs-3 p {font-size: var(--neo-fs-3)!important;}
+.xs-txt-fs-4 h1, .xs-txt-fs-4 h2, .xs-txt-fs-4 h3 , .xs-txt-fs-4 h4 , .xs-txt-fs-4 h5 , .xs-txt-fs-4 h6 , .xs-txt-fs-4 p {font-size: var(--neo-fs-4)!important;}
+.xs-txt-fs-5 h1, .xs-txt-fs-5 h2, .xs-txt-fs-5 h3 , .xs-txt-fs-5 h4 , .xs-txt-fs-5 h5 , .xs-txt-fs-5 h6 , .xs-txt-fs-5 p {font-size: var(--neo-fs-5)!important;}
+.xs-txt-fs-6 h1, .xs-txt-fs-6 h2, .xs-txt-fs-6 h3 , .xs-txt-fs-6 h4 , .xs-txt-fs-6 h5 , .xs-txt-fs-6 h6 , .xs-txt-fs-6 p {font-size: var(--neo-fs-6)!important;}
+.xs-txt-fs-7 h1, .xs-txt-fs-7 h2, .xs-txt-fs-7 h3 , .xs-txt-fs-7 h4 , .xs-txt-fs-7 h5 , .xs-txt-fs-7 h6 , .xs-txt-fs-7 p {font-size: var(--neo-fs-7)!important;}
+.xs-txt-fs-8 h1, .xs-txt-fs-8 h2, .xs-txt-fs-8 h3 , .xs-txt-fs-8 h4 , .xs-txt-fs-8 h5 , .xs-txt-fs-8 h6 , .xs-txt-fs-8 p {font-size: var(--neo-fs-8)!important;}
+.xs-txt-fs-9 h1, .xs-txt-fs-9 h2, .xs-txt-fs-9 h3 , .xs-txt-fs-9 h4 , .xs-txt-fs-9 h5 , .xs-txt-fs-9 h6 , .xs-txt-fs-9 p {font-size: var(--neo-fs-9)!important;}
+.xs-txt-fs-10 h1, .xs-txt-fs-10 h2, .xs-txt-fs-10 h3 , .xs-txt-fs-10 h4 , .xs-txt-fs-10 h5 , .xs-txt-fs-10 h6 , .xs-txt-fs-10 p {font-size: var(--neo-fs-10)!important;}
+.xs-txt-fs-11 h1, .xs-txt-fs-11 h2, .xs-txt-fs-11 h3 , .xs-txt-fs-11 h4 , .xs-txt-fs-11 h5 , .xs-txt-fs-11 h6 , .xs-txt-fs-11 p {font-size: var(--neo-fs-11)!important;}
+.xs-txt-fs-12 h1, .xs-txt-fs-12 h2, .xs-txt-fs-12 h3 , .xs-txt-fs-12 h4 , .xs-txt-fs-12 h5 , .xs-txt-fs-12 h6 , .xs-txt-fs-12 p {font-size: var(--neo-fs-12)!important;}
+.xs-txt-fs-13 h1, .xs-txt-fs-13 h2, .xs-txt-fs-13 h3 , .xs-txt-fs-13 h4 , .xs-txt-fs-13 h5 , .xs-txt-fs-13 h6 , .xs-txt-fs-13 p {font-size: var(--neo-fs-13)!important;}
+.xs-txt-fs-14 h1, .xs-txt-fs-14 h2, .xs-txt-fs-14 h3 , .xs-txt-fs-14 h4 , .xs-txt-fs-14 h5 , .xs-txt-fs-14 h6 , .xs-txt-fs-14 p {font-size: var(--neo-fs-14)!important;}
+.xs-txt-fs-15 h1, .xs-txt-fs-15 h2, .xs-txt-fs-15 h3 , .xs-txt-fs-15 h4 , .xs-txt-fs-15 h5 , .xs-txt-fs-15 h6 , .xs-txt-fs-15 p {font-size: var(--neo-fs-15)!important;}
+.xs-txt-fs-16 h1, .xs-txt-fs-16 h2, .xs-txt-fs-16 h3 , .xs-txt-fs-16 h4 , .xs-txt-fs-16 h5 , .xs-txt-fs-16 h6 , .xs-txt-fs-16 p {font-size: var(--neo-fs-16)!important;}
+.xs-txt-fs-17 h1, .xs-txt-fs-17 h2, .xs-txt-fs-17 h3 , .xs-txt-fs-17 h4 , .xs-txt-fs-17 h5 , .xs-txt-fs-17 h6 , .xs-txt-fs-17 p {font-size: var(--neo-fs-17)!important;}
+.xs-txt-fs-18 h1, .xs-txt-fs-18 h2, .xs-txt-fs-18 h3 , .xs-txt-fs-18 h4 , .xs-txt-fs-18 h5 , .xs-txt-fs-18 h6 , .xs-txt-fs-18 p {font-size: var(--neo-fs-18)!important;}
+.xs-txt-fs-19 h1, .xs-txt-fs-19 h2, .xs-txt-fs-19 h3 , .xs-txt-fs-19 h4 , .xs-txt-fs-19 h5 , .xs-txt-fs-19 h6 , .xs-txt-fs-19 p {font-size: var(--neo-fs-19)!important;}
+.xs-txt-fs-20 h1, .xs-txt-fs-20 h2, .xs-txt-fs-20 h3 , .xs-txt-fs-20 h4 , .xs-txt-fs-20 h5 , .xs-txt-fs-20 h6 , .xs-txt-fs-20 p {font-size: var(--neo-fs-20)!important;}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-txt-fs-0 h1, .s-txt-fs-0 h2, .s-txt-fs-0 h3 , .s-txt-fs-0 h4 , .s-txt-fs-0 h5 , .s-txt-fs-0 h6 , .s-txt-fs-0 p {font-size: var(--neo-fs-0)!important;}
+.s-txt-fs-1 h1, .s-txt-fs-1 h2, .s-txt-fs-1 h3 , .s-txt-fs-1 h4 , .s-txt-fs-1 h5 , .s-txt-fs-1 h6 , .s-txt-fs-1 p {font-size: var(--neo-fs-1)!important;}
+.s-txt-fs-2 h1, .s-txt-fs-2 h2, .s-txt-fs-2 h3 , .s-txt-fs-2 h4 , .s-txt-fs-2 h5 , .s-txt-fs-2 h6 , .s-txt-fs-2 p {font-size: var(--neo-fs-2)!important;}
+.s-txt-fs-3 h1, .s-txt-fs-3 h2, .s-txt-fs-3 h3 , .s-txt-fs-3 h4 , .s-txt-fs-3 h5 , .s-txt-fs-3 h6 , .s-txt-fs-3 p {font-size: var(--neo-fs-3)!important;}
+.s-txt-fs-4 h1, .s-txt-fs-4 h2, .s-txt-fs-4 h3 , .s-txt-fs-4 h4 , .s-txt-fs-4 h5 , .s-txt-fs-4 h6 , .s-txt-fs-4 p {font-size: var(--neo-fs-4)!important;}
+.s-txt-fs-5 h1, .s-txt-fs-5 h2, .s-txt-fs-5 h3 , .s-txt-fs-5 h4 , .s-txt-fs-5 h5 , .s-txt-fs-5 h6 , .s-txt-fs-5 p {font-size: var(--neo-fs-5)!important;}
+.s-txt-fs-6 h1, .s-txt-fs-6 h2, .s-txt-fs-6 h3 , .s-txt-fs-6 h4 , .s-txt-fs-6 h5 , .s-txt-fs-6 h6 , .s-txt-fs-6 p {font-size: var(--neo-fs-6)!important;}
+.s-txt-fs-7 h1, .s-txt-fs-7 h2, .s-txt-fs-7 h3 , .s-txt-fs-7 h4 , .s-txt-fs-7 h5 , .s-txt-fs-7 h6 , .s-txt-fs-7 p {font-size: var(--neo-fs-7)!important;}
+.s-txt-fs-8 h1, .s-txt-fs-8 h2, .s-txt-fs-8 h3 , .s-txt-fs-8 h4 , .s-txt-fs-8 h5 , .s-txt-fs-8 h6 , .s-txt-fs-8 p {font-size: var(--neo-fs-8)!important;}
+.s-txt-fs-9 h1, .s-txt-fs-9 h2, .s-txt-fs-9 h3 , .s-txt-fs-9 h4 , .s-txt-fs-9 h5 , .s-txt-fs-9 h6 , .s-txt-fs-9 p {font-size: var(--neo-fs-9)!important;}
+.s-txt-fs-10 h1, .s-txt-fs-10 h2, .s-txt-fs-10 h3 , .s-txt-fs-10 h4 , .s-txt-fs-10 h5 , .s-txt-fs-10 h6 , .s-txt-fs-10 p {font-size: var(--neo-fs-10)!important;}
+.s-txt-fs-11 h1, .s-txt-fs-11 h2, .s-txt-fs-11 h3 , .s-txt-fs-11 h4 , .s-txt-fs-11 h5 , .s-txt-fs-11 h6 , .s-txt-fs-11 p {font-size: var(--neo-fs-11)!important;}
+.s-txt-fs-12 h1, .s-txt-fs-12 h2, .s-txt-fs-12 h3 , .s-txt-fs-12 h4 , .s-txt-fs-12 h5 , .s-txt-fs-12 h6 , .s-txt-fs-12 p {font-size: var(--neo-fs-12)!important;}
+.s-txt-fs-13 h1, .s-txt-fs-13 h2, .s-txt-fs-13 h3 , .s-txt-fs-13 h4 , .s-txt-fs-13 h5 , .s-txt-fs-13 h6 , .s-txt-fs-13 p {font-size: var(--neo-fs-13)!important;}
+.s-txt-fs-14 h1, .s-txt-fs-14 h2, .s-txt-fs-14 h3 , .s-txt-fs-14 h4 , .s-txt-fs-14 h5 , .s-txt-fs-14 h6 , .s-txt-fs-14 p {font-size: var(--neo-fs-14)!important;}
+.s-txt-fs-15 h1, .s-txt-fs-15 h2, .s-txt-fs-15 h3 , .s-txt-fs-15 h4 , .s-txt-fs-15 h5 , .s-txt-fs-15 h6 , .s-txt-fs-15 p {font-size: var(--neo-fs-15)!important;}
+.s-txt-fs-16 h1, .s-txt-fs-16 h2, .s-txt-fs-16 h3 , .s-txt-fs-16 h4 , .s-txt-fs-16 h5 , .s-txt-fs-16 h6 , .s-txt-fs-16 p {font-size: var(--neo-fs-16)!important;}
+.s-txt-fs-17 h1, .s-txt-fs-17 h2, .s-txt-fs-17 h3 , .s-txt-fs-17 h4 , .s-txt-fs-17 h5 , .s-txt-fs-17 h6 , .s-txt-fs-17 p {font-size: var(--neo-fs-17)!important;}
+.s-txt-fs-18 h1, .s-txt-fs-18 h2, .s-txt-fs-18 h3 , .s-txt-fs-18 h4 , .s-txt-fs-18 h5 , .s-txt-fs-18 h6 , .s-txt-fs-18 p {font-size: var(--neo-fs-18)!important;}
+.s-txt-fs-19 h1, .s-txt-fs-19 h2, .s-txt-fs-19 h3 , .s-txt-fs-19 h4 , .s-txt-fs-19 h5 , .s-txt-fs-19 h6 , .s-txt-fs-19 p {font-size: var(--neo-fs-19)!important;}
+.s-txt-fs-20 h1, .s-txt-fs-20 h2, .s-txt-fs-20 h3 , .s-txt-fs-20 h4 , .s-txt-fs-20 h5 , .s-txt-fs-20 h6 , .s-txt-fs-20 p {font-size: var(--neo-fs-20)!important;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-txt-fs-0 h1, .m-txt-fs-0 h2, .m-txt-fs-0 h3 , .m-txt-fs-0 h4 , .m-txt-fs-0 h5 , .m-txt-fs-0 h6 , .m-txt-fs-0 p {font-size: var(--neo-fs-0)!important;}
+.m-txt-fs-1 h1, .m-txt-fs-1 h2, .m-txt-fs-1 h3 , .m-txt-fs-1 h4 , .m-txt-fs-1 h5 , .m-txt-fs-1 h6 , .m-txt-fs-1 p {font-size: var(--neo-fs-1)!important;}
+.m-txt-fs-2 h1, .m-txt-fs-2 h2, .m-txt-fs-2 h3 , .m-txt-fs-2 h4 , .m-txt-fs-2 h5 , .m-txt-fs-2 h6 , .m-txt-fs-2 p {font-size: var(--neo-fs-2)!important;}
+.m-txt-fs-3 h1, .m-txt-fs-3 h2, .m-txt-fs-3 h3 , .m-txt-fs-3 h4 , .m-txt-fs-3 h5 , .m-txt-fs-3 h6 , .m-txt-fs-3 p {font-size: var(--neo-fs-3)!important;}
+.m-txt-fs-4 h1, .m-txt-fs-4 h2, .m-txt-fs-4 h3 , .m-txt-fs-4 h4 , .m-txt-fs-4 h5 , .m-txt-fs-4 h6 , .m-txt-fs-4 p {font-size: var(--neo-fs-4)!important;}
+.m-txt-fs-5 h1, .m-txt-fs-5 h2, .m-txt-fs-5 h3 , .m-txt-fs-5 h4 , .m-txt-fs-5 h5 , .m-txt-fs-5 h6 , .m-txt-fs-5 p {font-size: var(--neo-fs-5)!important;}
+.m-txt-fs-6 h1, .m-txt-fs-6 h2, .m-txt-fs-6 h3 , .m-txt-fs-6 h4 , .m-txt-fs-6 h5 , .m-txt-fs-6 h6 , .m-txt-fs-6 p {font-size: var(--neo-fs-6)!important;}
+.m-txt-fs-7 h1, .m-txt-fs-7 h2, .m-txt-fs-7 h3 , .m-txt-fs-7 h4 , .m-txt-fs-7 h5 , .m-txt-fs-7 h6 , .m-txt-fs-7 p {font-size: var(--neo-fs-7)!important;}
+.m-txt-fs-8 h1, .m-txt-fs-8 h2, .m-txt-fs-8 h3 , .m-txt-fs-8 h4 , .m-txt-fs-8 h5 , .m-txt-fs-8 h6 , .m-txt-fs-8 p {font-size: var(--neo-fs-8)!important;}
+.m-txt-fs-9 h1, .m-txt-fs-9 h2, .m-txt-fs-9 h3 , .m-txt-fs-9 h4 , .m-txt-fs-9 h5 , .m-txt-fs-9 h6 , .m-txt-fs-9 p {font-size: var(--neo-fs-9)!important;}
+.m-txt-fs-10 h1, .m-txt-fs-10 h2, .m-txt-fs-10 h3 , .m-txt-fs-10 h4 , .m-txt-fs-10 h5 , .m-txt-fs-10 h6 , .m-txt-fs-10 p {font-size: var(--neo-fs-10)!important;}
+.m-txt-fs-11 h1, .m-txt-fs-11 h2, .m-txt-fs-11 h3 , .m-txt-fs-11 h4 , .m-txt-fs-11 h5 , .m-txt-fs-11 h6 , .m-txt-fs-11 p {font-size: var(--neo-fs-11)!important;}
+.m-txt-fs-12 h1, .m-txt-fs-12 h2, .m-txt-fs-12 h3 , .m-txt-fs-12 h4 , .m-txt-fs-12 h5 , .m-txt-fs-12 h6 , .m-txt-fs-12 p {font-size: var(--neo-fs-12)!important;}
+.m-txt-fs-13 h1, .m-txt-fs-13 h2, .m-txt-fs-13 h3 , .m-txt-fs-13 h4 , .m-txt-fs-13 h5 , .m-txt-fs-13 h6 , .m-txt-fs-13 p {font-size: var(--neo-fs-13)!important;}
+.m-txt-fs-14 h1, .m-txt-fs-14 h2, .m-txt-fs-14 h3 , .m-txt-fs-14 h4 , .m-txt-fs-14 h5 , .m-txt-fs-14 h6 , .m-txt-fs-14 p {font-size: var(--neo-fs-14)!important;}
+.m-txt-fs-15 h1, .m-txt-fs-15 h2, .m-txt-fs-15 h3 , .m-txt-fs-15 h4 , .m-txt-fs-15 h5 , .m-txt-fs-15 h6 , .m-txt-fs-15 p {font-size: var(--neo-fs-15)!important;}
+.m-txt-fs-16 h1, .m-txt-fs-16 h2, .m-txt-fs-16 h3 , .m-txt-fs-16 h4 , .m-txt-fs-16 h5 , .m-txt-fs-16 h6 , .m-txt-fs-16 p {font-size: var(--neo-fs-16)!important;}
+.m-txt-fs-17 h1, .m-txt-fs-17 h2, .m-txt-fs-17 h3 , .m-txt-fs-17 h4 , .m-txt-fs-17 h5 , .m-txt-fs-17 h6 , .m-txt-fs-17 p {font-size: var(--neo-fs-17)!important;}
+.m-txt-fs-18 h1, .m-txt-fs-18 h2, .m-txt-fs-18 h3 , .m-txt-fs-18 h4 , .m-txt-fs-18 h5 , .m-txt-fs-18 h6 , .m-txt-fs-18 p {font-size: var(--neo-fs-18)!important;}
+.m-txt-fs-19 h1, .m-txt-fs-19 h2, .m-txt-fs-19 h3 , .m-txt-fs-19 h4 , .m-txt-fs-19 h5 , .m-txt-fs-19 h6 , .m-txt-fs-19 p {font-size: var(--neo-fs-19)!important;}
+.m-txt-fs-20 h1, .m-txt-fs-20 h2, .m-txt-fs-20 h3 , .m-txt-fs-20 h4 , .m-txt-fs-20 h5 , .m-txt-fs-20 h6 , .m-txt-fs-20 p {font-size: var(--neo-fs-20)!important;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-txt-fs-0 h1, .l-txt-fs-0 h2, .l-txt-fs-0 h3 , .l-txt-fs-0 h4 , .l-txt-fs-0 h5 , .l-txt-fs-0 h6 , .l-txt-fs-0 p {font-size: var(--neo-fs-0)!important;}
+.l-txt-fs-1 h1, .l-txt-fs-1 h2, .l-txt-fs-1 h3 , .l-txt-fs-1 h4 , .l-txt-fs-1 h5 , .l-txt-fs-1 h6 , .l-txt-fs-1 p {font-size: var(--neo-fs-1)!important;}
+.l-txt-fs-2 h1, .l-txt-fs-2 h2, .l-txt-fs-2 h3 , .l-txt-fs-2 h4 , .l-txt-fs-2 h5 , .l-txt-fs-2 h6 , .l-txt-fs-2 p {font-size: var(--neo-fs-2)!important;}
+.l-txt-fs-3 h1, .l-txt-fs-3 h2, .l-txt-fs-3 h3 , .l-txt-fs-3 h4 , .l-txt-fs-3 h5 , .l-txt-fs-3 h6 , .l-txt-fs-3 p {font-size: var(--neo-fs-3)!important;}
+.l-txt-fs-4 h1, .l-txt-fs-4 h2, .l-txt-fs-4 h3 , .l-txt-fs-4 h4 , .l-txt-fs-4 h5 , .l-txt-fs-4 h6 , .l-txt-fs-4 p {font-size: var(--neo-fs-4)!important;}
+.l-txt-fs-5 h1, .l-txt-fs-5 h2, .l-txt-fs-5 h3 , .l-txt-fs-5 h4 , .l-txt-fs-5 h5 , .l-txt-fs-5 h6 , .l-txt-fs-5 p {font-size: var(--neo-fs-5)!important;}
+.l-txt-fs-6 h1, .l-txt-fs-6 h2, .l-txt-fs-6 h3 , .l-txt-fs-6 h4 , .l-txt-fs-6 h5 , .l-txt-fs-6 h6 , .l-txt-fs-6 p {font-size: var(--neo-fs-6)!important;}
+.l-txt-fs-7 h1, .l-txt-fs-7 h2, .l-txt-fs-7 h3 , .l-txt-fs-7 h4 , .l-txt-fs-7 h5 , .l-txt-fs-7 h6 , .l-txt-fs-7 p {font-size: var(--neo-fs-7)!important;}
+.l-txt-fs-8 h1, .l-txt-fs-8 h2, .l-txt-fs-8 h3 , .l-txt-fs-8 h4 , .l-txt-fs-8 h5 , .l-txt-fs-8 h6 , .l-txt-fs-8 p {font-size: var(--neo-fs-8)!important;}
+.l-txt-fs-9 h1, .l-txt-fs-9 h2, .l-txt-fs-9 h3 , .l-txt-fs-9 h4 , .l-txt-fs-9 h5 , .l-txt-fs-9 h6 , .l-txt-fs-9 p {font-size: var(--neo-fs-9)!important;}
+.l-txt-fs-10 h1, .l-txt-fs-10 h2, .l-txt-fs-10 h3 , .l-txt-fs-10 h4 , .l-txt-fs-10 h5 , .l-txt-fs-10 h6 , .l-txt-fs-10 p {font-size: var(--neo-fs-10)!important;}
+.l-txt-fs-11 h1, .l-txt-fs-11 h2, .l-txt-fs-11 h3 , .l-txt-fs-11 h4 , .l-txt-fs-11 h5 , .l-txt-fs-11 h6 , .l-txt-fs-11 p {font-size: var(--neo-fs-11)!important;}
+.l-txt-fs-12 h1, .l-txt-fs-12 h2, .l-txt-fs-12 h3 , .l-txt-fs-12 h4 , .l-txt-fs-12 h5 , .l-txt-fs-12 h6 , .l-txt-fs-12 p {font-size: var(--neo-fs-12)!important;}
+.l-txt-fs-13 h1, .l-txt-fs-13 h2, .l-txt-fs-13 h3 , .l-txt-fs-13 h4 , .l-txt-fs-13 h5 , .l-txt-fs-13 h6 , .l-txt-fs-13 p {font-size: var(--neo-fs-13)!important;}
+.l-txt-fs-14 h1, .l-txt-fs-14 h2, .l-txt-fs-14 h3 , .l-txt-fs-14 h4 , .l-txt-fs-14 h5 , .l-txt-fs-14 h6 , .l-txt-fs-14 p {font-size: var(--neo-fs-14)!important;}
+.l-txt-fs-15 h1, .l-txt-fs-15 h2, .l-txt-fs-15 h3 , .l-txt-fs-15 h4 , .l-txt-fs-15 h5 , .l-txt-fs-15 h6 , .l-txt-fs-15 p {font-size: var(--neo-fs-15)!important;}
+.l-txt-fs-16 h1, .l-txt-fs-16 h2, .l-txt-fs-16 h3 , .l-txt-fs-16 h4 , .l-txt-fs-16 h5 , .l-txt-fs-16 h6 , .l-txt-fs-16 p {font-size: var(--neo-fs-16)!important;}
+.l-txt-fs-17 h1, .l-txt-fs-17 h2, .l-txt-fs-17 h3 , .l-txt-fs-17 h4 , .l-txt-fs-17 h5 , .l-txt-fs-17 h6 , .l-txt-fs-17 p {font-size: var(--neo-fs-17)!important;}
+.l-txt-fs-18 h1, .l-txt-fs-18 h2, .l-txt-fs-18 h3 , .l-txt-fs-18 h4 , .l-txt-fs-18 h5 , .l-txt-fs-18 h6 , .l-txt-fs-18 p {font-size: var(--neo-fs-18)!important;}
+.l-txt-fs-19 h1, .l-txt-fs-19 h2, .l-txt-fs-19 h3 , .l-txt-fs-19 h4 , .l-txt-fs-19 h5 , .l-txt-fs-19 h6 , .l-txt-fs-19 p {font-size: var(--neo-fs-19)!important;}
+.l-txt-fs-20 h1, .l-txt-fs-20 h2, .l-txt-fs-20 h3 , .l-txt-fs-20 h4 , .l-txt-fs-20 h5 , .l-txt-fs-20 h6 , .l-txt-fs-20 p {font-size: var(--neo-fs-20)!important;}
+}
+/** xl */
+@media screen and (min-width:1281px){      
+.xl-txt-fs-0 h1, .xl-txt-fs-0 h2, .xl-txt-fs-0 h3 , .xl-txt-fs-0 h4 , .xl-txt-fs-0 h5 , .xl-txt-fs-0 h6 , .xl-txt-fs-0 p {font-size: var(--neo-fs-0)!important;}
+.xl-txt-fs-1 h1, .xl-txt-fs-1 h2, .xl-txt-fs-1 h3 , .xl-txt-fs-1 h4 , .xl-txt-fs-1 h5 , .xl-txt-fs-1 h6 , .xl-txt-fs-1 p {font-size: var(--neo-fs-1)!important;}
+.xl-txt-fs-2 h1, .xl-txt-fs-2 h2, .xl-txt-fs-2 h3 , .xl-txt-fs-2 h4 , .xl-txt-fs-2 h5 , .xl-txt-fs-2 h6 , .xl-txt-fs-2 p {font-size: var(--neo-fs-2)!important;}
+.xl-txt-fs-3 h1, .xl-txt-fs-3 h2, .xl-txt-fs-3 h3 , .xl-txt-fs-3 h4 , .xl-txt-fs-3 h5 , .xl-txt-fs-3 h6 , .xl-txt-fs-3 p {font-size: var(--neo-fs-3)!important;}
+.xl-txt-fs-4 h1, .xl-txt-fs-4 h2, .xl-txt-fs-4 h3 , .xl-txt-fs-4 h4 , .xl-txt-fs-4 h5 , .xl-txt-fs-4 h6 , .xl-txt-fs-4 p {font-size: var(--neo-fs-4)!important;}
+.xl-txt-fs-5 h1, .xl-txt-fs-5 h2, .xl-txt-fs-5 h3 , .xl-txt-fs-5 h4 , .xl-txt-fs-5 h5 , .xl-txt-fs-5 h6 , .xl-txt-fs-5 p {font-size: var(--neo-fs-5)!important;}
+.xl-txt-fs-6 h1, .xl-txt-fs-6 h2, .xl-txt-fs-6 h3 , .xl-txt-fs-6 h4 , .xl-txt-fs-6 h5 , .xl-txt-fs-6 h6 , .xl-txt-fs-6 p {font-size: var(--neo-fs-6)!important;}
+.xl-txt-fs-7 h1, .xl-txt-fs-7 h2, .xl-txt-fs-7 h3 , .xl-txt-fs-7 h4 , .xl-txt-fs-7 h5 , .xl-txt-fs-7 h6 , .xl-txt-fs-7 p {font-size: var(--neo-fs-7)!important;}
+.xl-txt-fs-8 h1, .xl-txt-fs-8 h2, .xl-txt-fs-8 h3 , .xl-txt-fs-8 h4 , .xl-txt-fs-8 h5 , .xl-txt-fs-8 h6 , .xl-txt-fs-8 p {font-size: var(--neo-fs-8)!important;}
+.xl-txt-fs-9 h1, .xl-txt-fs-9 h2, .xl-txt-fs-9 h3 , .xl-txt-fs-9 h4 , .xl-txt-fs-9 h5 , .xl-txt-fs-9 h6 , .xl-txt-fs-9 p {font-size: var(--neo-fs-9)!important;}
+.xl-txt-fs-10 h1, .xl-txt-fs-10 h2, .xl-txt-fs-10 h3 , .xl-txt-fs-10 h4 , .xl-txt-fs-10 h5 , .xl-txt-fs-10 h6 , .xl-txt-fs-10 p {font-size: var(--neo-fs-10)!important;}
+.xl-txt-fs-11 h1, .xl-txt-fs-11 h2, .xl-txt-fs-11 h3 , .xl-txt-fs-11 h4 , .xl-txt-fs-11 h5 , .xl-txt-fs-11 h6 , .xl-txt-fs-11 p {font-size: var(--neo-fs-11)!important;}
+.xl-txt-fs-12 h1, .xl-txt-fs-12 h2, .xl-txt-fs-12 h3 , .xl-txt-fs-12 h4 , .xl-txt-fs-12 h5 , .xl-txt-fs-12 h6 , .xl-txt-fs-12 p {font-size: var(--neo-fs-12)!important;}
+.xl-txt-fs-13 h1, .xl-txt-fs-13 h2, .xl-txt-fs-13 h3 , .xl-txt-fs-13 h4 , .xl-txt-fs-13 h5 , .xl-txt-fs-13 h6 , .xl-txt-fs-13 p {font-size: var(--neo-fs-13)!important;}
+.xl-txt-fs-14 h1, .xl-txt-fs-14 h2, .xl-txt-fs-14 h3 , .xl-txt-fs-14 h4 , .xl-txt-fs-14 h5 , .xl-txt-fs-14 h6 , .xl-txt-fs-14 p {font-size: var(--neo-fs-14)!important;}
+.xl-txt-fs-15 h1, .xl-txt-fs-15 h2, .xl-txt-fs-15 h3 , .xl-txt-fs-15 h4 , .xl-txt-fs-15 h5 , .xl-txt-fs-15 h6 , .xl-txt-fs-15 p {font-size: var(--neo-fs-15)!important;}
+.xl-txt-fs-16 h1, .xl-txt-fs-16 h2, .xl-txt-fs-16 h3 , .xl-txt-fs-16 h4 , .xl-txt-fs-16 h5 , .xl-txt-fs-16 h6 , .xl-txt-fs-16 p {font-size: var(--neo-fs-16)!important;}
+.xl-txt-fs-17 h1, .xl-txt-fs-17 h2, .xl-txt-fs-17 h3 , .xl-txt-fs-17 h4 , .xl-txt-fs-17 h5 , .xl-txt-fs-17 h6 , .xl-txt-fs-17 p {font-size: var(--neo-fs-17)!important;}
+.xl-txt-fs-18 h1, .xl-txt-fs-18 h2, .xl-txt-fs-18 h3 , .xl-txt-fs-18 h4 , .xl-txt-fs-18 h5 , .xl-txt-fs-18 h6 , .xl-txt-fs-18 p {font-size: var(--neo-fs-18)!important;}
+.xl-txt-fs-19 h1, .xl-txt-fs-19 h2, .xl-txt-fs-19 h3 , .xl-txt-fs-19 h4 , .xl-txt-fs-19 h5 , .xl-txt-fs-19 h6 , .xl-txt-fs-19 p {font-size: var(--neo-fs-19)!important;}
+.xl-txt-fs-20 h1, .xl-txt-fs-20 h2, .xl-txt-fs-20 h3 , .xl-txt-fs-20 h4 , .xl-txt-fs-20 h5 , .xl-txt-fs-20 h6 , .xl-txt-fs-20 p {font-size: var(--neo-fs-20)!important;}
+}

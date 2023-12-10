@@ -1,0 +1,28 @@
+/** all */
+.all-grid-ai-1 > div{align-content:start;}
+.all-grid-ai-2 > div{align-content:center;}
+.all-grid-ai-3 > div{align-content:end;}
+.all-grid-ai-4 > div{align-content:space-between;}
+.all-grid-ai-5 > div{align-content:space-around;}
+.all-grid-ai-6 > div{align-content:space-evenly;}
+.all-grid-ai-7 > div{align-content:stretch;}
+/** xs */
+@media screen and (max-width:640px){  
+
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

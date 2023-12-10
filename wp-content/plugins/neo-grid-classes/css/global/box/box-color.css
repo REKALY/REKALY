@@ -1,0 +1,113 @@
+
+/*Initalize Variables */
+:root {
+    --background-color:255 255 255;
+    --background-opacity: 100%;
+}
+/** all */
+
+.all-box-color-white  {--background-color:255 255 255;}
+.all-box-color-black  {--background-color:0 0 0;}
+.all-box-color-transparent {--background-color:transparent;}
+.all-box-color-grey1  {--background-color:249 250 251;}
+.all-box-color-grey2  {--background-color:243 244 246;}
+.all-box-color-grey3  {--background-color:229 231 235;}
+.all-box-color-grey4  {--background-color:209 213 219;}
+.all-box-color-grey5  {--background-color:156 163 175;}
+.all-box-color-grey6  {--background-color:107 114 128;}
+.all-box-color-grey7  {--background-color:75 85 99;}
+.all-box-color-grey8  {--background-color:55 65 81;}
+.all-box-color-grey9  {--background-color:31 41 55;}
+.all-box-color-grey10  {--background-color:17 24 39;}
+
+.all-box-color-red1  {--background-color:254 242 242;}
+.all-box-color-red2  {--background-color:254 226 226;}
+.all-box-color-red3  {--background-color:254 202 202;}
+.all-box-color-red4  {--background-color:252 165 165;}
+.all-box-color-red5  {--background-color:248 113 113;}
+.all-box-color-red6  {--background-color:239 68 68;}
+.all-box-color-red7  {--background-color:220 38 38;}
+.all-box-color-red8  {--background-color:185 28 28;}
+.all-box-color-red9  {--background-color:153 27 27;}
+.all-box-color-red10  {--background-color:127 29 29;}
+
+.all-box-color-yellow1  {--background-color:255 251 235;}
+.all-box-color-yellow2  {--background-color:254 243 199;}
+.all-box-color-yellow3  {--background-color:253 230 138;}
+.all-box-color-yellow4  {--background-color:252 211 77;}
+.all-box-color-yellow5  {--background-color:251 191 36;}
+.all-box-color-yellow6  {--background-color:245 158 11;}
+.all-box-color-yellow7  {--background-color:217 119 6;}
+.all-box-color-yellow8  {--background-color:180 83 9;}
+.all-box-color-yellow9  {--background-color:146 64 14;}
+.all-box-color-yellow10  {--background-color:120 53 15;}
+
+.all-box-color-green1  {--background-color:236 253 245;}
+.all-box-color-green2  {--background-color:209 250 229;}
+.all-box-color-green3  {--background-color:167 243 208;}
+.all-box-color-green4  {--background-color:110 231 183;}
+.all-box-color-green5  {--background-color:52 211 153;}
+.all-box-color-green6  {--background-color:16 185 129;}
+.all-box-color-green7  {--background-color:5 150 105;}
+.all-box-color-green8  {--background-color:4 120 87;}
+.all-box-color-green9  {--background-color:6 95 70;}
+.all-box-color-green10  {--background-color:6 78 59;}
+
+.all-box-color-blue1  {--background-color:239 246 255;}
+.all-box-color-blue2  {--background-color:219 234 254;}
+.all-box-color-blue3  {--background-color:191 219 254;}
+.all-box-color-blue4  {--background-color:147 197 253;}
+.all-box-color-blue5  {--background-color:96 165 250;}
+.all-box-color-blue6  {--background-color:59 130 246;}
+.all-box-color-blue7  {--background-color:37 99 235;}
+.all-box-color-blue8  {--background-color:29 78 216;}
+.all-box-color-blue9  {--background-color:30 64 175;}
+.all-box-color-blue10  {--background-color:30 58 138;}
+
+.all-box-color-indigo1  {--background-color:238 242 255;}
+.all-box-color-indigo2  {--background-color:224 231 255;}
+.all-box-color-indigo3  {--background-color:199 210 254;}
+.all-box-color-indigo4  {--background-color:165 180 252;}
+.all-box-color-indigo5  {--background-color:129 140 248;}
+.all-box-color-indigo6  {--background-color:99 102 241;}
+.all-box-color-indigo7  {--background-color:79 70 229;}
+.all-box-color-indigo8  {--background-color:67 56 202;}
+.all-box-color-indigo9  {--background-color:55 48 163;}
+.all-box-color-indigo10  {--background-color:49 46 129;}
+
+.all-box-color-purple1  {--background-color:245 243 255;}
+.all-box-color-purple2  {--background-color:237 233 254;}
+.all-box-color-purple3  {--background-color:221 214 254;}
+.all-box-color-purple4  {--background-color:196 181 253;}
+.all-box-color-purple5  {--background-color:167 139 250;}
+.all-box-color-purple6  {--background-color:139 92 246;}
+.all-box-color-purple7  {--background-color:124 58 237;}
+.all-box-color-purple8  {--background-color:109 40 217;}
+.all-box-color-purple9  {--background-color:91 33 182;}
+.all-box-color-purple10  {--background-color:76 29 149;}
+
+.all-box-color-pink1  {--background-color:253 242 248;}
+.all-box-color-pink2  {--background-color:252 231 243;}
+.all-box-color-pink3  {--background-color:251 207 232;}
+.all-box-color-pink4  {--background-color:249 168 212;}
+.all-box-color-pink5  {--background-color:244 114 182;}
+.all-box-color-pink6  {--background-color:236 72 153;}
+.all-box-color-pink7  {--background-color:219 39 119;}
+.all-box-color-pink8  {--background-color:190 24 93;}
+.all-box-color-pink9  {--background-color:157 23 77;}
+.all-box-color-pink10  {--background-color:131 24 67;}
+
+.all-box-opacity-1 {--background-opacity:10%;}
+.all-box-opacity-2 {--background-opacity:20%;}
+.all-box-opacity-3 {--background-opacity:30%;}
+.all-box-opacity-4 {--background-opacity:40%;}
+.all-box-opacity-5 {--background-opacity:50%;}
+.all-box-opacity-6 {--background-opacity:60%;}
+.all-box-opacity-7 {--background-opacity:70%;}
+.all-box-opacity-8 {--background-opacity:80%;}
+.all-box-opacity-9 {--background-opacity:90%;}
+.all-box-opacity-10 {--background-opacity:100%;}
+
+.apply-box-color{
+   background-color: rgb( var(--background-color) / var(--background-opacity) );
+}

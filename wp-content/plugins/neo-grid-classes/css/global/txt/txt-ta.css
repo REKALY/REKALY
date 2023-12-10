@@ -1,0 +1,28 @@
+/** all */
+.all-txt-ta-1 h1, .all-txt-ta-1 h2, .all-txt-ta-1 h3 , .all-txt-ta-1 h4 , .all-txt-ta-1 h5 , .all-txt-ta-1 h6 , .all-txt-ta-1 p {text-align:left!important;}
+.all-txt-ta-2 h1, .all-txt-ta-2 h2, .all-txt-ta-2 h3 , .all-txt-ta-2 h4 , .all-txt-ta-2 h5 , .all-txt-ta-2 h6 , .all-txt-ta-2 p {text-align:center!important;}
+.all-txt-ta-3 h1, .all-txt-ta-3 h2, .all-txt-ta-3 h3 , .all-txt-ta-3 h4 , .all-txt-ta-3 h5 , .all-txt-ta-3 h6 , .all-txt-ta-3 p {text-align:right!important;}
+.all-txt-ta-4 h1, .all-txt-ta-4 h2, .all-txt-ta-4 h3 , .all-txt-ta-4 h4 , .all-txt-ta-4 h5 , .all-txt-ta-4 h6 , .all-txt-ta-4 p {text-align:justify!important;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-txt-ta-1 h1, .xs-txt-ta-1 h2, .xs-txt-ta-1 h3 , .xs-txt-ta-1 h4 , .xs-txt-ta-1 h5 , .xs-txt-ta-1 h6 , .xs-txt-ta-1 p {text-align:left!important;}
+.xs-txt-ta-2 h1, .xs-txt-ta-2 h2, .xs-txt-ta-2 h3 , .xs-txt-ta-2 h4 , .xs-txt-ta-2 h5 , .xs-txt-ta-2 h6 , .xs-txt-ta-2 p {text-align:center!important;}
+.xs-txt-ta-3 h1, .xs-txt-ta-3 h2, .xs-txt-ta-3 h3 , .xs-txt-ta-3 h4 , .xs-txt-ta-3 h5 , .xs-txt-ta-3 h6 , .xs-txt-ta-3 p {text-align:right!important;}
+.xs-txt-ta-4 h1, .xs-txt-ta-4 h2, .xs-txt-ta-4 h3 , .xs-txt-ta-4 h4 , .xs-txt-ta-4 h5 , .xs-txt-ta-4 h6 , .xs-txt-ta-4 p {text-align:justify!important;}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

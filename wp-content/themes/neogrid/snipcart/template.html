@@ -1,0 +1,175 @@
+<div id="snipcart-templates">
+
+  <address-fields>
+        <div>
+            <fieldset class="snipcart-form__set">
+
+           <!--ZONE-->
+            <div class="snipcart-form__row">
+                <div class="snipcart-form__cell--large"> 	
+                <snipcart-label class="snipcart__font--tiny" for="zone">Zonas de entrega						
+                    <div class="tooltip"> ¿Ayuda?
+                        <span class="tooltiptext">Zonas ó lugares donde solo hacemos envios en la ciudad de Malabo</span>
+                    </div>
+                    
+                </snipcart-label>
+                <snipcart-select id="zone" type="dropdown" name="zone" required class="snipcart-form__select snipcart__icon  snipcart__font--secondary snipcart__font--bold">
+                    <option value="Caracolas">Malabo - Caracolas</option>
+                    <option value="Paraiso">Malabo - Paraiso</option>
+                    <option value="Centro">Malabo - Centro</option>
+              
+                </snipcart-select>
+                </div> 
+            </div>   
+            
+            <!--ADRESS1-->
+            <div class="snipcart-form__row">
+                <div class="snipcart-form__cell--large">
+                <snipcart-label class="snipcart__font--tiny" for="address1">{{ $localize('address_form.address1') }}
+                    <div class="tooltip"> ¿Ayuda?
+                        <span class="tooltiptext">
+                            Ponga su dirección detallada para poder llegar lo más rapido posible
+                        </span>
+                    </div>  
+                </snipcart-label>
+                <snipcart-input name="address1" required></snipcart-input>
+                <snipcart-error-message name="address1"></snipcart-error-message>
+                </div>
+            </div>  
+
+            <!--NAME-->      
+            <div class="snipcart-form__row">
+                <div class="snipcart-form__cell--large">
+                <snipcart-label class="snipcart__font--tiny" for="name">{{ $localize('address_form.name') }} 
+                    <div class="tooltip"> ¿Ayuda?
+                        <span class="tooltiptext">
+                            Su nombre o nombre de la persona que recibe el pedido, no es obligatorio poner el apellido
+                        </span>
+                    </div>
+                </snipcart-label>
+                <snipcart-input id="name" name="name" required></snipcart-input>
+                <snipcart-error-message name="name"></snipcart-error-message>
+                </div>
+            </div>	
+            
+           <!--PHONE-->    
+            <div class="snipcart-form__row">
+                <div class="snipcart-form__cell--large">
+                <snipcart-label class="snipcart__font--tiny" for="phone">Móvil/Celular
+                    
+                <div class="tooltip"> ¿Ayuda?
+                    <span class="tooltiptext">
+                    Su N° de celular es importante para contactarlo en caso que no encontremos su dirección
+                    </span>
+                </div>  
+                    
+                </snipcart-label>
+                <snipcart-input type="tel" id="phone" name="phone" required pattern="[0-9]+"></snipcart-input>
+                <snipcart-error-message name="phone"></snipcart-error-message>
+                </div>
+            </div>	  
+
+            <!--EMAIL-->
+            <div class="snipcart-hidden-field snipcart-form__row">
+                <div class="snipcart-form__cell--large">
+                <snipcart-label class="snipcart__font--tiny" for="email">{{ $localize('address_form.email') }}
+                    
+                    <div class="tooltip"> ¿Ayuda?
+                        <span class="tooltiptext">
+                            Necesitamos su email para enviarle su recibo electronico
+                        </span>
+                    </div>
+                    
+                </snipcart-label>
+                <snipcart-input id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                </snipcart-input>
+                <snipcart-error-message name="email"></snipcart-error-message>
+                </div>
+            </div>	  
+            
+                       
+            <!--CITY-->
+            <div class="snipcart-hidden-field">
+                <snipcart-label class="snipcart__font--tiny" for="city">{{ $localize('address_form.city') }}</snipcart-label>
+                <snipcart-input name="city" required></snipcart-input>
+                <snipcart-error-message name="city"></snipcart-error-message>
+            </div>
+
+            
+            <!--COUNTRY-->
+            <div class="snipcart-hidden-field">
+                <snipcart-label class="snipcart__font--tiny" for="country">{{ $localize('address_form.country') }}</snipcart-label>
+                <snipcart-typeahead type="dropdown" name="country" autocomplete="country" required></snipcart-typeahead>
+            </div>
+            
+            <!--POSTAL CODE-->
+            <div class="snipcart-hidden-field snipcart-form__row">
+                <div class="snipcart-form__cell--large">
+                <snipcart-label class="snipcart__font--tiny" for="postalCode">{{ $localize('address_form.postalCode') }}</snipcart-label>
+                <snipcart-input name="postalCode"></snipcart-input>
+                <snipcart-error-message name="postalCode"></snipcart-error-message>
+                </div>
+            </div>
+                
+                       
+                
+            </fieldset>
+        </div>
+      </address-fields>
+    
+
+      <billing-completed>
+    <div class="snipcart__box snipcart-billing-completed">
+      <div class="snipcart-billing-completed__header snipcart__box--header">
+        <div class="snipcart__box--title">
+          <div class="snipcart__box--badge snipcart__font--bold snipcart__font--secondary" v-if="checkout">
+            <icon name="checkmark" class="snipcart__icon"></icon>
+          </div>
+          <h1 class="snipcart-billing-completed__title snipcart__font--subtitle">
+            <icon name="user" class="snipcart__icon--left" v-if="!checkout"></icon>
+            {{ $localize('billing.title') }} 
+          </h1>
+        </div>
+
+        <button-link v-if="checkout" label="actions.edit" @click="edit"></button-link>
+      </div>
+
+      <div class="snipcart-checkout-step__cols snipcart__font--std">
+        <div class="snipcart-checkout-step__col">
+          <div class="snipcart-checkout-step__icon snipcart-billing-completed__step-icon">
+            <icon name="user"></icon>
+          </div>
+          <div>
+            <h3 class="snipcart-billing-completed__step-title snipcart__font--secondary snipcart__font--bold">
+              {{ $localize('customer.information') }}
+            </h3>
+            <span class="snipcart-billing-completed__information snipcart__font--std">
+              {{ cart.billingAddress.name }}<br>              
+              {{ cart.billingAddress.phone }}<br>
+              {{ cart.billingAddress.zone }}<br>
+            </span>
+          </div>
+        </div>
+
+        <div class="snipcart-checkout-step__col">
+          <div class="snipcart-checkout-step__icon snipcart-billing-completed__step-icon">
+            <icon name="location"></icon>
+          </div>
+          <div>
+            <h3 class="snipcart-billing-completed__step-title snipcart__font--secondary snipcart__font--bold">
+              {{ $localize('billing.address') }}
+            </h3>
+            <span class="snipcart-billing-completed__information snipcart__font--std">
+              {{ cart.billingAddress.address1 }}<br>
+              {{ cart.billingAddress.city }}<br>
+              {{ cart.billingAddress.country }}<br>
+              
+              </span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </billing-completed>
+
+</div>

@@ -1,0 +1,73 @@
+/** all */
+.all-img-w-0 .wp-block-image img{width:var(--neo-num-0)!important;}
+.all-img-w-1 .wp-block-image img{width:var(--neo-num-1)!important;}
+.all-img-w-2 .wp-block-image img{width:var(--neo-num-2)!important;}
+.all-img-w-3 .wp-block-image img{width:var(--neo-num-3)!important;}
+.all-img-w-4 .wp-block-image img{width:var(--neo-num-4)!important;}
+.all-img-w-5 .wp-block-image img{width:var(--neo-num-5)!important;}
+.all-img-w-6 .wp-block-image img{width:var(--neo-num-6)!important;}
+.all-img-w-7 .wp-block-image img{width:var(--neo-num-7)!important;}
+.all-img-w-8 .wp-block-image img{width:var(--neo-num-8)!important;}
+.all-img-w-9 .wp-block-image img{width:var(--neo-num-9)!important;}
+.all-img-w-10 .wp-block-image img{width:var(--neo-num-10)!important;}
+.all-img-w-11 .wp-block-image img{width:var(--neo-num-11)!important;}
+.all-img-w-12 .wp-block-image img{width:var(--neo-num-12)!important;}
+.all-img-w-13 .wp-block-image img{width:var(--neo-num-13)!important;}
+.all-img-w-14 .wp-block-image img{width:var(--neo-num-14)!important;}
+.all-img-w-15 .wp-block-image img{width:var(--neo-num-15)!important;}
+.all-img-w-16 .wp-block-image img{width:var(--neo-num-16)!important;}
+.all-img-w-17 .wp-block-image img{width:var(--neo-num-17)!important;}
+.all-img-w-18 .wp-block-image img{width:var(--neo-num-18)!important;}
+.all-img-w-19 .wp-block-image img{width:var(--neo-num-19)!important;}
+.all-img-w-20 .wp-block-image img{width:var(--neo-num-20)!important;}
+.all-img-w-21 .wp-block-image img{width:var(--neo-num-21)!important;}
+.all-img-w-22 .wp-block-image img{width:var(--neo-num-22)!important;}
+.all-img-w-23 .wp-block-image img{width:var(--neo-num-23)!important;}
+.all-img-w-24 .wp-block-image img{width:var(--neo-num-24)!important;}
+.all-img-w-25 .wp-block-image img{width:var(--neo-num-25)!important;}
+.all-img-w-26 .wp-block-image img{width:var(--neo-num-26)!important;}
+.all-img-w-27 .wp-block-image img{width:var(--neo-num-27)!important;}
+.all-img-w-28 .wp-block-image img{width:var(--neo-num-28)!important;}
+.all-img-w-29 .wp-block-image img{width:var(--neo-num-29)!important;}
+.all-img-w-30 .wp-block-image img{width:var(--neo-num-30)!important;}
+.all-img-w-31 .wp-block-image img{width:var(--neo-num-31)!important;}
+.all-img-w-32 .wp-block-image img{width:var(--neo-num-32)!important;}
+.all-img-w-33 .wp-block-image img{width:var(--neo-num-33)!important;}
+.all-img-w-34 .wp-block-image img{width:var(--neo-num-34)!important;}
+.all-img-w-35 .wp-block-image img{width:var(--neo-num-35)!important;}
+.all-img-w-36 .wp-block-image img{width:var(--neo-num-36)!important;}
+.all-img-w-37 .wp-block-image img{width:var(--neo-num-37)!important;}
+.all-img-w-38 .wp-block-image img{width:var(--neo-num-38)!important;}
+.all-img-w-39 .wp-block-image img{width:var(--neo-num-39)!important;}
+.all-img-w-40 .wp-block-image img{width:var(--neo-num-40)!important;}
+.all-img-w-41 .wp-block-image img{width:var(--neo-num-41)!important;}
+.all-img-w-42 .wp-block-image img{width:var(--neo-num-42)!important;}
+.all-img-w-43 .wp-block-image img{width:var(--neo-num-43)!important;}
+.all-img-w-44 .wp-block-image img{width:var(--neo-num-44)!important;}
+.all-img-w-45 .wp-block-image img{width:var(--neo-num-45)!important;}
+.all-img-w-46 .wp-block-image img{width:var(--neo-num-46)!important;}
+.all-img-w-47 .wp-block-image img{width:var(--neo-num-47)!important;}
+.all-img-w-48 .wp-block-image img{width:var(--neo-num-48)!important;}
+.all-img-w-49 .wp-block-image img{width:var(--neo-num-49)!important;}
+.all-img-w-50 .wp-block-image img{width:var(--neo-num-50)!important;}
+.all-img-w-full .wp-block-image img{width:100%!important;}
+/** xs */
+@media screen and (max-width:640px){  
+
+}
+/** s */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

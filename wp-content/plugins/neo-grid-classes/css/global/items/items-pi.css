@@ -1,0 +1,37 @@
+/** all */
+.all-items-pi-1 > div > div{place-items:baseline left;}
+.all-items-pi-2 > div > div{place-items:baseline center;}
+.all-items-pi-3 > div > div{place-items:baseline right;}
+.all-items-pi-4 > div > div{place-items:center left;}
+
+.all-items-pi-6 > div > div{place-items:start left;}
+.all-items-pi-6 > div > div{place-items:start center;}
+.all-items-pi-6 > div > div{place-items:start right;}
+
+.all-items-pi-5 > div > div{place-items:center center;}
+.all-items-pi-6 > div > div{place-items:center right;}
+.all-items-pi-6 > div > div{place-items:center right;}
+
+.all-items-pi-7 > div > div{place-items:end left;}
+.all-items-pi-8 > div > div{place-items:end center;}
+.all-items-pi-9 > div > div{place-items:end right;}
+/** xs */
+@media screen and (max-width:640px){  
+
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

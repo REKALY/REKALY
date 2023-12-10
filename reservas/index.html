@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		
+<script>
+    document.addEventListener('snipcart.ready', function() {
+        Snipcart.api.session.setLanguage('es', {
+            actions: {
+            	continue_shopping: "Volver",
+				checkout: "Finalizar mi pedido",
+		    }
+        });
+    });
+</script>
+
+	
+<script>
+    document.addEventListener('snipcart.ready', function() {
+        Snipcart.api.session.setLanguage('es', {
+            "billing": {
+				title: "Datos de envio en Malabo"
+			},
+        });
+    });
+</script>
+
+	
+<script>
+    document.addEventListener('snipcart.ready', function() {
+        Snipcart.api.session.setLanguage('es', {
+            header: {
+				title_cart_summary: "Resumen de su pedido",
+			},
+        });
+    });
+</script>
+
+	
+<script>
+    document.addEventListener('snipcart.ready', function() {
+        Snipcart.api.session.setLanguage('es', {
+            payment: {
+				 continue_to_payment: "Validar y continuar",
+				 title: "¿Como le gustaria pagar?",
+				 place_order: "Confirmar y finalizar el pedido",
+					 form:{
+						 deferred_payment_title: "Pagar en el momento de la entrega",
+						 deferred_payment_instructions: "Al hacer este pedido, aceptas pagar en el momento de la entrega, ya sea en efectivo, por sms ó con tarjeta prepago",
+					 },
+					 methods:{
+            			 deferred_payment: "Pagar en el momento de la entrega"
+       				 }		
+			},
+        });
+    });
+</script>
+
+	
+<script>
+    document.addEventListener('snipcart.ready', function() {
+        Snipcart.api.session.setLanguage('es', {
+            address_form: {
+				name: "Su Nombre",
+				email: "Su Email",
+			},
+        });
+    });
+</script>
+
+	
+<script>
+</script>	
+	
+<script>
+    document.addEventListener('snipcart.ready', function() {
+        Snipcart.api.session.setLanguage('es', {
+            "cart": {
+				invoice_number: "La referencia de su pedido es:"
+			},
+        });
+    });
+</script>
+
+<meta name="robots" content="max-image-preview:large">
+	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PVZK578');</script>
+<!-- End Google Tag Manager -->
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="neo-grid-classes-css" href="/wp-content/plugins/neo-grid-classes/css/global/neo-grid.css" type="text/css" media="all">
+<link rel="stylesheet" id="neo-reset-css-css" href="/wp-content/plugins/neo-grid-classes/neo-reset.css" type="text/css" media="all">
+<link rel="canonical" href="/reservas/">
+	
+<style>html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6, label{
+		font-family: system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif!important;
+	}
+	.snipcart-item-line__media--small img {
+		height: 60px!important;
+		width: 60px!important;
+		max-width: 60px!important;
+		max-height: 60px!important;
+		border-radius: 50%!important;
+		margin-top: -15px!important;
+	}
+	section.snipcart-cart__content {
+		margin: 0 20px!important;
+	}
+	.snipcart-item-line__header {
+		margin-bottom: 0!important;
+		gap: 10px!important;
+	}
+	.snipcart-summary-fees__notice.snipcart__font--regular {
+		display: none!important;
+	}
+	div#header {
+		position: fixed;
+		z-index: 2;
+		width:100%;
+		top:0;
+	}
+	.snipcart-item-line__container {
+		padding: 25px!important;
+		display: flex!important;
+		margin: 10px!important;
+	}
+	html {
+	   scroll-padding-top: 60px!important;
+	}
+	.snipcart-input__input {
+		min-height: 50px;
+	}
+	@media (min-width: 1024px){
+		.snipcart-item-line__image {
+			width: 120px;
+			height: 120px;
+			object-fit: cover;
+			border-radius: 50%;
+		}
+		.snipcart-form__set {
+			border: none;
+			padding: 0;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 20px;
+		}
+		.snipcart-form__footer {
+			margin-top: 20px;
+		}
+	}
+	.snipcart-form__field {
+		visibility: hidden;
+		display:none!important;
+	}
+	
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		border-bottom: 1px dotted black;
+        color: #a7a7a7;
+	}
+
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		width: 200px;
+		background-color: #d9f0fc;
+		color: #000;
+		text-align: center;
+		border-radius: 6px;
+		position: absolute;
+		z-index: 999;
+		bottom: 150%;
+		left: 50%;
+		margin-left: -100px;
+		white-space: initial!important;
+		font-size: 14px;
+		font-weight: 400;
+		font-family: arial!important;
+		padding: 20px;
+		text-align: left;
+		line-height: 1.3;
+	}
+
+	.tooltip .tooltiptext::after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -10px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: black transparent transparent transparent;
+	}
+
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
+	}
+	.snipcart__font--subtitle-small, .snipcart__font--tiny {
+		font-size: 16px;
+		font-family: arial!important;
+	}
+	.snipcart-form__label{
+		margin-top:8px;
+	}
+	.snipcart *{
+		font-family:arial;
+	}
+	.snipcart-base-button__label {
+		font-family: arial!important;
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.snipcart-input__input {
+		background: #e7ecef;
+	}
+	.snipcart-form__select{
+		background: #e7ecef;
+	}
+	[Pagar mediante Pagar en el momento de la entrega]{
+		background:red!important;
+	}
+	.snipcart-hidden-field {
+		visibility: hidden;
+		position:absolute;
+		top:-99999px;
+		display:none;
+		
+	}
+	li.snipcart-cart-summary-expanded-item {
+		display: grid;
+		place-content: baseline;
+		align-items: baseline;
+		grid-gap:10px;
+	}</style>
+	
+	
+<style>.lazyblock {
+		display: block;
+		padding:0px!important;
+		background-color: none!important;
+		-webkit-box-shadow: none!important;
+		box-shadow:none!important;
+	}
+	.lzb-content-title {
+		display: none!important;
+	}</style>
+	
+</head>
+<body class="page-template-default page page-id-3465">
+<div id="page" class="site">
+		<header id="masthead" class="site-header">
+			<div class="neo-header">
+				 <!-- header-hook -->	
+			</div>
+<!-- .site-header -->			
+		</header><!-- #masthead -->
+	<main id="primary" class="site-main">
+
+		
+<article id="post-3465" class="post-3465 page type-page status-publish hentry">
+	<div class="entry-content">
+		
+<div class="wp-block-cover has-background-dim-20 has-background-dim has-background-gradient">
+<span aria-hidden="true" class="wp-block-cover__gradient-background" style="background:radial-gradient(rgb(255,255,255) 0%,rgb(244,244,244) 100%)"></span><img class="wp-block-cover__image-background wp-image-3691" alt="" src="/wp-content/uploads/2021/11/Simple-Shiny-2.svg" data-object-fit="cover"><div class="wp-block-cover__inner-container">
+<div class="wp-block-group all-box-vh-100 xs-box-vh-100 all-grid-pc-5 all-cols-max-33 all-box-pz-5"><div class="wp-block-group__inner-container"><div class="wp-block-lazyblock-booking lazyblock-booking-Z10B2hu">
+
+
+ <!-- HEAD -->
+ 
+   <title>International telephone input</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+ 
+
+ 
+<!-- CSS STYLES -->
+<style>#neo-form{background:#273e5a;}
+    div#fakebgbox{background:#273e5a;}
+    div#formdesc{background:#273e5a;}
+    div#formdesc{color:#ffffff;}
+    #neo-form label{color:#abb8c3;}
+    #neo-form button{background:#fcb900;}
+    #neo-form button{color:#000000;}
+    
+    #neo-form input,#neo-form select{height:30px!important;width:100%}
+    #neo-form{font-family:arial!important;color:black}  
+    body{font-family:Helvetica,sans-serif}
+    .container{max-width:800px;margin-left:auto;margin-right:auto;padding:10px}
+    #phone,.btn{padding-top:6px;padding-bottom:6px;border:1px solid #ccc;border-radius:4px}
+    .btn{color:#fff;background-color:#428bca;border-color:#357ebd;font-size:14px;outline:0;cursor:pointer;padding-left:12px;padding-right:12px}
+    .btn:focus,.btn:hover{background-color:#3276b1;border-color:#285e8e}
+    .btn:active{box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}
+    .alert{padding:15px;margin-top:10px;border:1px solid transparent;border-radius:4px}
+    .alert-info{border-color:#bce8f1;color:#31708f;background-color:#d9edf7}
+    .alert-error{color:#a94442;background-color:#f2dede;border-color:#ebccd1}  
+    #neo-form {padding:10px 35px 35px 35px;display: grid; gap:10px;color: white;} 
+    .iti.iti--allow-dropdown{width:100%!important;}  
+    #neo-form button{height:50px;width:100%;font-size:17px;border: none;} 
+    .iti__country-name{color:black;}
+    @media screen and (min-width:600px){#neo-form{grid-template-columns:1fr 1fr}}
+    div#imgbox{display:grid;justify-content:center;place-items:center;color:black}
+    div#imgbox img{position:relative;z-index:2;border-radius:50%;background:white;padding:5px}
+    form#booking{position:relative}
+    div#formtitle{z-index:9;color:white;text-align:center;margin-top:-110px;padding:15px;position:absolute;width:100%;font-weight:600;text-shadow:1px 1px 1px black;font-size:24px}
+    div#fakebgbox{height:100px;position:absolute;display:block;width:100%;top:70px;z-index:1}
+    div#formdesc{position:relative;z-index:1;text-align:center;padding:4px}
+    .lazyblock{display:initial;padding:0;background-color:none;-webkit-box-shadow:none;box-shadow:none}
+    .lazyblock .lzb-content-title{display:none!important}   
+    
+    .iti__selected-dial-code {
+        color: #000000;
+        font-size: 14px;
+    }
+    .iti--separate-dial-code .iti__selected-flag {
+        background-color: #ebebeb;
+        border-right: 1px solid #d1d1d1;
+    }</style>  
+ <!-- FORM --> 
+<form id="booking">     
+    <div id="imgbox">
+        <div id="imgdiv"> <img width="150" height="150" src="/wp-content/uploads/2021/09/bocadillos-1-edited-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2021/09/bocadillos-1-edited-150x150.jpeg 150w, /wp-content/uploads/2021/09/bocadillos-1-edited-300x297.jpeg 300w, /wp-content/uploads/2021/09/bocadillos-1-edited.jpeg 714w" sizes="(max-width: 150px) 100vw, 150px">
+</div>        
+    </div> 
+    <div id="formheadlines">
+        <div id="formtitle"> KALYTERO</div>
+    </div>    
+    <div id="fakebgbox">
+        <div id="fakebgitem"></div>             
+    </div> 
+    <div id="form-description">
+        <div id="formdesc"> Solicitud de Reservación</div>          
+    </div>      
+    <div id="neo-form">    
+        <div id="date">
+            <label for="date">¿ Para que fecha?</label><br>
+            <input id="date" type="date" name="date" required>
+        </div>
+        <div>
+            <label for="hour">¿A que hora?</label><br>
+            <select id="hour" name="hour" required>                
+                <option value="07:00">07:00</option>
+                <option value="07:30">07:30</option>
+                <option value="08:00">08:00</option>
+                <option value="08:30">08:30</option>
+                <option value="09:00">09:00</option>
+                <option value="09:30">09:30</option>
+                <option value="10:00">10:00</option>
+                <option value="10:30">10:30</option>
+                <option value="11:00">11:00</option>
+                <option value="11:30">11:30</option>
+                <option value="12:00">12:00</option>
+                <option value="12:30">12:30</option>
+                <option value="13:00">13:00</option>
+                <option value="13:30">13:30</option>
+                <option value="14:00">14:00</option>
+                <option value="14:30">14:30</option>
+                <option value="15:00">15:00</option>
+                <option value="15:30">15:30</option>
+                <option value="16:00">16:00</option>
+                <option value="16:30">16:30</option>
+                <option value="17:00">17:00</option>
+                <option value="17:30">17:30</option>
+                <option value="18:00">18:00</option>
+                <option value="18:30">18:30</option>
+                <option value="19:00">19:00</option>
+                <option value="19:30">19:30</option>
+                <option value="20:00">20:00</option>
+                <option value="20:30">20:30</option>
+                <option value="21:00">21:00</option>
+                <option value="21:30">21:30</option>
+                <option value="22:00">22:00</option>
+                <option value="22:30">22:30</option>
+                <option value="23:00">23:00</option>
+            </select>
+        </div> 
+        <div>
+            <label for="pax">¿Cuantas personas?</label><br>
+            <select id="pax" name="pax" required>                
+                <option value="1"> 1 </option>
+                <option value="2"> 2 </option>
+                <option value="3"> 3 </option>
+                <option value="4"> 4 </option>
+                <option value="5"> 5 </option>
+                <option value="6"> 6 </option>
+                <option value="7"> 7 </option>
+                <option value="8"> 8 </option>
+                <option value="9"> 9 </option>
+                <option value="10"> 10 </option>
+                <option value="11"> 11 </option>
+                <option value="12"> 12 </option>
+                <option value="13"> 13 </option>
+                <option value="14"> 14 </option>
+                <option value="15"> 15 </option>
+                <option value="16"> 16 </option>
+                <option value="17"> 17 </option>
+                <option value="18"> 18 </option>
+                <option value="19"> 19 </option>
+                <option value="20"> 20 </option>
+                <option value="21"> 21 </option>
+                <option value="22"> 22 </option>
+                <option value="23"> 23 </option>
+                <option value="24"> 24 </option>
+                <option value="25"> 25 </option>
+                <option value="26"> 26 </option>
+                <option value="27"> 27 </option>
+                <option value="28"> 28 </option>
+                <option value="29"> 29 </option>
+                <option value="30"> 30 </option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="name">¿A que nombre?</label><br>
+            <input id="name" name="name" required> 
+        </div>
+        <div>
+            <label for="phone">N° de celular</label><br>
+            <input id="phone" type="tel" minlength="9" name="phone" placeholder="N° de Móvil/Celular" required>
+        </div>
+        <div>
+            <input id="status" name="status" type="hidden" value="1">
+            <button type="submit">Enviar mi solicitud de reserva</button>
+        </div>
+        <h3 id="ajax_result"></h3>
+    </div>        
+</form>
+
+ <!-- JS SCRIPTS -->
+<script>    
+    function process() {
+        const phoneNumber = phoneInput.getNumber();
+        document.getElementById("phone").value = `${phoneNumber}`;
+        return true;
+    }
+
+   const phoneInputField = document.querySelector("#phone");
+   const phoneInput = window.intlTelInput(phoneInputField, {
+     preferredCountries: ["gq", "fr"],  
+     separateDialCode: true,
+     utilsScript:"https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+   });
+
+    window.addEventListener( "load", function () {
+    function sendData() {
+      
+        const AJAX = new XMLHttpRequest();
+        const FORM = new FormData(form);
+
+        AJAX.open("POST", "https://connect.pabbly.com/workflow/sendwebhookdata/IjE4OTI2MCI_3D");
+
+        AJAX.onreadystatechange = function() {
+            if (AJAX.readyState == 4 && AJAX.status == 200) {
+               
+                const response = JSON.parse(AJAX.responseText);
+                if (response.status == 'success') {
+                   window.location.href = "/res-tky-ok/";       
+                } else {
+                   window.location.href = "/res-tky-error/";
+                }
+
+            } else {
+                //window.location.href = "/res-tky-error/";
+            }
+        }
+        AJAX.send(FORM);
+    }
+
+    var form = document.getElementById( "booking" ); // Access <form id="ajaxForm">, id="ajaxForm" can be anything
+    form.addEventListener( "submit", function ( event ) { // Takeover <input type="submit">
+        event.preventDefault();
+        process();
+        icheff_open_booking_loader();
+        sendData();
+        
+        
+        } );
+
+    } );   
+
+</script>
+
+ 
+</div></div></div>
+</div>
+</div>
+
+
+<div class="wp-block-lazyblock-loader lazyblock-loader-1YaWYB">
+<div id="preloader">
+    <div id="box-preloader">
+        <div class="spinner">
+            <p id="spinner-txt">Envio</p>
+        </div>
+    </div>
+</div>
+<script>
+    function icheff_open_booking_loader() {											
+        document.getElementById("preloader").style.opacity = "1";
+        document.getElementById("preloader").style.visibility = "visible";				
+    }
+</script>    
+<style>#preloader {
+    display: grid;
+    background: #f4f4f4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    place-items: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index:9999999;
+    
+}
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.spinner:before {
+  content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: -40px;
+    margin-left: -40px;
+    border-radius: 50%;
+    border: 5px solid #4bb71b;
+    border-top-color: black;
+    animation: spinner .6s linear infinite;
+    background: white;
+}
+div#box-preloader {
+    margin-top: -80px;
+    position: relative;
+}
+p#spinner-txt {
+    margin-top: -25px;
+}</style>
+</div>
+
+<div class="wp-block-lazyblock-back lazyblock-back-Z1fMATi">
+<style>a#backbtn {
+        background: none;
+        border: none;
+        box-shadow: none;
+        padding: 13px;
+        color: #ffffff;
+        position:absolute;
+        top:10px;
+        left:10px;
+        z-index:99999999;
+    }
+    .arrow-1::after{
+        content:'';
+        margin-right:0px;
+        margin-top:-2px;
+        display: inline-block;  
+        border-bottom: 2px solid;
+        border-right: 2px solid;
+        width: 15px;
+        height: 15px;
+        transform: rotate(136deg);
+        vertical-align: middle;
+    }</style>  
+<div>
+    <a id="backbtn" href="/"><span class="arrow-1"></span>INICIO</a>
+</div>
+
+</div>	</div>
+<!-- .entry-content -->
+
+	</article><!-- #post-3465 -->
+
+	</main><!-- #primary -->
+
+<footer id="colophon" class="site-footer">
+	<div class="neo-footer">
+		 <!-- header-hook -->	
+	</div>
+<!-- .site-header -->		
+</footer><!-- #colophon -->
+</div>
+<!-- #page -->
+
+</body>
+</html>

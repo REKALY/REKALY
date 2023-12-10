@@ -1,0 +1,23 @@
+/** all */
+.all-dis-z-0 div, .all-dis-z-0{display:none!important;}
+
+/** xs */
+@media screen and (max-width:640px){  
+.xs-dis-z-0 div, .xs-dis-z-0{display:none!important;}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+
+}
+/** xl */
+@media screen and (min-width:1281px){      
+
+}

@@ -1,0 +1,64 @@
+/** all */
+.all-flow-auto-1 > div{grid-auto-flow:row;}
+.all-flow-auto-2 > div{grid-auto-flow:column;}
+.all-flow-auto-3 > div{grid-auto-flow:dense;}
+.all-flow-auto-4 > div{grid-auto-flow:row dense;}
+.all-flow-auto-5 > div{grid-auto-flow:column dense;}
+.all-flow-auto-6 > div{grid-auto-flow:inherit;}
+.all-flow-auto-7 > div{grid-auto-flow:initial;}
+.all-flow-auto-8 > div{grid-auto-flow:unset;}
+/** xs */
+@media screen and (max-width:640px){  
+.xs-flow-auto-1 > div{grid-auto-flow:row;}
+.xs-flow-auto-2 > div{grid-auto-flow:column;}
+.xs-flow-auto-3 > div{grid-auto-flow:dense;}
+.xs-flow-auto-4 > div{grid-auto-flow:row dense;}
+.xs-flow-auto-5 > div{grid-auto-flow:column dense;}
+.xs-flow-auto-6 > div{grid-auto-flow:inherit;}
+.xs-flow-auto-7 > div{grid-auto-flow:initial;}
+.xs-flow-auto-8 > div{grid-auto-flow:unset;}
+}
+/** s  */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-flow-auto-1 > div{grid-auto-flow:row;}
+.s-flow-auto-2 > div{grid-auto-flow:column;}
+.s-flow-auto-3 > div{grid-auto-flow:dense;}
+.s-flow-auto-4 > div{grid-auto-flow:row dense;}
+.s-flow-auto-5 > div{grid-auto-flow:column dense;}
+.s-flow-auto-6 > div{grid-auto-flow:inherit;}
+.s-flow-auto-7 > div{grid-auto-flow:initial;}
+.s-flow-auto-8 > div{grid-auto-flow:unset;}
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-flow-auto-1 > div{grid-auto-flow:row;}
+.m-flow-auto-2 > div{grid-auto-flow:column;}
+.m-flow-auto-3 > div{grid-auto-flow:dense;}
+.m-flow-auto-4 > div{grid-auto-flow:row dense;}
+.m-flow-auto-5 > div{grid-auto-flow:column dense;}
+.m-flow-auto-6 > div{grid-auto-flow:inherit;}
+.m-flow-auto-7 > div{grid-auto-flow:initial;}
+.m-flow-auto-8 > div{grid-auto-flow:unset;}
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-flow-auto-1 > div{grid-auto-flow:row;}
+.l-flow-auto-2 > div{grid-auto-flow:column;}
+.l-flow-auto-3 > div{grid-auto-flow:dense;}
+.l-flow-auto-4 > div{grid-auto-flow:row dense;}
+.l-flow-auto-5 > div{grid-auto-flow:column dense;}
+.l-flow-auto-6 > div{grid-auto-flow:inherit;}
+.l-flow-auto-7 > div{grid-auto-flow:initial;}
+.l-flow-auto-8 > div{grid-auto-flow:unset;}
+}
+/** xl */
+@media screen and (min-width:1281px){      
+.xl-flow-auto-1 > div{grid-auto-flow:row;}
+.xl-flow-auto-2 > div{grid-auto-flow:column;}
+.xl-flow-auto-3 > div{grid-auto-flow:dense;}
+.xl-flow-auto-4 > div{grid-auto-flow:row dense;}
+.xl-flow-auto-5 > div{grid-auto-flow:column dense;}
+.xl-flow-auto-6 > div{grid-auto-flow:inherit;}
+.xl-flow-auto-7 > div{grid-auto-flow:initial;}
+.xl-flow-auto-8 > div{grid-auto-flow:unset;}
+}

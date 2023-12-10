@@ -1,0 +1,59 @@
+/** all */
+.shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {transform: translate3d(-1px, 0, 0);}
+  20%, 80% {transform: translate3d(2px, 0, 0);}
+  30%, 50%, 70% {transform: translate3d(-4px, 0, 0);}
+  40%, 60% {transform: translate3d(4px, 0, 0);}
+}
+
+.blink{
+  animation: blink 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+@keyframes blink{
+  0% {
+    background: red;
+  }
+  20% {
+    background: green;
+  }
+  40% {
+    background: yellow;
+  }
+  60% {
+    background: blue;
+  }
+  80% {
+    background: orange;
+  }
+  100% {
+    background: red;
+  }
+}
+
+@-webkit-keyframes blink{
+  0% {
+    background: red;
+  }
+  20% {
+    background: green;
+  }
+  40% {
+    background: yellow;
+  }
+  60% {
+    background: blue;
+  }
+  80% {
+    background: orange;
+  }
+  100% {
+    background: red;
+  }
+}
